@@ -22,75 +22,81 @@ const parse = (records) => {
 
     // Filtering and inversion
 
-    records = records.reduce((records, record) => {
+    records.forEach(record => {
 
-        console.log('reading')
+        record.authors = []
+        delete record['Type']
+        delete record['Volume']
+        delete record['Conference/workshop/... title']
+        delete record['Special issue']
 
-        // Add
+        for (let a = 1; a <= 5; a++) {
 
-        records.push(record)
-        return records
+            if (!record['Author ' + a]) continue
+            if (record['Author ' + a] == '.') continue
+
+            const obj = {
+                name: record['Author ' + a],
+                affiliation: record['Affiliation A' + a],
+                country: record['Country A' + a],
+                gender: record['Gender A' + a],
+            }
+
+            delete record['Author ' + a]
+            delete record['Affiliation A' + a]
+            delete record['Country A' + a]
+            delete record['Gender A' + a]
+
+            record.authors.push(obj)
+
+        }
 
     }, [])
 
-    return
+
 
     // Grouping by author
 
-    const authors = records
-        // .slice(0, 100) // Trim for testing
-        .reduce((authors, record, i) => {
+    const authors = records.reduce((authors, record, i) => {
 
-            if ((i % 1000) === 0) console.log('Grouping record #', records.length - i)
+        const year = record['Year']
+        const text = `${record['Title']} ${record['Abstract']} `
 
-            const year = parseInt(record.publish_time.split('-')[0])
-            const text = `${record.title} ${record.abstract} `
+        const update = author => {
+            author.docs++
+            author.text += text
+            if (author.years[year])
+                (author.years[year])++
+            else
+                (author.years[year]) = 1
+        }
 
-            const update = author => {
-                author.docs++
-                author.text += text
-                if (author.years[year]) (author.years[year])++
-                else (author.years[year]) = 1
+        const add = author => {
+            author.docs = 1
+            author.peers = []
+            author.text = text
+            author.years = { [year]: 1 }
+            authors.push(author)
+        }
+
+        record.authors.forEach(author => {
+
+            const same = authors.find(same => same.name === author.name)
+            if (same) {
+                console.log('update')
+                update(same)
+            } else {
+                console.log('add')
+                add(author)
             }
 
-            const add = name => {
-                authors.push({
-                    name: name,
-                    docs: 1,
-                    years: {
-                        [year]: 1
-                    },
-                    peers: [],
-                    variants: [],
-                    text: text
-                })
-            }
+        })
 
-            record.authors.forEach(name => {
+        return authors
 
-                // Update same
-                const same = authors.find(a => a.name === name)
-                if (same) {
-                    update(same)
-                    return
-                }
+    }, [])
 
-                // Update similar
-                const similar = authors.find(a => dice(a.name, name) > .9)
-                if (similar) {
-                    if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
-                    update(similar)
-                    return
-                }
 
-                // Create new
-                add(name)
-
-            })
-
-            return authors
-
-        }, [])
 
     // Add ids
 
@@ -100,36 +106,36 @@ const parse = (records) => {
 
     // Transform authors into ids
 
-    records.forEach((record, i) => {
+    // records.forEach((record, i) => {
 
-        if ((i % 1000) === 0)
-            console.log('Setting peers for record #', records.length - i)
+    //     if ((i % 1000) === 0)
+    //         console.log('Setting peers for record #', records.length - i)
 
-        const peers = authors.filter(author => {
-            let flag = false
+    //     const peers = authors.filter(author => {
 
-            if (record.authors.includes(author.name)) flag = true
+    //         let flag = false
 
-            author.variants.forEach(variant => {
-                if (record.authors.includes(variant)) {
-                    flag = true
-                }
-            })
+    //         author.variants.forEach(variant => {
+    //             if (record.authors.includes(variant)) {
+    //                 flag = true
+    //             }
+    //         })
 
-            return flag
-        })
+    //         return flag
 
-        // console.log(peers)
+    //     })
 
-        const ids = peers.map(author => author.id)
+    //     // console.log(peers)
 
-        peers.forEach(peer => {
-            ids.forEach(id => {
-                if (!peer.peers.includes(id)) peer.peers.push(id)
-            })
-        })
+    //     const ids = peers.map(author => author.id)
 
-    })
+    //     peers.forEach(peer => {
+    //         ids.forEach(id => {
+    //             if (!peer.peers.includes(id)) peer.peers.push(id)
+    //         })
+    //     })
+
+    // })
 
     // Time end
 

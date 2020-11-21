@@ -25,31 +25,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const maxDocs = 4
-    const nodes = authors.filter(a => a.docs >= maxDocs)
-
-
-    // a.docs >= 5
-    //     nodes.json : 2,640,649kb for 2995 authors
-    //     links.json : 1,258,690kb for 8080 links
-    //   maxLinkValue : 4311
-    //   minLinkValue : 277
-    // Time computed 0h 1m 25s 18ms
-
-    // a.docs >= 4
-    //     nodes.json : 5,261,134kb for 6023 authors
-    //     links.json : 17,977,092kb for 63447 links
-    //   maxLinkValue : 4779
-    //   minLinkValue : 128
-    // Time computed 0h 5m 59s 518ms
-
-    // a.docs >= 1
-    //     nodes.json : 60,501,825kb for 81459 authors
-    //     links.json : 100,121,619kb for 629052 links
-    //   maxLinkValue : 11488
-    //   minLinkValue : 66
-    // Time computed 8h 32m 25s 533ms
-
+    const nodes = authors
 
     // Tokenizer
 
@@ -98,7 +74,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 30
+    const max = 50
 
     nodes.forEach((node, i) => {
 
@@ -111,13 +87,13 @@ const analysis = authors => {
                 return tokens
             }, {})
 
-        node.relevancy = Object.values(node.tokens).reduce((a, b) => a + b)
+        // node.relevancy = Object.values(node.tokens).reduce((a, b) => a + b)
     })
 
     // Set links
 
     const links = []
-    const minCommonTokens = 7
+    const minCommonTokens = 5
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -194,46 +170,11 @@ const analysis = authors => {
     const maxCommonTokens = links.reduce((max, link) => max > link.tokens.length ? max : link.tokens.length, 0)
     links.forEach(link => link.value = link.value / maxLinkValue)
 
-    // Cleaning nodes without relations
 
-    // const connectedNodes = links.reduce((array, link) => {
-    //     if (!array.includes(link.source)) array.push(link.source)
-    //     if (!array.includes(link.target)) array.push(link.target)
-    //     return array
-    // }, [])
-    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
-
-    // Ethnicity
-
-    console.log('\nEthnicity Dataset')
-
-    const csv = require('csv-parser')
-
-    fs.createReadStream('data/diaspora.csv')
-        .pipe(csv({ separator: '|' }))
-        .on('data', (row) => {
-            const name = row['#uid'].split('/')[1]
-            const nationality = row['ethnicity']
-            const node = nodes.find(node => node.name == name)
-            if (node) {
-                node.nationality = nationality
-                const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
-                nodesWithId.forEach(node => {
-                    if (!node.nationalities) node.nationalities = {}
-                    if (node.nationalities[nationality])
-                        node.nationalities[nationality]++
-                    else
-                        node.nationalities[nationality] = 1
-
-                })
-            }
-        })
-        .on('end', () => {
-            network(nodes, links)
-        })
+    // network(nodes, links)
 
 
-    const network = (nodes, links) => {
+    // const network = (nodes, links) => {
 
         console.log('\nSimulation starts\n')
 
@@ -241,12 +182,12 @@ const analysis = authors => {
 
         simulation
             .force('charge', reuse.forceManyBodyReuse()
-                .strength(-5)
+                .strength(-10)
             )
             .force('collide', d3.forceCollide()
                 .radius(30)
                 .strength(.5)
-                .iterations(10)
+                .iterations(5)
             )
             .force('center', d3.forceCenter(0, 0))
 
@@ -263,25 +204,25 @@ const analysis = authors => {
                 afterSimulation(nodes, links)
             })
 
-    }
+    // }
 
     const afterSimulation = (nodes, links) => {
 
         // K-Means
 
-        console.log('Clustering')
+        // console.log('Clustering')
 
-        const clustering = skmeans(nodes.map(n => [n.x, n.y]), 30)
+        // const clustering = skmeans(nodes.map(n => [n.x, n.y]), 30)
 
-        let millefeuille1 = []
-        let millefeuille2 = []
+        // let millefeuille1 = []
+        // let millefeuille2 = []
 
-        nodes.forEach((node, i) => {
-            node.cluster = clustering.idxs[i]
-            millefeuille1.push([node.clusterid, node.nationality, 1])
-            for (var key in node.nationalities)
-                millefeuille2.push([node.clusterid, node.nationality, key, node.nationalities[key]])
-        })
+        // nodes.forEach((node, i) => {
+        //     node.cluster = clustering.idxs[i]
+        //     millefeuille1.push([node.clusterid, node.nationality, 1])
+        //     for (var key in node.nationalities)
+        //         millefeuille2.push([node.clusterid, node.nationality, key, node.nationalities[key]])
+        // })
 
         // Triplets
 
@@ -350,11 +291,11 @@ const analysis = authors => {
         }
 
 
-        writing(nodes, links, triplets, millefeuille1, millefeuille2)
+        writing(nodes, links, triplets)
 
     }
 
-    const writing = (nodes, links, triplets, millefeuille1, millefeuille2) => {
+    const writing = (nodes, links, triplets) => {
 
         // Clean links and nodes
 
@@ -385,8 +326,6 @@ const analysis = authors => {
         fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
         fs.writeFile('./src/data/triplets.json', JSON.stringify(triplets), err => { if (err) throw err })
         fs.writeFile('./data/triplets.json', JSON.stringify(triplets, null, '\t'), err => { if (err) throw err })
-        fs.writeFile('./data/millefeuille1.json', JSON.stringify(millefeuille1, null, '\t'), err => { if (err) throw err })
-        fs.writeFile('./data/millefeuille2.json', JSON.stringify(millefeuille2, null, '\t'), err => { if (err) throw err })
 
         // Final report
 

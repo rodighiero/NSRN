@@ -1,5 +1,5 @@
 {
-  "name": "cartography-of-nsrn",
+  "name": "cartography-of-nasrn",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",

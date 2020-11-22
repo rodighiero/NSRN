@@ -40,7 +40,7 @@ const analysis = authors => {
     // Singularize
 
     const inflector = new natural.NounInflector()
-    const safeList = ['sars', 'trans', 'recsars', 'facs', 'mers', 'aids']
+    const safeList = []
 
     nodes.forEach((node, i) => {
         console.log('Singularizing author #', i)
@@ -54,12 +54,12 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['clinical', 'technology', 'proper', 'fulfil', 'application', 'percentage', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
+    const stopWords = ['religion', 'religious']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
         node.tokens = sw.removeStopwords(node.tokens, sw.en.concat(stopWords))
-            .filter(token => token.length > 4)
+            .filter(token => token.length > 3)
             .filter(token => !parseInt(token))
     })
 
@@ -74,7 +74,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 50
+    const max = 100
 
     nodes.forEach((node, i) => {
 
@@ -93,7 +93,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 5
+    const minCommonTokens = 10
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -182,7 +182,7 @@ const analysis = authors => {
 
         simulation
             .force('charge', reuse.forceManyBodyReuse()
-                .strength(-10)
+                .strength(-1)
             )
             .force('collide', d3.forceCollide()
                 .radius(30)
@@ -229,7 +229,7 @@ const analysis = authors => {
         console.log('Triplets')
 
         const distance = 30
-        const gap = 15
+        const gap = 20
         const min = Math.pow(distance * 2 - gap, 2)
         const max = Math.pow(distance * 2 + gap, 2)
         const proximity = (a, b) => {
@@ -315,7 +315,7 @@ const analysis = authors => {
             node.y = Math.round(node.y)
             delete node.vx
             delete node.vy
-            delete node.id
+            // delete node.id
         })
 
         // Writing files

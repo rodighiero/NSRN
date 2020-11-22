@@ -76,6 +76,7 @@ const parse = (records) => {
             author.peers = []
             author.text = text
             author.years = { [year]: 1 }
+            author.variants = [author.name]
             authors.push(author)
         }
 
@@ -106,36 +107,38 @@ const parse = (records) => {
 
     // Transform authors into ids
 
-    // records.forEach((record, i) => {
+    records.forEach((record, i) => {
 
-    //     if ((i % 1000) === 0)
-    //         console.log('Setting peers for record #', records.length - i)
+        if ((i % 1000) === 0)
+            console.log('Setting peers for record #', records.length - i)
 
-    //     const peers = authors.filter(author => {
+        const peers = authors.filter(author => {
 
-    //         let flag = false
+            let flag = false
 
-    //         author.variants.forEach(variant => {
-    //             if (record.authors.includes(variant)) {
-    //                 flag = true
-    //             }
-    //         })
+            author.variants.forEach(variant => {
+                const found = record.authors.some(a => a.name == author.name)
+                if (found) {
+                    flag = true
+                }
+            })
 
-    //         return flag
+            return flag
 
-    //     })
+        })
 
-    //     // console.log(peers)
+        // console.log(peers)
 
-    //     const ids = peers.map(author => author.id)
+        const ids = peers.map(author => author.id)
 
-    //     peers.forEach(peer => {
-    //         ids.forEach(id => {
-    //             if (!peer.peers.includes(id)) peer.peers.push(id)
-    //         })
-    //     })
+        peers.forEach(peer => {
+            // console.log('test')
+            ids.forEach(id => {
+                if (!peer.peers.includes(id)) peer.peers.push(id)
+            })
+        })
 
-    // })
+    })
 
     // Time end
 

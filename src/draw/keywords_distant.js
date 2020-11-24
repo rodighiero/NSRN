@@ -21,7 +21,7 @@ export default () => {
         const x = triplet.position[0]
         const y = triplet.position[1]
 
-        const scale = .02
+        const scale = .015
         const text = new PIXI.BitmapText(token[0][0], { fontName: 'KeywordFont' })
         text.align = 'center'
         text.scale.set(scale * token[0][1])

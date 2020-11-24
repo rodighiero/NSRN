@@ -31,7 +31,7 @@ export default () => {
 
         // Circle
 
-        const size = node.docs * .1
+        const size = node.docs
 
         node.circle = new PIXI.Graphics()
         node.circle.beginFill(color.off, 1)

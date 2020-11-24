@@ -4,7 +4,7 @@ export default () => {
     
     const stage = new PIXI.Graphics()
     stage.interactiveChildren = false
-    stage.alpha = .05
+    stage.alpha = .1
     s.pixi.addChild(stage)
 
     s.links.forEach(({ source, target, value }) => {

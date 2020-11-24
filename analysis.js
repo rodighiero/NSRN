@@ -54,7 +54,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['religion', 'religious']
+    const stopWords = ['religion', 'religious', 'joel', 'peter']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -74,7 +74,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 100
+    const max = 80
 
     nodes.forEach((node, i) => {
 

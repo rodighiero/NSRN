@@ -97,31 +97,11 @@
 			"misunderstood": 5,
 			"respons": 5,
 			"repertoire": 5,
-			"generate": 5,
-			"merit": 5,
-			"allowing": 5,
-			"tapping": 5,
-			"item": 5,
-			"capture": 5,
-			"previously": 4,
-			"frequency": 4,
-			"progress": 4,
-			"emotional": 4,
-			"attempting": 4,
-			"having": 4,
-			"label": 4,
-			"empirically": 4,
-			"exploration": 4,
-			"cluster": 4,
-			"tool": 4,
-			"free": 4,
-			"philosophical": 4,
-			"four": 4,
-			"emerging": 4
+			"generate": 5
 		},
 		"index": 0,
-		"x": -47,
-		"y": 85
+		"x": -38,
+		"y": -119
 	},
 	{
 		"name": "Abby Day",
@@ -221,31 +201,11 @@
 			"conclude": 4,
 			"significant": 4,
 			"introduce": 4,
-			"sociology": 4,
-			"expression": 4,
-			"definition": 4,
-			"framework": 4,
-			"identify": 4,
-			"category": 3,
-			"point": 3,
-			"answer": 3,
-			"believe": 3,
-			"model": 3,
-			"find": 3,
-			"need": 3,
-			"first": 3,
-			"perspectife": 3,
-			"time": 3,
-			"secularity": 3,
-			"empirical": 3,
-			"qualitative": 3,
-			"christian": 3,
-			"self": 3,
-			"finding": 3
+			"sociology": 4
 		},
 		"index": 1,
-		"x": 223,
-		"y": 40
+		"x": 452,
+		"y": -178
 	},
 	{
 		"name": "Miguel Farias",
@@ -330,8 +290,8 @@
 			"person": 2
 		},
 		"index": 2,
-		"x": 237,
-		"y": 391
+		"x": 266,
+		"y": 380
 	},
 	{
 		"name": "Nicholas Gibson",
@@ -428,8 +388,8 @@
 			"secular": 2
 		},
 		"index": 3,
-		"x": 72,
-		"y": 88
+		"x": -48,
+		"y": -178
 	},
 	{
 		"name": "Claire White",
@@ -526,8 +486,8 @@
 			"secular": 2
 		},
 		"index": 4,
-		"x": 101,
-		"y": 141
+		"x": -104,
+		"y": -199
 	},
 	{
 		"name": "Stacey Gutkowski",
@@ -627,31 +587,11 @@
 			"ideological": 5,
 			"affect": 5,
 			"received": 5,
-			"secularisation": 5,
-			"management": 5,
-			"performance": 5,
-			"intersection": 5,
-			"recently": 4,
-			"site": 4,
-			"direction": 4,
-			"though": 4,
-			"sometime": 4,
-			"illuminate": 4,
-			"agenda": 4,
-			"north": 4,
-			"figure": 4,
-			"standing": 4,
-			"simply": 4,
-			"kind": 4,
-			"international": 4,
-			"turn": 4,
-			"look": 4,
-			"conflict": 4,
-			"existing": 4
+			"secularisation": 5
 		},
 		"index": 5,
-		"x": -466,
-		"y": 9
+		"x": -461,
+		"y": 38
 	},
 	{
 		"name": "Kim Knott",
@@ -746,8 +686,8 @@
 			"belief": 2
 		},
 		"index": 6,
-		"x": 137,
-		"y": -118
+		"x": 130,
+		"y": -55
 	},
 	{
 		"name": "Jonathan A. Lanman",
@@ -846,31 +786,11 @@
 			"contributed": 5,
 			"necessity": 5,
 			"independence": 5,
-			"exhaustive": 5,
-			"judgement": 5,
-			"utilizing": 5,
-			"reference": 5,
-			"devoted": 5,
-			"asad": 5,
-			"leave": 5,
-			"experienced": 5,
-			"breaking": 5,
-			"prominently": 5,
-			"survey": 5,
-			"rais": 5,
-			"quantitative": 5,
-			"suggesting": 5,
-			"following": 5,
-			"consequence": 5,
-			"socially": 5,
-			"document": 5,
-			"involve": 5,
-			"absence": 5,
-			"explicit": 5
+			"exhaustive": 5
 		},
 		"index": 7,
-		"x": 15,
-		"y": -17
+		"x": 369,
+		"y": 285
 	},
 	{
 		"name": "Björn Mastiaux",
@@ -970,31 +890,11 @@
 			"struggling": 6,
 			"stage": 6,
 			"wake": 6,
-			"attracted": 6,
-			"unprecedented": 6,
-			"cimino": 6,
-			"treated": 6,
-			"factly": 6,
-			"justifiably": 6,
-			"battle": 6,
-			"enemy": 6,
-			"institutionalized": 6,
-			"portray": 6,
-			"divergency": 6,
-			"opponent": 6,
-			"bringing": 6,
-			"fruition": 6,
-			"paper": 5,
-			"documenting": 5,
-			"motife": 5,
-			"duration": 5,
-			"berlin": 5,
-			"sixty": 5,
-			"employed": 5
+			"attracted": 6
 		},
 		"index": 8,
-		"x": -76,
-		"y": 33
+		"x": 38,
+		"y": 21
 	},
 	{
 		"name": "John Nash",
@@ -1014,8 +914,8 @@
 		"id": 9,
 		"tokens": {},
 		"index": 9,
-		"x": 425,
-		"y": -339
+		"x": 387,
+		"y": -212
 	},
 	{
 		"name": "Sven Oelsner",
@@ -1113,22 +1013,11 @@
 			"study": 3,
 			"found": 3,
 			"church": 3,
-			"show": 3,
-			"result": 3,
-			"qualitative": 3,
-			"attitude": 3,
-			"term": 3,
-			"whether": 3,
-			"cultural": 3,
-			"contemporary": 3,
-			"however": 2,
-			"question": 2,
-			"atheism": 2,
-			"research": 2
+			"show": 3
 		},
 		"index": 10,
-		"x": -149,
-		"y": 339
+		"x": -20,
+		"y": 453
 	},
 	{
 		"name": "Stratos Patrikios",
@@ -1229,8 +1118,8 @@
 			"however": 2
 		},
 		"index": 11,
-		"x": -285,
-		"y": -24
+		"x": -177,
+		"y": -5
 	},
 	{
 		"name": "Marjan Smrke",
@@ -1328,31 +1217,11 @@
 			"privileged": 5,
 			"undertaken": 5,
 			"thesis": 5,
-			"leading": 5,
-			"solidarity": 5,
-			"comparative": 5,
-			"civil": 5,
-			"organizational": 5,
-			"transition": 5,
-			"certain": 5,
-			"following": 5,
-			"natural": 5,
-			"post": 5,
-			"marked": 4,
-			"speak": 4,
-			"emergence": 4,
-			"testing": 4,
-			"feel": 4,
-			"collected": 4,
-			"claim": 4,
-			"educated": 4,
-			"conclusion": 4,
-			"involved": 4,
-			"societal": 4
+			"leading": 5
 		},
 		"index": 12,
-		"x": 477,
-		"y": 51
+		"x": 388,
+		"y": 102
 	},
 	{
 		"name": "Steven Sutcliffe",
@@ -1450,31 +1319,11 @@
 			"everyday": 4,
 			"built": 4,
 			"denial": 4,
-			"elite": 4,
-			"according": 4,
-			"communication": 4,
-			"setting": 4,
-			"discours": 4,
-			"force": 4,
-			"remain": 4,
-			"constructed": 4,
-			"belief": 4,
-			"discursive": 4,
-			"sociological": 4,
-			"secular": 4,
-			"socio": 4,
-			"complex": 4,
-			"narratife": 4,
-			"secularization": 4,
-			"reflection": 4,
-			"representation": 4,
-			"opinion": 4,
-			"making": 4,
-			"defined": 4
+			"elite": 4
 		},
 		"index": 13,
-		"x": -459,
-		"y": 107
+		"x": -377,
+		"y": 148
 	},
 	{
 		"name": "Teemu Taira",
@@ -1572,31 +1421,11 @@
 			"looking": 4,
 			"although": 4,
 			"strategy": 4,
-			"atheist": 4,
-			"identification": 4,
-			"made": 4,
-			"current": 4,
-			"identify": 4,
-			"gender": 4,
-			"future": 3,
-			"exist": 3,
-			"offer": 3,
-			"including": 3,
-			"discussed": 3,
-			"importance": 3,
-			"upon": 3,
-			"rather": 3,
-			"challenge": 3,
-			"phenomenon": 3,
-			"issue": 3,
-			"western": 3,
-			"value": 3,
-			"church": 3,
-			"focus": 3
+			"atheist": 4
 		},
 		"index": 14,
-		"x": -43,
-		"y": -122
+		"x": -114,
+		"y": -258
 	},
 	{
 		"name": "Thomas Zenk",
@@ -1694,21 +1523,11 @@
 			"american": 3,
 			"culture": 3,
 			"public": 3,
-			"recent": 3,
-			"united": 3,
-			"finding": 3,
-			"state": 3,
-			"world": 3,
-			"analysis": 3,
-			"within": 2,
-			"will": 2,
-			"however": 2,
-			"atheism": 2,
-			"research": 2
+			"recent": 3
 		},
 		"index": 15,
-		"x": -112,
-		"y": 292
+		"x": -36,
+		"y": 215
 	},
 	{
 		"name": "Katie Aston",
@@ -1806,31 +1625,11 @@
 			"historically": 4,
 			"scholarly": 4,
 			"critical": 4,
-			"century": 4,
-			"around": 4,
-			"media": 4,
-			"draw": 4,
-			"study": 3,
-			"exploring": 3,
-			"development": 3,
-			"year": 3,
-			"role": 3,
-			"need": 3,
-			"scholar": 3,
-			"focus": 3,
-			"first": 3,
-			"form": 3,
-			"culture": 3,
-			"understanding": 3,
-			"recent": 3,
-			"christian": 3,
-			"using": 3,
-			"context": 3,
-			"nonreligious": 2
+			"century": 4
 		},
 		"index": 16,
-		"x": 54,
-		"y": -232
+		"x": -308,
+		"y": -243
 	},
 	{
 		"name": "Steph Berns",
@@ -1906,8 +1705,8 @@
 			"research": 2
 		},
 		"index": 17,
-		"x": 274,
-		"y": -207
+		"x": 191,
+		"y": -82
 	},
 	{
 		"name": "Stephen Bullivant",
@@ -2008,31 +1807,11 @@
 			"rigorous": 5,
 			"survey": 5,
 			"will": 5,
-			"certain": 5,
-			"speaking": 5,
-			"valuable": 5,
-			"imply": 5,
-			"traditionally": 5,
-			"prayer": 5,
-			"short": 5,
-			"name": 5,
-			"oxford": 5,
-			"available": 5,
-			"internet": 4,
-			"attendance": 4,
-			"course": 4,
-			"want": 4,
-			"irreligious": 4,
-			"defining": 4,
-			"vice": 4,
-			"versa": 4,
-			"comparatively": 4,
-			"simply": 4,
-			"presenting": 4
+			"certain": 5
 		},
 		"index": 18,
-		"x": -103,
-		"y": -124
+		"x": -271,
+		"y": 365
 	},
 	{
 		"name": "Rebecca Catto",
@@ -2133,31 +1912,11 @@
 			"original": 5,
 			"absence": 5,
 			"davie": 5,
-			"sought": 5,
-			"espousing": 5,
-			"female": 5,
-			"baker": 5,
-			"wave": 5,
-			"inductive": 5,
-			"similarity": 5,
-			"scientist": 5,
-			"group": 5,
-			"amongst": 4,
-			"jacob": 4,
-			"employing": 4,
-			"smith": 4,
-			"kingdom": 4,
-			"canadian": 4,
-			"organisation": 4,
-			"conference": 4,
-			"informed": 4,
-			"white": 4,
-			"having": 4,
-			"choose": 4
+			"sought": 5
 		},
 		"index": 19,
-		"x": 462,
-		"y": -132
+		"x": 391,
+		"y": -18
 	},
 	{
 		"name": "Janet Betty Eccles",
@@ -2257,31 +2016,11 @@
 			"sought": 5,
 			"espousing": 5,
 			"female": 5,
-			"baker": 5,
-			"wave": 5,
-			"inductive": 5,
-			"similarity": 5,
-			"group": 5,
-			"amongst": 4,
-			"jacob": 4,
-			"employing": 4,
-			"smith": 4,
-			"kingdom": 4,
-			"organisation": 4,
-			"conference": 4,
-			"informed": 4,
-			"white": 4,
-			"having": 4,
-			"choose": 4,
-			"play": 4,
-			"considered": 4,
-			"typology": 4,
-			"today": 4,
-			"humanism": 4
+			"baker": 5
 		},
 		"index": 20,
-		"x": 447,
-		"y": -74
+		"x": 372,
+		"y": 39
 	},
 	{
 		"name": "Chris Cotter",
@@ -2380,30 +2119,11 @@
 			"period": 3,
 			"process": 3,
 			"upon": 3,
-			"challenge": 3,
-			"problem": 3,
-			"year": 3,
-			"intellectual": 3,
-			"level": 3,
-			"theory": 3,
-			"field": 3,
-			"empirical": 3,
-			"work": 3,
-			"conducted": 3,
-			"based": 3,
-			"understanding": 3,
-			"term": 3,
-			"interview": 3,
-			"contemporary": 3,
-			"participant": 3,
-			"relationship": 3,
-			"will": 2,
-			"within": 2,
-			"post": 2
+			"challenge": 3
 		},
 		"index": 21,
-		"x": 163,
-		"y": 38
+		"x": -317,
+		"y": 148
 	},
 	{
 		"name": "Ryan T. Cragun",
@@ -2512,31 +2232,11 @@
 			"population": 6,
 			"secular": 6,
 			"project": 6,
-			"attitude": 6,
-			"provide": 6,
-			"christian": 6,
-			"article": 6,
-			"different": 6,
-			"press": 6,
-			"basic": 6,
-			"hobby": 6,
-			"derive": 6,
-			"manager": 6,
-			"grant": 6,
-			"transcribe": 6,
-			"bigger": 6,
-			"disidentification": 6,
-			"wording": 6,
-			"ryan": 6,
-			"cragun": 6,
-			"turned": 6,
-			"worded": 6,
-			"explore": 6,
-			"self": 6
+			"attitude": 6
 		},
 		"index": 22,
-		"x": -167,
-		"y": 83
+		"x": -121,
+		"y": 17
 	},
 	{
 		"name": "Matthew Engelke",
@@ -2632,8 +2332,8 @@
 			"atheist": 2
 		},
 		"index": 23,
-		"x": 12,
-		"y": 87
+		"x": -144,
+		"y": 401
 	},
 	{
 		"name": "Katharina Goetze",
@@ -2730,8 +2430,8 @@
 			"nonreligious": 2
 		},
 		"index": 24,
-		"x": -399,
-		"y": 1
+		"x": -308,
+		"y": -167
 	},
 	{
 		"name": "Lois Lee",
@@ -2832,31 +2532,11 @@
 			"intrinsic": 5,
 			"guide": 5,
 			"meaningfully": 5,
-			"regardless": 5,
-			"lois": 5,
-			"bullivant": 5,
-			"accessible": 5,
-			"excerpted": 5,
-			"england": 5,
-			"exchange": 5,
-			"doctoral": 5,
-			"london": 5,
-			"selected": 5,
-			"looked": 5,
-			"taking": 5,
-			"stephen": 5,
-			"rigorous": 5,
-			"informant": 5,
-			"commonality": 5,
-			"sought": 5,
-			"interviewing": 5,
-			"core": 5,
-			"involve": 5,
-			"name": 5
+			"regardless": 5
 		},
 		"index": 25,
-		"x": 135,
-		"y": -14
+		"x": 51,
+		"y": -390
 	},
 	{
 		"name": "Patrick McKearney",
@@ -2954,14 +2634,11 @@
 			"different": 3,
 			"secularism": 3,
 			"nonreligious": 2,
-			"group": 2,
-			"atheism": 2,
-			"research": 2,
-			"study": 2
+			"group": 2
 		},
 		"index": 26,
-		"x": 337,
-		"y": 303
+		"x": 154,
+		"y": 328
 	},
 	{
 		"name": "Sarah Jane-Page",
@@ -3059,29 +2736,11 @@
 			"identify": 4,
 			"investigate": 3,
 			"despite": 3,
-			"politic": 3,
-			"including": 3,
-			"little": 3,
-			"value": 3,
-			"method": 3,
-			"year": 3,
-			"project": 3,
-			"thus": 3,
-			"interview": 3,
-			"united": 3,
-			"often": 3,
-			"secularism": 3,
-			"cultural": 3,
-			"state": 3,
-			"participant": 3,
-			"will": 2,
-			"person": 2,
-			"belief": 2,
-			"study": 2
+			"politic": 3
 		},
 		"index": 27,
-		"x": -12,
-		"y": -173
+		"x": -161,
+		"y": -362
 	},
 	{
 		"name": "Johannes Quack",
@@ -3180,31 +2839,11 @@
 			"free": 4,
 			"ethnography": 4,
 			"effort": 4,
-			"engagement": 4,
-			"charle": 4,
-			"situated": 4,
-			"engage": 4,
-			"fieldwork": 4,
-			"popular": 4,
-			"humanism": 4,
-			"thinking": 4,
-			"compare": 4,
-			"thought": 4,
-			"representation": 4,
-			"modern": 4,
-			"regard": 4,
-			"comparison": 4,
-			"basis": 4,
-			"similar": 4,
-			"against": 4,
-			"activity": 4,
-			"europe": 4,
-			"specific": 4,
-			"perspective": 4
+			"engagement": 4
 		},
 		"index": 28,
-		"x": 41,
-		"y": 139
+		"x": -81,
+		"y": 254
 	},
 	{
 		"name": "Lydia Reid",
@@ -3295,8 +2934,8 @@
 			"study": 2
 		},
 		"index": 29,
-		"x": 108,
-		"y": -171
+		"x": -197,
+		"y": -123
 	},
 	{
 		"name": "Leo Schlöndorff",
@@ -3394,26 +3033,11 @@
 			"century": 4,
 			"space": 4,
 			"part": 3,
-			"history": 3,
-			"point": 3,
-			"model": 3,
-			"case": 3,
-			"moral": 3,
-			"become": 3,
-			"time": 3,
-			"science": 3,
-			"concept": 3,
-			"project": 3,
-			"practice": 3,
-			"term": 3,
-			"various": 3,
-			"contemporary": 3,
-			"question": 2,
-			"person": 2
+			"history": 3
 		},
 		"index": 30,
-		"x": -371,
-		"y": -277
+		"x": -262,
+		"y": -205
 	},
 	{
 		"name": "Matt Sheard",
@@ -3512,31 +3136,11 @@
 			"reject": 5,
 			"regarded": 5,
 			"experienced": 5,
-			"parental": 5,
-			"secularisation": 5,
-			"loss": 5,
-			"child": 5,
-			"characteristic": 5,
-			"transition": 5,
-			"third": 5,
-			"weakly": 5,
-			"proportion": 5,
-			"mentioned": 5,
-			"event": 5,
-			"marked": 4,
-			"variety": 4,
-			"amongst": 4,
-			"shape": 4,
-			"recently": 4,
-			"attempt": 4,
-			"becoming": 4,
-			"twenty": 4,
-			"background": 4,
-			"reducing": 4
+			"parental": 5
 		},
 		"index": 31,
-		"x": 419,
-		"y": 17
+		"x": 431,
+		"y": -64
 	},
 	{
 		"name": "Ruth Sheldon",
@@ -3635,31 +3239,11 @@
 			"opportunity": 4,
 			"britain": 4,
 			"contribution": 4,
-			"university": 4,
-			"reflection": 4,
-			"commitment": 4,
-			"perspective": 4,
-			"specific": 4,
-			"formation": 4,
-			"looking": 4,
-			"across": 4,
-			"discourse": 4,
-			"framework": 4,
-			"meaning": 4,
-			"identify": 4,
-			"draw": 4,
-			"order": 4,
-			"consider": 4,
-			"include": 3,
-			"exploring": 3,
-			"minority": 3,
-			"even": 3,
-			"value": 3,
-			"scholar": 3
+			"university": 4
 		},
 		"index": 32,
-		"x": 197,
-		"y": -117
+		"x": 273,
+		"y": -166
 	},
 	{
 		"name": "Marian Burchardt",
@@ -3761,8 +3345,8 @@
 			"study": 2
 		},
 		"index": 33,
-		"x": 221,
-		"y": 147
+		"x": 170,
+		"y": 129
 	},
 	{
 		"name": "Cora Schuh",
@@ -3828,8 +3412,8 @@
 			"social": 2
 		},
 		"index": 34,
-		"x": 252,
-		"y": 198
+		"x": 222,
+		"y": 99
 	},
 	{
 		"name": "Joseph H. Hammer",
@@ -3931,22 +3515,11 @@
 			"method": 3,
 			"less": 3,
 			"debate": 3,
-			"american": 3,
-			"article": 3,
-			"united": 3,
-			"different": 3,
-			"state": 3,
-			"participant": 3,
-			"survey": 2,
-			"group": 2,
-			"person": 2,
-			"social": 2,
-			"research": 2,
-			"study": 2
+			"american": 3
 		},
 		"index": 35,
-		"x": -225,
-		"y": -22
+		"x": -19,
+		"y": 0
 	},
 	{
 		"name": "Stephen M. Merino",
@@ -4031,8 +3604,8 @@
 			"belief": 2
 		},
 		"index": 36,
-		"x": -141,
-		"y": 239
+		"x": -148,
+		"y": 173
 	},
 	{
 		"name": "Christopher Smith",
@@ -4133,31 +3706,11 @@
 			"socio": 4,
 			"similar": 4,
 			"range": 4,
-			"greater": 4,
-			"formation": 4,
-			"conclude": 4,
-			"commitment": 4,
-			"drawn": 4,
-			"opinion": 4,
-			"during": 4,
-			"looking": 4,
-			"help": 4,
-			"idea": 4,
-			"online": 4,
-			"supernatural": 4,
-			"orientation": 4,
-			"expression": 4,
-			"long": 4,
-			"media": 4,
-			"consider": 4,
-			"around": 4,
-			"organized": 4,
-			"politic": 3,
-			"include": 3
+			"greater": 4
 		},
 		"index": 37,
-		"x": -134,
-		"y": -72
+		"x": 143,
+		"y": 76
 	},
 	{
 		"name": "Richard Cimino",
@@ -4258,31 +3811,11 @@
 			"socio": 4,
 			"similar": 4,
 			"range": 4,
-			"greater": 4,
-			"formation": 4,
-			"conclude": 4,
-			"commitment": 4,
-			"drawn": 4,
-			"opinion": 4,
-			"during": 4,
-			"looking": 4,
-			"help": 4,
-			"idea": 4,
-			"online": 4,
-			"supernatural": 4,
-			"orientation": 4,
-			"expression": 4,
-			"long": 4,
-			"media": 4,
-			"consider": 4,
-			"around": 4,
-			"organized": 4,
-			"politic": 3,
-			"include": 3
+			"greater": 4
 		},
 		"index": 38,
-		"x": -74,
-		"y": -71
+		"x": 134,
+		"y": 16
 	},
 	{
 		"name": "Lawton K. Swan",
@@ -4381,18 +3914,11 @@
 			"empirical": 3,
 			"religiosity": 3,
 			"american": 3,
-			"based": 3,
-			"suggest": 3,
-			"data": 2,
-			"however": 2,
-			"question": 2,
-			"group": 2,
-			"person": 2,
-			"research": 2
+			"based": 3
 		},
 		"index": 39,
-		"x": -370,
-		"y": 161
+		"x": -45,
+		"y": 156
 	},
 	{
 		"name": "Martin Heesacker",
@@ -4491,18 +4017,11 @@
 			"empirical": 3,
 			"religiosity": 3,
 			"american": 3,
-			"based": 3,
-			"suggest": 3,
-			"data": 2,
-			"however": 2,
-			"question": 2,
-			"group": 2,
-			"person": 2,
-			"research": 2
+			"based": 3
 		},
 		"index": 40,
-		"x": -310,
-		"y": 162
+		"x": 1,
+		"y": 118
 	},
 	{
 		"name": "Karen Hwang",
@@ -4592,8 +4111,8 @@
 			"study": 2
 		},
 		"index": 41,
-		"x": -256,
-		"y": 29
+		"x": -65,
+		"y": 38
 	},
 	{
 		"name": "Jesse M. Smith",
@@ -4698,31 +4217,11 @@
 			"health": 4,
 			"outcome": 4,
 			"america": 4,
-			"representative": 4,
-			"living": 4,
-			"perceived": 4,
-			"acceptance": 4,
-			"report": 4,
-			"future": 3,
-			"lack": 3,
-			"including": 3,
-			"discussed": 3,
-			"study": 3,
-			"anti": 3,
-			"found": 3,
-			"believe": 3,
-			"model": 3,
-			"minority": 3,
-			"year": 3,
-			"method": 3,
-			"find": 3,
-			"debate": 3,
-			"qualitative": 3,
-			"american": 3
+			"representative": 4
 		},
 		"index": 42,
-		"x": -227,
-		"y": 81
+		"x": -55,
+		"y": 97
 	},
 	{
 		"name": "Claude M. J. Braun",
@@ -4820,17 +4319,11 @@
 			"organization": 3,
 			"thus": 3,
 			"political": 3,
-			"culture": 3,
-			"various": 3,
-			"united": 3,
-			"cultural": 3,
-			"life": 3,
-			"survey": 2,
-			"social": 2
+			"culture": 3
 		},
 		"index": 43,
-		"x": -136,
-		"y": 32
+		"x": -138,
+		"y": 232
 	},
 	{
 		"name": "Justin Didyoung",
@@ -4921,8 +4414,8 @@
 			"post": 2
 		},
 		"index": 44,
-		"x": -316,
-		"y": 28
+		"x": -289,
+		"y": -47
 	},
 	{
 		"name": "Eric Charles",
@@ -5013,8 +4506,8 @@
 			"post": 2
 		},
 		"index": 45,
-		"x": -399,
-		"y": 108
+		"x": -243,
+		"y": -85
 	},
 	{
 		"name": "Nicholas James Rowland",
@@ -5105,8 +4598,8 @@
 			"post": 2
 		},
 		"index": 46,
-		"x": -368,
-		"y": 57
+		"x": -299,
+		"y": -106
 	},
 	{
 		"name": "Ingrid Storm",
@@ -5189,8 +4682,8 @@
 			"study": 2
 		},
 		"index": 47,
-		"x": -430,
-		"y": 160
+		"x": -101,
+		"y": 135
 	},
 	{
 		"name": "Rebecca D. Stinson",
@@ -5277,8 +4770,8 @@
 			"study": 2
 		},
 		"index": 48,
-		"x": -191,
-		"y": -177
+		"x": -28,
+		"y": -60
 	},
 	{
 		"name": "Kathleen M. Goodman",
@@ -5365,8 +4858,8 @@
 			"study": 2
 		},
 		"index": 49,
-		"x": -251,
-		"y": -179
+		"x": 18,
+		"y": -98
 	},
 	{
 		"name": "Charles Bermingham",
@@ -5453,8 +4946,8 @@
 			"study": 2
 		},
 		"index": 50,
-		"x": -160,
-		"y": -229
+		"x": -94,
+		"y": -140
 	},
 	{
 		"name": "Saba R. Ali",
@@ -5541,8 +5034,8 @@
 			"study": 2
 		},
 		"index": 51,
-		"x": -132,
-		"y": -176
+		"x": -84,
+		"y": -81
 	},
 	{
 		"name": "Steven Kettell",
@@ -5609,8 +5102,8 @@
 			"analysis": 3
 		},
 		"index": 52,
-		"x": 366,
-		"y": -323
+		"x": 302,
+		"y": -317
 	},
 	{
 		"name": "Ariela Keysar",
@@ -5691,8 +5184,8 @@
 			"study": 2
 		},
 		"index": 53,
-		"x": -178,
-		"y": 286
+		"x": -92,
+		"y": 194
 	},
 	{
 		"name": "Christopher Hassall",
@@ -5790,8 +5283,8 @@
 			"study": 2
 		},
 		"index": 54,
-		"x": -254,
-		"y": -75
+		"x": -253,
+		"y": -144
 	},
 	{
 		"name": "Ian Bushfield",
@@ -5892,31 +5385,11 @@
 			"going": 4,
 			"currently": 4,
 			"finally": 4,
-			"actually": 4,
-			"growth": 4,
-			"analyse": 4,
-			"white": 4,
-			"simply": 4,
-			"continue": 4,
-			"reduce": 4,
-			"faith": 4,
-			"resulting": 4,
-			"step": 4,
-			"offering": 4,
-			"called": 4,
-			"rise": 4,
-			"purpose": 4,
-			"participation": 4,
-			"effort": 4,
-			"equality": 4,
-			"begin": 4,
-			"belief": 4,
-			"emerging": 4,
-			"significantly": 4
+			"actually": 4
 		},
 		"index": 55,
-		"x": -188,
-		"y": -282
+		"x": -206,
+		"y": -182
 	},
 	{
 		"name": "Monika Wohlrab-Sahr",
@@ -5973,8 +5446,8 @@
 			"study": 2
 		},
 		"index": 56,
-		"x": 218,
-		"y": 247
+		"x": 175,
+		"y": 226
 	},
 	{
 		"name": "Matthias Middell",
@@ -6031,8 +5504,8 @@
 			"study": 2
 		},
 		"index": 57,
-		"x": 184,
-		"y": 198
+		"x": 208,
+		"y": 176
 	},
 	{
 		"name": "Michael Rectenwald",
@@ -6091,8 +5564,8 @@
 			"study": 2
 		},
 		"index": 58,
-		"x": 312,
-		"y": 189
+		"x": 137,
+		"y": 179
 	},
 	{
 		"name": "Rochelle Almeida",
@@ -6151,8 +5624,8 @@
 			"study": 2
 		},
 		"index": 59,
-		"x": 281,
-		"y": 138
+		"x": 97,
+		"y": 224
 	},
 	{
 		"name": "George Levine",
@@ -6211,8 +5684,8 @@
 			"study": 2
 		},
 		"index": 60,
-		"x": 341,
-		"y": 136
+		"x": 110,
+		"y": 126
 	},
 	{
 		"name": "Kevin J. Zimmerman",
@@ -6286,8 +5759,8 @@
 			"study": 2
 		},
 		"index": 61,
-		"x": -21,
-		"y": 242
+		"x": 70,
+		"y": 171
 	},
 	{
 		"name": "Kevin Simonson",
@@ -6361,8 +5834,8 @@
 			"study": 2
 		},
 		"index": 62,
-		"x": 10,
-		"y": 191
+		"x": 11,
+		"y": 177
 	},
 	{
 		"name": "W. Benjamin Myers",
@@ -6436,8 +5909,8 @@
 			"study": 2
 		},
 		"index": 63,
-		"x": -50,
-		"y": 189
+		"x": 34,
+		"y": 232
 	},
 	{
 		"name": "Tommy L. Mudd",
@@ -6528,8 +6001,8 @@
 			"study": 2
 		},
 		"index": 64,
-		"x": -249,
-		"y": 192
+		"x": -260,
+		"y": 131
 	},
 	{
 		"name": "Maxine B. Najle",
@@ -6620,8 +6093,8 @@
 			"study": 2
 		},
 		"index": 65,
-		"x": -339,
-		"y": 110
+		"x": -204,
+		"y": 152
 	},
 	{
 		"name": "Ben K. L. Ng",
@@ -6712,8 +6185,8 @@
 			"study": 2
 		},
 		"index": 66,
-		"x": -301,
-		"y": 221
+		"x": -194,
+		"y": 211
 	},
 	{
 		"name": "Will Gervais",
@@ -6815,30 +6288,11 @@
 			"evidence": 3,
 			"anti": 3,
 			"regarding": 3,
-			"nature": 3,
-			"believe": 3,
-			"even": 3,
-			"method": 3,
-			"less": 3,
-			"blog": 3,
-			"population": 3,
-			"level": 3,
-			"concept": 3,
-			"conducted": 3,
-			"thus": 3,
-			"whether": 3,
-			"recent": 3,
-			"christian": 3,
-			"suggest": 3,
-			"finding": 3,
-			"will": 2,
-			"however": 2,
-			"person": 2,
-			"study": 2
+			"nature": 3
 		},
 		"index": 67,
-		"x": -258,
-		"y": 133
+		"x": -250,
+		"y": 190
 	},
 	{
 		"name": "Marcus Mann",
@@ -6935,8 +6389,8 @@
 			"research": 2
 		},
 		"index": 68,
-		"x": -163,
-		"y": -125
+		"x": -9,
+		"y": 59
 	},
 	{
 		"name": "Dusty Hoesly",
@@ -7034,31 +6488,11 @@
 			"diversity": 4,
 			"identification": 4,
 			"media": 4,
-			"themselve": 4,
-			"particular": 3,
-			"rather": 3,
-			"need": 3,
-			"humanist": 3,
-			"become": 3,
-			"especially": 3,
-			"member": 3,
-			"organization": 3,
-			"thus": 3,
-			"conducted": 3,
-			"term": 3,
-			"united": 3,
-			"interview": 3,
-			"article": 3,
-			"state": 3,
-			"participant": 3,
-			"data": 2,
-			"survey": 2,
-			"belief": 2,
-			"study": 2
+			"themselve": 4
 		},
 		"index": 69,
-		"x": -259,
-		"y": 263
+		"x": -212,
+		"y": 376
 	},
 	{
 		"name": "Derek Anderson",
@@ -7137,8 +6571,8 @@
 			"study": 2
 		},
 		"index": 70,
-		"x": -100,
-		"y": -227
+		"x": -118,
+		"y": -319
 	},
 	{
 		"name": "Henrik Ohlsson",
@@ -7179,8 +6613,8 @@
 			"research": 2
 		},
 		"index": 71,
-		"x": 301,
-		"y": 81
+		"x": 201,
+		"y": 290
 	},
 	{
 		"name": "Kyle Thompson",
@@ -7232,8 +6666,8 @@
 			"group": 2
 		},
 		"index": 72,
-		"x": -424,
-		"y": -113
+		"x": -370,
+		"y": -85
 	},
 	{
 		"name": "Elisa Järnefelt",
@@ -7332,27 +6766,11 @@
 			"framework": 4,
 			"researcher": 3,
 			"category": 3,
-			"likely": 3,
-			"importance": 3,
-			"phenomenon": 3,
-			"human": 3,
-			"blog": 3,
-			"level": 3,
-			"science": 3,
-			"work": 3,
-			"attitude": 3,
-			"qualitative": 3,
-			"understanding": 3,
-			"based": 3,
-			"various": 3,
-			"when": 3,
-			"suggest": 3,
-			"relationship": 3,
-			"participant": 3
+			"likely": 3
 		},
 		"index": 73,
-		"x": 104,
-		"y": 37
+		"x": 283,
+		"y": -80
 	},
 	{
 		"name": "Tim Hutchings",
@@ -7451,8 +6869,8 @@
 			"society": 3
 		},
 		"index": 74,
-		"x": 39,
-		"y": 243
+		"x": 271,
+		"y": 24
 	},
 	{
 		"name": "Egbert Ribberink",
@@ -7485,7 +6903,6 @@
 			"houtman": 5,
 			"obstacle": 5,
 			"overcame": 5,
-			"peter": 5,
 			"elucidate": 5,
 			"atheism": 4,
 			"problematic": 4,
@@ -7510,8 +6927,8 @@
 			"research": 2
 		},
 		"index": 75,
-		"x": -392,
-		"y": -165
+		"x": -184,
+		"y": 270
 	},
 	{
 		"name": "Peter Achterberg",
@@ -7544,7 +6961,6 @@
 			"houtman": 5,
 			"obstacle": 5,
 			"overcame": 5,
-			"peter": 5,
 			"elucidate": 5,
 			"atheism": 4,
 			"problematic": 4,
@@ -7569,8 +6985,8 @@
 			"research": 2
 		},
 		"index": 76,
-		"x": -330,
-		"y": -166
+		"x": -128,
+		"y": 291
 	},
 	{
 		"name": "Dick Houtman",
@@ -7603,7 +7019,6 @@
 			"houtman": 5,
 			"obstacle": 5,
 			"overcame": 5,
-			"peter": 5,
 			"elucidate": 5,
 			"atheism": 4,
 			"problematic": 4,
@@ -7628,8 +7043,8 @@
 			"research": 2
 		},
 		"index": 77,
-		"x": -360,
-		"y": -114
+		"x": -175,
+		"y": 329
 	},
 	{
 		"name": "Marta Trzebiatowska",
@@ -7728,31 +7143,11 @@
 			"aspect": 4,
 			"strategy": 4,
 			"demonstrate": 4,
-			"structured": 4,
-			"consider": 4,
-			"personal": 4,
-			"space": 4,
-			"growing": 3,
-			"worldview": 3,
-			"identified": 3,
-			"little": 3,
-			"importance": 3,
-			"found": 3,
-			"method": 3,
-			"need": 3,
-			"western": 3,
-			"scholar": 3,
-			"become": 3,
-			"focus": 3,
-			"blog": 3,
-			"form": 3,
-			"qualitative": 3,
-			"practice": 3,
-			"public": 3
+			"structured": 4
 		},
 		"index": 78,
-		"x": 17,
-		"y": -121
+		"x": 106,
+		"y": -365
 	},
 	{
 		"name": "Valerie van Mulukom",
@@ -7794,8 +7189,8 @@
 			"using": 3
 		},
 		"index": 79,
-		"x": 265,
-		"y": 321
+		"x": 255,
+		"y": 242
 	},
 	{
 		"name": "Samantha May",
@@ -7846,8 +7241,8 @@
 			"secularism": 3
 		},
 		"index": 80,
-		"x": -248,
-		"y": -283
+		"x": -216,
+		"y": -243
 	},
 	{
 		"name": "Ann Taves",
@@ -7946,31 +7341,11 @@
 			"across": 4,
 			"face": 4,
 			"themselve": 4,
-			"consider": 4,
-			"offer": 3,
-			"describe": 3,
-			"point": 3,
-			"discussion": 3,
-			"issue": 3,
-			"method": 3,
-			"case": 3,
-			"value": 3,
-			"focus": 3,
-			"human": 3,
-			"blog": 3,
-			"secularity": 3,
-			"toward": 3,
-			"understand": 3,
-			"culture": 3,
-			"recent": 3,
-			"term": 3,
-			"understanding": 3,
-			"address": 3,
-			"approach": 3
+			"consider": 4
 		},
 		"index": 81,
-		"x": 195,
-		"y": -13
+		"x": 343,
+		"y": -84
 	},
 	{
 		"name": "Nickolas Garth Conrad",
@@ -8069,31 +7444,11 @@
 			"held": 5,
 			"doubt": 5,
 			"spectrum": 5,
-			"freethinker": 5,
-			"loss": 5,
-			"name": 5,
-			"quest": 5,
-			"direct": 5,
-			"inclusive": 5,
-			"previously": 4,
-			"late": 4,
-			"shed": 4,
-			"word": 4,
-			"terminology": 4,
-			"represent": 4,
-			"distinct": 4,
-			"constructed": 4,
-			"light": 4,
-			"argument": 4,
-			"widespread": 4,
-			"language": 4,
-			"instead": 4,
-			"allow": 4,
-			"ideology": 4
+			"freethinker": 5
 		},
 		"index": 82,
-		"x": -391,
-		"y": -63
+		"x": -114,
+		"y": 350
 	},
 	{
 		"name": "Stephen Pihlaja",
@@ -8150,8 +7505,8 @@
 			"atheist": 2
 		},
 		"index": 83,
-		"x": -280,
-		"y": -232
+		"x": -101,
+		"y": -376
 	},
 	{
 		"name": "Jesse LeFebvre",
@@ -8197,8 +7552,8 @@
 			"post": 2
 		},
 		"index": 84,
-		"x": 423,
-		"y": 160
+		"x": 314,
+		"y": 198
 	},
 	{
 		"name": "Roger Mitchell",
@@ -8245,8 +7600,8 @@
 			"person": 2
 		},
 		"index": 85,
-		"x": -428,
-		"y": 56
+		"x": -387,
+		"y": 89
 	},
 	{
 		"name": "Liam Jerrold Fraser",
@@ -8306,8 +7661,8 @@
 			"contemporary": 3
 		},
 		"index": 86,
-		"x": 300,
-		"y": -321
+		"x": 348,
+		"y": -261
 	},
 	{
 		"name": "Galen Watts",
@@ -8406,17 +7761,11 @@
 			"recent": 3,
 			"term": 3,
 			"various": 3,
-			"approach": 3,
-			"self": 3,
-			"life": 3,
-			"contemporary": 3,
-			"nonreligious": 2,
-			"secular": 2,
-			"research": 2
+			"approach": 3
 		},
 		"index": 87,
-		"x": 192,
-		"y": 91
+		"x": 94,
+		"y": 316
 	},
 	{
 		"name": "Laura Schwartz",
@@ -8468,8 +7817,8 @@
 			"secular": 2
 		},
 		"index": 88,
-		"x": -50,
-		"y": -384
+		"x": -173,
+		"y": -294
 	},
 	{
 		"name": "Timothy Stacey",
@@ -8571,31 +7920,11 @@
 			"inclusive": 5,
 			"diverse": 5,
 			"following": 5,
-			"short": 5,
-			"talk": 5,
-			"suggesting": 5,
-			"doing": 5,
-			"complexity": 5,
-			"post": 5,
-			"live": 4,
-			"share": 4,
-			"educated": 4,
-			"shed": 4,
-			"tell": 4,
-			"death": 4,
-			"shared": 4,
-			"step": 4,
-			"anthropology": 4,
-			"exploration": 4,
-			"figure": 4,
-			"sacred": 4,
-			"play": 4,
-			"distinction": 4,
-			"psychology": 4
+			"short": 5
 		},
 		"index": 89,
-		"x": 143,
-		"y": 285
+		"x": 84,
+		"y": -17
 	},
 	{
 		"name": "Halima Begum",
@@ -8693,31 +8022,11 @@
 			"lack": 3,
 			"discussed": 3,
 			"study": 3,
-			"minority": 3,
-			"scale": 3,
-			"western": 3,
-			"role": 3,
-			"focus": 3,
-			"theory": 3,
-			"show": 3,
-			"british": 3,
-			"first": 3,
-			"qualitative": 3,
-			"conducted": 3,
-			"understand": 3,
-			"experience": 3,
-			"interview": 3,
-			"approach": 3,
-			"explore": 3,
-			"finding": 3,
-			"within": 2,
-			"however": 2,
-			"post": 2,
-			"group": 2
+			"minority": 3
 		},
 		"index": 90,
-		"x": 46,
-		"y": -68
+		"x": -325,
+		"y": 208
 	},
 	{
 		"name": "Yosr Ben Slima",
@@ -8815,31 +8124,11 @@
 			"country": 3,
 			"rather": 3,
 			"nature": 3,
-			"used": 3,
-			"problem": 3,
-			"phenomenon": 3,
-			"value": 3,
-			"become": 3,
-			"moral": 3,
-			"especially": 3,
-			"form": 3,
-			"present": 3,
-			"organization": 3,
-			"understand": 3,
-			"public": 3,
-			"examine": 3,
-			"term": 3,
-			"argue": 3,
-			"approach": 3,
-			"explore": 3,
-			"context": 3,
-			"relationship": 3,
-			"individual": 2,
-			"nonreligious": 2
+			"used": 3
 		},
 		"index": 91,
-		"x": 168,
-		"y": -169
+		"x": -44,
+		"y": -394
 	},
 	{
 		"name": "Josh Bullock",
@@ -8938,31 +8227,11 @@
 			"attempting": 4,
 			"kingdom": 4,
 			"comment": 4,
-			"overall": 4,
-			"terminology": 4,
-			"having": 4,
-			"again": 4,
-			"religiously": 4,
-			"described": 4,
-			"variation": 4,
-			"ethnography": 4,
-			"therefore": 4,
-			"studying": 4,
-			"secular": 4,
-			"decade": 4,
-			"pattern": 4,
-			"place": 4,
-			"factor": 4,
-			"response": 4,
-			"america": 4,
-			"appear": 4,
-			"better": 4,
-			"possible": 4,
-			"semi": 4
+			"overall": 4
 		},
 		"index": 92,
-		"x": 394,
-		"y": 276
+		"x": 313,
+		"y": 258
 	},
 	{
 		"name": "Nicole Hartmann",
@@ -9060,31 +8329,11 @@
 			"look": 4,
 			"thinking": 4,
 			"analyze": 4,
-			"dynamic": 4,
-			"reflection": 4,
-			"just": 4,
-			"lived": 4,
-			"university": 4,
-			"ritual": 4,
-			"multiple": 4,
-			"aspect": 4,
-			"methodological": 4,
-			"framework": 4,
-			"consider": 4,
-			"personal": 4,
-			"space": 4,
-			"beyond": 3,
-			"point": 3,
-			"reason": 3,
-			"challenge": 3,
-			"scholar": 3,
-			"view": 3,
-			"toward": 3,
-			"concept": 3
+			"dynamic": 4
 		},
 		"index": 93,
-		"x": -451,
-		"y": -177
+		"x": -407,
+		"y": -29
 	},
 	{
 		"name": "Tayfun Kasapoglu",
@@ -9182,19 +8431,11 @@
 			"understand": 3,
 			"conducted": 3,
 			"thus": 3,
-			"public": 3,
-			"based": 3,
-			"different": 3,
-			"often": 3,
-			"self": 3,
-			"relationship": 3,
-			"nonreligious": 2,
-			"social": 2,
-			"study": 2
+			"public": 3
 		},
 		"index": 94,
-		"x": -105,
-		"y": -20
+		"x": 28,
+		"y": -38
 	},
 	{
 		"name": "Christiane Königstedt",
@@ -9292,31 +8533,11 @@
 			"belief": 4,
 			"tendency": 4,
 			"difficult": 4,
-			"conflict": 4,
-			"detail": 4,
-			"expressed": 4,
-			"argument": 4,
-			"either": 4,
-			"spiritual": 4,
-			"hand": 4,
-			"boundary": 4,
-			"making": 4,
-			"spirituality": 4,
-			"explain": 4,
-			"opinion": 4,
-			"material": 4,
-			"concerning": 4,
-			"online": 4,
-			"area": 4,
-			"themselve": 4,
-			"mean": 4,
-			"order": 4,
-			"institution": 3,
-			"beyond": 3
+			"conflict": 4
 		},
 		"index": 95,
-		"x": -84,
-		"y": 344
+		"x": -35,
+		"y": 293
 	},
 	{
 		"name": "Stephen LeDrew",
@@ -9415,31 +8636,11 @@
 			"methodological": 4,
 			"scientific": 4,
 			"framework": 4,
-			"critical": 4,
-			"space": 4,
-			"order": 4,
-			"identify": 4,
-			"ground": 4,
-			"growing": 3,
-			"exist": 3,
-			"category": 3,
-			"including": 3,
-			"process": 3,
-			"found": 3,
-			"nature": 3,
-			"regarding": 3,
-			"humanist": 3,
-			"human": 3,
-			"level": 3,
-			"especially": 3,
-			"time": 3,
-			"work": 3,
-			"qualitative": 3,
-			"conducted": 3
+			"critical": 4
 		},
 		"index": 96,
-		"x": -14,
-		"y": -70
+		"x": 287,
+		"y": -258
 	},
 	{
 		"name": "Evelina Lundmark",
@@ -9538,31 +8739,11 @@
 			"methodological": 4,
 			"scientific": 4,
 			"framework": 4,
-			"critical": 4,
-			"space": 4,
-			"order": 4,
-			"identify": 4,
-			"ground": 4,
-			"growing": 3,
-			"exist": 3,
-			"category": 3,
-			"including": 3,
-			"process": 3,
-			"found": 3,
-			"nature": 3,
-			"regarding": 3,
-			"humanist": 3,
-			"human": 3,
-			"level": 3,
-			"especially": 3,
-			"time": 3,
-			"work": 3,
-			"qualitative": 3,
-			"conducted": 3
+			"critical": 4
 		},
 		"index": 97,
-		"x": -71,
-		"y": -175
+		"x": 317,
+		"y": -206
 	},
 	{
 		"name": "Katharina Pöhls",
@@ -9659,8 +8840,8 @@
 			"will": 2
 		},
 		"index": 98,
-		"x": -287,
-		"y": 80
+		"x": -270,
+		"y": 71
 	},
 	{
 		"name": "Ulrike Popp-Baier",
@@ -9758,31 +8939,11 @@
 			"event": 5,
 			"plural": 5,
 			"exploratory": 5,
-			"until": 5,
-			"combination": 5,
-			"higher": 5,
-			"coding": 5,
-			"consequence": 5,
-			"course": 4,
-			"ongoing": 4,
-			"young": 4,
-			"concern": 4,
-			"narrative": 4,
-			"student": 4,
-			"revealed": 4,
-			"mode": 4,
-			"distinction": 4,
-			"dynamic": 4,
-			"analyze": 4,
-			"content": 4,
-			"demonstrating": 4,
-			"main": 4,
-			"psychological": 4,
-			"related": 4
+			"until": 5
 		},
 		"index": 99,
-		"x": 234,
-		"y": -394
+		"x": 214,
+		"y": -384
 	},
 	{
 		"name": "Atko Remmel",
@@ -9883,31 +9044,11 @@
 			"give": 5,
 			"return": 5,
 			"note": 5,
-			"changed": 5,
-			"studied": 5,
-			"emphasis": 5,
-			"normative": 4,
-			"employing": 4,
-			"attempt": 4,
-			"extensively": 4,
-			"instance": 4,
-			"late": 4,
-			"refer": 4,
-			"belonging": 4,
-			"offering": 4,
-			"terminology": 4,
-			"measure": 4,
-			"analyse": 4,
-			"east": 4,
-			"publication": 4,
-			"existential": 4,
-			"researching": 4,
-			"considered": 4,
-			"nation": 4
+			"changed": 5
 		},
 		"index": 100,
-		"x": -19,
-		"y": 138
+		"x": 8,
+		"y": 337
 	},
 	{
 		"name": "Hannah Scheidt",
@@ -10005,20 +9146,11 @@
 			"lack": 3,
 			"little": 3,
 			"regarding": 3,
-			"example": 3,
-			"work": 3,
-			"understand": 3,
-			"provide": 3,
-			"examine": 3,
-			"address": 3,
-			"approach": 3,
-			"self": 3,
-			"relationship": 3,
-			"belief": 2
+			"example": 3
 		},
 		"index": 101,
-		"x": -37,
-		"y": -233
+		"x": -262,
+		"y": -281
 	},
 	{
 		"name": "Mascha Schulz",
@@ -10116,29 +9248,11 @@
 			"scholarly": 4,
 			"made": 4,
 			"discourse": 4,
-			"critical": 4,
-			"themselve": 4,
-			"part": 3,
-			"highly": 3,
-			"period": 3,
-			"position": 3,
-			"further": 3,
-			"work": 3,
-			"understand": 3,
-			"public": 3,
-			"political": 3,
-			"understanding": 3,
-			"different": 3,
-			"various": 3,
-			"argue": 3,
-			"explore": 3,
-			"context": 3,
-			"identity": 3,
-			"within": 2
+			"critical": 4
 		},
 		"index": 102,
-		"x": 255,
-		"y": -12
+		"x": 444,
+		"y": 14
 	},
 	{
 		"name": "Amanda Schutz",
@@ -10236,13 +9350,11 @@
 			"debate": 3,
 			"often": 3,
 			"among": 2,
-			"however": 2,
-			"question": 2,
-			"secular": 2
+			"however": 2
 		},
 		"index": 103,
-		"x": -230,
-		"y": 316
+		"x": -240,
+		"y": 249
 	},
 	{
 		"name": "Hugh Turpin",
@@ -10340,31 +9452,11 @@
 			"high": 4,
 			"sociologist": 4,
 			"remain": 4,
-			"institutional": 4,
-			"engagement": 4,
-			"focusing": 4,
-			"mixed": 4,
-			"ethnographic": 4,
-			"relate": 4,
-			"believer": 4,
-			"taken": 4,
-			"identifying": 4,
-			"drawn": 4,
-			"together": 4,
-			"research": 4,
-			"test": 4,
-			"perceived": 4,
-			"cognitive": 4,
-			"insight": 4,
-			"large": 3,
-			"lack": 3,
-			"regarding": 3,
-			"minority": 3,
-			"method": 3
+			"institutional": 4
 		},
 		"index": 104,
-		"x": 58,
-		"y": -409
+		"x": 5,
+		"y": -430
 	},
 	{
 		"name": "Florian Zemmin",
@@ -10425,8 +9517,8 @@
 			"study": 2
 		},
 		"index": 105,
-		"x": 317,
-		"y": -114
+		"x": -19,
+		"y": -283
 	},
 	{
 		"name": "Colin Jager",
@@ -10487,8 +9579,8 @@
 			"study": 2
 		},
 		"index": 106,
-		"x": 257,
-		"y": -115
+		"x": 1,
+		"y": -227
 	},
 	{
 		"name": "Guido Vanheeswijck",
@@ -10590,31 +9682,11 @@
 			"discuss": 4,
 			"discussed": 3,
 			"relation": 3,
-			"process": 3,
-			"used": 3,
-			"importance": 3,
-			"historical": 3,
-			"need": 3,
-			"role": 3,
-			"human": 3,
-			"view": 3,
-			"especially": 3,
-			"perspectife": 3,
-			"first": 3,
-			"field": 3,
-			"empirical": 3,
-			"debate": 3,
-			"project": 3,
-			"understand": 3,
-			"various": 3,
-			"argue": 3,
-			"explore": 3,
-			"cultural": 3,
-			"contemporary": 3
+			"process": 3
 		},
 		"index": 107,
-		"x": 166,
-		"y": -66
+		"x": -58,
+		"y": -237
 	},
 	{
 		"name": "Daniel Kinitz",
@@ -10676,8 +9748,8 @@
 			"social": 2
 		},
 		"index": 108,
-		"x": 85,
-		"y": 345
+		"x": -54,
+		"y": 350
 	},
 	{
 		"name": "Daniel J. Linford",
@@ -10751,7 +9823,6 @@
 			"short": 5,
 			"imply": 5,
 			"talk": 5,
-			"peter": 5,
 			"freethinker": 5,
 			"george": 5,
 			"natural": 5,
@@ -10776,18 +9847,11 @@
 			"part": 3,
 			"history": 3,
 			"period": 3,
-			"historical": 3,
-			"problem": 3,
-			"show": 3,
-			"christian": 3,
-			"understanding": 3,
-			"argue": 3,
-			"paper": 3,
-			"context": 3
+			"historical": 3
 		},
 		"index": 109,
-		"x": -340,
-		"y": -225
+		"x": -218,
+		"y": -334
 	},
 	{
 		"name": "Joel Thiessen",
@@ -10822,7 +9886,6 @@
 			"affiliate": 19,
 			"none": 19,
 			"involved": 17,
-			"joel": 15,
 			"nonreligious": 15,
 			"involvement": 15,
 			"childhood": 14,
@@ -10890,30 +9953,11 @@
 			"passage": 5,
 			"upbringing": 5,
 			"prevailing": 5,
-			"below": 5,
-			"subtype": 5,
-			"update": 5,
-			"suspicious": 5,
-			"mediating": 5,
-			"subcultural": 5,
-			"retain": 5,
-			"nonbelieving": 5,
-			"plan": 5,
-			"employ": 5,
-			"parental": 5,
-			"interpret": 5,
-			"meet": 5,
-			"unknown": 5,
-			"next": 5,
-			"exclusive": 5,
-			"likelihood": 5,
-			"link": 5,
-			"remaining": 5,
-			"moreover": 5
+			"below": 5
 		},
 		"index": 110,
-		"x": -81,
-		"y": 240
+		"x": -337,
+		"y": 30
 	},
 	{
 		"name": "Jason Edward Sumerau",
@@ -11014,31 +10058,11 @@
 			"disparity": 5,
 			"compute": 5,
 			"aging": 5,
-			"caution": 5,
-			"base": 5,
-			"among": 5,
-			"apply": 5,
-			"moreover": 5,
-			"mainstream": 5,
-			"marginalize": 5,
-			"interpret": 5,
-			"looked": 5,
-			"combining": 5,
-			"followed": 5,
-			"epidemiology": 5,
-			"race": 5,
-			"interpreting": 5,
-			"privileged": 5,
-			"location": 5,
-			"within": 5,
-			"nothing": 5,
-			"exploratory": 5,
-			"ever": 5,
-			"sexuality": 5
+			"caution": 5
 		},
 		"index": 111,
-		"x": -139,
-		"y": 135
+		"x": -111,
+		"y": 76
 	},
 	{
 		"name": "Simon Dein",
@@ -11118,8 +10142,8 @@
 			"individual": 2
 		},
 		"index": 112,
-		"x": 154,
-		"y": -415
+		"x": 156,
+		"y": -400
 	},
 	{
 		"name": "Alexandros Sakellariou",
@@ -11171,8 +10195,8 @@
 			"belief": 2
 		},
 		"index": 113,
-		"x": 310,
-		"y": 361
+		"x": 258,
+		"y": 311
 	},
 	{
 		"name": "Kevin Lenehan",
@@ -11221,8 +10245,8 @@
 			"person": 2
 		},
 		"index": 114,
-		"x": -400,
-		"y": -225
+		"x": -364,
+		"y": -145
 	},
 	{
 		"name": "Nella van den Brandt",
@@ -11285,8 +10309,8 @@
 			"study": 2
 		},
 		"index": 115,
-		"x": 474,
-		"y": -300
+		"x": 440,
+		"y": -244
 	},
 	{
 		"name": "Hugh Rock",
@@ -11322,8 +10346,8 @@
 			"whether": 3
 		},
 		"index": 116,
-		"x": -106,
-		"y": 400
+		"x": -83,
+		"y": 406
 	},
 	{
 		"name": "Ben Wood",
@@ -11377,8 +10401,8 @@
 			"secular": 2
 		},
 		"index": 117,
-		"x": -1,
-		"y": -419
+		"x": -92,
+		"y": -436
 	},
 	{
 		"name": "Masato Kato",
@@ -11421,8 +10445,8 @@
 			"analysis": 3
 		},
 		"index": 118,
-		"x": 417,
-		"y": 80
+		"x": 360,
+		"y": 157
 	},
 	{
 		"name": "Fernande Pool",
@@ -11486,8 +10510,8 @@
 			"research": 2
 		},
 		"index": 119,
-		"x": 28,
-		"y": 308
+		"x": -327,
+		"y": 89
 	},
 	{
 		"name": "Bill McConochie",
@@ -11522,8 +10546,8 @@
 			"finding": 3
 		},
 		"index": 120,
-		"x": 295,
-		"y": -383
+		"x": 240,
+		"y": -328
 	},
 	{
 		"name": "Evan Stewart",
@@ -11566,8 +10590,8 @@
 			"research": 2
 		},
 		"index": 121,
-		"x": 207,
-		"y": 339
+		"x": 211,
+		"y": 353
 	},
 	{
 		"name": "Lori Beaman",
@@ -11617,8 +10641,8 @@
 			"nonreligious": 2
 		},
 		"index": 122,
-		"x": -191,
-		"y": -342
+		"x": -287,
+		"y": -336
 	},
 	{
 		"name": "Madeleine Parkes",
@@ -11654,8 +10678,8 @@
 			"secular": 2
 		},
 		"index": 123,
-		"x": 519,
-		"y": -108
+		"x": 484,
+		"y": -32
 	},
 	{
 		"name": "Cecilie Endresen",
@@ -11705,8 +10729,8 @@
 			"study": 2
 		},
 		"index": 124,
-		"x": -285,
-		"y": 340
+		"x": -317,
+		"y": 319
 	},
 	{
 		"name": "Joseph O. Baker",
@@ -11744,8 +10768,8 @@
 			"atheist": 2
 		},
 		"index": 125,
-		"x": 206,
-		"y": -448
+		"x": 79,
+		"y": -443
 	},
 	{
 		"name": "Cees Tulp",
@@ -11785,8 +10809,8 @@
 			"research": 2
 		},
 		"index": 126,
-		"x": 433,
-		"y": 222
+		"x": 368,
+		"y": 225
 	},
 	{
 		"name": "Christel Manning",
@@ -11871,8 +10895,8 @@
 			"social": 2
 		},
 		"index": 127,
-		"x": -196,
-		"y": 30
+		"x": -75,
+		"y": -21
 	},
 	{
 		"name": "Lori L. Fazzino",
@@ -11957,8 +10981,8 @@
 			"social": 2
 		},
 		"index": 128,
-		"x": -165,
-		"y": -21
+		"x": -131,
+		"y": -43
 	},
 	{
 		"name": "Simone Kolysh",
@@ -12056,15 +11080,11 @@
 			"further": 3,
 			"exploring": 3,
 			"church": 3,
-			"public": 3,
-			"examine": 3,
-			"interview": 3,
-			"often": 3,
-			"atheist": 2
+			"public": 3
 		},
 		"index": 129,
-		"x": -52,
-		"y": 293
+		"x": 47,
+		"y": 386
 	},
 	{
 		"name": "Lain A. B. Mathers",
@@ -12139,8 +11159,8 @@
 			"study": 2
 		},
 		"index": 130,
-		"x": 44,
-		"y": 36
+		"x": -187,
+		"y": -64
 	},
 	{
 		"name": "Alexandra C. H. Nowakowski",
@@ -12233,8 +11253,8 @@
 			"research": 2
 		},
 		"index": 131,
-		"x": -79,
-		"y": 137
+		"x": -158,
+		"y": 114
 	},
 	{
 		"name": "Isabella Kasselstrand",
@@ -12336,8 +11356,8 @@
 			"study": 2
 		},
 		"index": 132,
-		"x": -198,
-		"y": 134
+		"x": -167,
+		"y": 55
 	},
 	{
 		"name": "Tiana Couse",
@@ -12439,8 +11459,8 @@
 			"study": 2
 		},
 		"index": 133,
-		"x": -170,
-		"y": 186
+		"x": -223,
+		"y": 33
 	},
 	{
 		"name": "Shanell Sanchez",
@@ -12542,8 +11562,8 @@
 			"study": 2
 		},
 		"index": 134,
-		"x": -206,
-		"y": 234
+		"x": -214,
+		"y": 93
 	},
 	{
 		"name": "Jelle Wiering",
@@ -12634,8 +11654,8 @@
 			"research": 2
 		},
 		"index": 135,
-		"x": -64,
-		"y": -321
+		"x": -355,
+		"y": -205
 	},
 	{
 		"name": "Lloyd Hawkeye Robertson",
@@ -12708,8 +11728,8 @@
 			"person": 2
 		},
 		"index": 136,
-		"x": 113,
-		"y": 234
+		"x": 424,
+		"y": -124
 	},
 	{
 		"name": "Erlend Hovdkinn",
@@ -12745,8 +11765,8 @@
 			"state": 3
 		},
 		"index": 137,
-		"x": -180,
-		"y": 390
+		"x": -195,
+		"y": 433
 	},
 	{
 		"name": "Helge Årsheim",
@@ -12775,8 +11795,8 @@
 			"study": 2
 		},
 		"index": 138,
-		"x": 99,
-		"y": -454
+		"x": -34,
+		"y": -478
 	},
 	{
 		"name": "Néstor Da Costa",
@@ -12815,8 +11835,8 @@
 			"atheist": 2
 		},
 		"index": 139,
-		"x": 469,
-		"y": 113
+		"x": 423,
+		"y": 158
 	},
 	{
 		"name": "Sarah Wilkins-Laflamme",
@@ -12848,7 +11868,6 @@
 			"childhood": 14,
 			"positive": 13,
 			"none": 12,
-			"joel": 10,
 			"thiessen": 10,
 			"sarah": 10,
 			"wilkin": 10,
@@ -12917,28 +11936,11 @@
 			"believe": 3,
 			"secularist": 3,
 			"year": 3,
-			"humanist": 3,
-			"difference": 3,
-			"blog": 3,
-			"show": 3,
-			"project": 3,
-			"understand": 3,
-			"experience": 3,
-			"recent": 3,
-			"different": 3,
-			"explore": 3,
-			"context": 3,
-			"relationship": 3,
-			"individual": 2,
-			"survey": 2,
-			"post": 2,
-			"person": 2,
-			"research": 2,
-			"study": 2
+			"humanist": 3
 		},
 		"index": 140,
-		"x": -110,
-		"y": 188
+		"x": -233,
+		"y": -26
 	},
 	{
 		"name": "Mitsutoshi Horii",
@@ -12975,8 +11977,8 @@
 			"study": 2
 		},
 		"index": 141,
-		"x": 373,
-		"y": -384
+		"x": 358,
+		"y": -340
 	},
 	{
 		"name": "Zachary Munro",
@@ -13033,8 +12035,8 @@
 			"post": 2
 		},
 		"index": 142,
-		"x": 145,
-		"y": 345
+		"x": 131,
+		"y": 384
 	},
 	{
 		"name": "Charlotte Hobson",
@@ -13079,8 +12081,8 @@
 			"study": 2
 		},
 		"index": 143,
-		"x": -146,
-		"y": -381
+		"x": -253,
+		"y": -385
 	},
 	{
 		"name": "Aura Di Febo",
@@ -13123,8 +12125,8 @@
 			"social": 2
 		},
 		"index": 144,
-		"x": 474,
-		"y": -12
+		"x": 443,
+		"y": 75
 	},
 	{
 		"name": "Polina Batanova",
@@ -13196,8 +12198,8 @@
 			"study": 2
 		},
 		"index": 145,
-		"x": 83,
-		"y": 285
+		"x": -335,
+		"y": 376
 	},
 	{
 		"name": "Hans Alma",
@@ -13290,8 +12292,8 @@
 			"post": 2
 		},
 		"index": 146,
-		"x": 75,
-		"y": -16
+		"x": -150,
+		"y": -161
 	},
 	{
 		"name": "Stefan Schröder",
@@ -13349,8 +12351,8 @@
 			"study": 2
 		},
 		"index": 147,
-		"x": 390,
-		"y": 336
+		"x": 318,
+		"y": 319
 	},
 	{
 		"name": "Eric O. Silva",
@@ -13421,8 +12423,8 @@
 			"analysis": 3
 		},
 		"index": 148,
-		"x": -458,
-		"y": -237
+		"x": -431,
+		"y": -84
 	},
 	{
 		"name": "Pascale Fourier",
@@ -13521,13 +12523,11 @@
 			"data": 2,
 			"within": 2,
 			"post": 2,
-			"secular": 2,
-			"research": 2,
-			"study": 2
+			"secular": 2
 		},
 		"index": 149,
-		"x": 132,
-		"y": 90
+		"x": 307,
+		"y": -24
 	},
 	{
 		"name": "Jacques Berlinerblau",
@@ -13626,13 +12626,11 @@
 			"data": 2,
 			"within": 2,
 			"post": 2,
-			"secular": 2,
-			"research": 2,
-			"study": 2
+			"secular": 2
 		},
 		"index": 150,
-		"x": 161,
-		"y": 142
+		"x": 247,
+		"y": -31
 	},
 	{
 		"name": "Anton Jansson",
@@ -13733,8 +12731,8 @@
 			"atheist": 2
 		},
 		"index": 151,
-		"x": -220,
-		"y": -230
+		"x": -151,
+		"y": -422
 	},
 	{
 		"name": "Kenan Sevinç",
@@ -13818,8 +12816,8 @@
 			"atheist": 2
 		},
 		"index": 152,
-		"x": 315,
-		"y": -10
+		"x": 74,
+		"y": -77
 	},
 	{
 		"name": "Thomas J. Coleman III",
@@ -13903,8 +12901,8 @@
 			"atheist": 2
 		},
 		"index": 153,
-		"x": 226,
-		"y": -64
+		"x": 64,
+		"y": -136
 	},
 	{
 		"name": "Ralph W. Hood Jr.",
@@ -13988,8 +12986,8 @@
 			"atheist": 2
 		},
 		"index": 154,
-		"x": 286,
-		"y": -63
+		"x": 121,
+		"y": -115
 	},
 	{
 		"name": "Michael E. Price",
@@ -14088,14 +13086,11 @@
 			"whether": 3,
 			"secularism": 3,
 			"participant": 3,
-			"analysis": 3,
-			"data": 2,
-			"however": 2,
-			"study": 2
+			"analysis": 3
 		},
 		"index": 155,
-		"x": -345,
-		"y": -25
+		"x": -347,
+		"y": -29
 	},
 	{
 		"name": "Jacques Launay",
@@ -14194,14 +13189,11 @@
 			"whether": 3,
 			"secularism": 3,
 			"participant": 3,
-			"analysis": 3,
-			"data": 2,
-			"however": 2,
-			"study": 2
+			"analysis": 3
 		},
 		"index": 156,
-		"x": -314,
-		"y": -76
+		"x": -280,
+		"y": 12
 	},
 	{
 		"name": "Shuhei Fujii",
@@ -14299,31 +13291,11 @@
 			"further": 3,
 			"study": 3,
 			"used": 3,
-			"little": 3,
-			"historical": 3,
-			"scholar": 3,
-			"need": 3,
-			"focus": 3,
-			"human": 3,
-			"become": 3,
-			"moral": 3,
-			"view": 3,
-			"difference": 3,
-			"perspectife": 3,
-			"time": 3,
-			"form": 3,
-			"science": 3,
-			"concept": 3,
-			"toward": 3,
-			"term": 3,
-			"often": 3,
-			"paper": 3,
-			"life": 3,
-			"contemporary": 3
+			"little": 3
 		},
 		"index": 157,
-		"x": 228,
-		"y": -168
+		"x": 485,
+		"y": -95
 	},
 	{
 		"name": "Mikko Sillfors",
@@ -14409,8 +13381,8 @@
 			"study": 2
 		},
 		"index": 158,
-		"x": 70,
-		"y": 192
+		"x": -12,
+		"y": 393
 	},
 	{
 		"name": "Elliot Hanowski",
@@ -14508,31 +13480,11 @@
 			"continued": 4,
 			"change": 4,
 			"philosophical": 4,
-			"shaped": 4,
-			"social": 4,
-			"influential": 4,
-			"language": 4,
-			"humanism": 4,
-			"instead": 4,
-			"secular": 4,
-			"thought": 4,
-			"latter": 4,
-			"just": 4,
-			"influence": 4,
-			"country": 3,
-			"highly": 3,
-			"secularist": 3,
-			"historical": 3,
-			"even": 3,
-			"challenge": 3,
-			"movement": 3,
-			"western": 3,
-			"show": 3,
-			"british": 3
+			"shaped": 4
 		},
 		"index": 159,
-		"x": -283,
-		"y": -128
+		"x": 33,
+		"y": -483
 	},
 	{
 		"name": "Stefan Fisher-Høyrem",
@@ -14578,8 +13530,8 @@
 			"person": 2
 		},
 		"index": 160,
-		"x": 481,
-		"y": 181
+		"x": 427,
+		"y": 220
 	},
 	{
 		"name": "Jolyon Thomas",
@@ -14613,8 +13565,8 @@
 			"post": 2
 		},
 		"index": 161,
-		"x": -449,
-		"y": -48
+		"x": -401,
+		"y": 31
 	},
 	{
 		"name": "Paul Merchant",
@@ -14650,8 +13602,8 @@
 			"belief": 2
 		},
 		"index": 162,
-		"x": 461,
-		"y": -388
+		"x": 399,
+		"y": -295
 	},
 	{
 		"name": "Alberta Giorgi",
@@ -14690,8 +13642,8 @@
 			"post": 2
 		},
 		"index": 163,
-		"x": 97,
-		"y": 404
+		"x": 88,
+		"y": 431
 	},
 	{
 		"name": "Nathan Alexander ",
@@ -14752,8 +13704,8 @@
 			"research": 2
 		},
 		"index": 164,
-		"x": -99,
-		"y": -419
+		"x": -211,
+		"y": -428
 	},
 	{
 		"name": "Niels De Nutte",
@@ -14801,8 +13753,8 @@
 			"world": 3
 		},
 		"index": 165,
-		"x": 526,
-		"y": -45
+		"x": 501,
+		"y": 34
 	},
 	{
 		"name": "David Nash",
@@ -14850,8 +13802,8 @@
 			"secular": 2
 		},
 		"index": 166,
-		"x": -376,
-		"y": 279
+		"x": -359,
+		"y": 262
 	},
 	{
 		"name": "Patrick John Corbeil",
@@ -14950,8 +13902,8 @@
 			"secular": 2
 		},
 		"index": 167,
-		"x": 106,
-		"y": -67
+		"x": 188,
+		"y": -22
 	},
 	{
 		"name": "Jonathan S. Simmons",
@@ -15049,14 +14001,11 @@
 			"examine": 3,
 			"finding": 3,
 			"world": 3,
-			"individual": 2,
-			"within": 2,
-			"will": 2,
-			"social": 2
+			"individual": 2
 		},
 		"index": 168,
-		"x": -107,
-		"y": 84
+		"x": 190,
+		"y": 38
 	},
 	{
 		"name": "Sergio Perez",
@@ -15155,31 +14104,11 @@
 			"organized": 4,
 			"current": 4,
 			"previous": 4,
-			"growing": 3,
-			"community": 3,
-			"examined": 3,
-			"despite": 3,
-			"large": 3,
-			"further": 3,
-			"sample": 3,
-			"identified": 3,
-			"discussed": 3,
-			"relation": 3,
-			"little": 3,
-			"reason": 3,
-			"development": 3,
-			"phenomenon": 3,
-			"intellectual": 3,
-			"issue": 3,
-			"moral": 3,
-			"show": 3,
-			"concept": 3,
-			"understanding": 3,
-			"based": 3
+			"growing": 3
 		},
 		"index": 169,
-		"x": 77,
-		"y": -120
+		"x": -55,
+		"y": -331
 	},
 	{
 		"name": "Frédérique Vallières",
@@ -15278,31 +14207,11 @@
 			"organized": 4,
 			"current": 4,
 			"previous": 4,
-			"growing": 3,
-			"community": 3,
-			"examined": 3,
-			"despite": 3,
-			"large": 3,
-			"further": 3,
-			"sample": 3,
-			"identified": 3,
-			"discussed": 3,
-			"relation": 3,
-			"little": 3,
-			"reason": 3,
-			"development": 3,
-			"phenomenon": 3,
-			"intellectual": 3,
-			"issue": 3,
-			"moral": 3,
-			"show": 3,
-			"concept": 3,
-			"understanding": 3,
-			"based": 3
+			"growing": 3
 		},
 		"index": 170,
-		"x": 48,
-		"y": -172
+		"x": 1,
+		"y": -354
 	},
 	{
 		"name": "Amy I. McClure",
@@ -15400,31 +14309,11 @@
 			"compare": 4,
 			"observation": 4,
 			"narratife": 4,
-			"differ": 4,
-			"place": 4,
-			"boundary": 4,
-			"explain": 4,
-			"commitment": 4,
-			"effect": 4,
-			"strategy": 4,
-			"insight": 4,
-			"common": 4,
-			"perceived": 4,
-			"condition": 4,
-			"face": 4,
-			"institution": 3,
-			"examined": 3,
-			"describe": 3,
-			"upon": 3,
-			"scholar": 3,
-			"phenomenon": 3,
-			"theory": 3,
-			"difference": 3,
-			"based": 3
+			"differ": 4
 		},
 		"index": 171,
-		"x": 29,
-		"y": 368
+		"x": -98,
+		"y": 464
 	},
 	{
 		"name": "Kevin McCaffree",
@@ -15520,8 +14409,8 @@
 			"study": 2
 		},
 		"index": 172,
-		"x": -194,
-		"y": -74
+		"x": -141,
+		"y": -102
 	},
 	{
 		"name": "Joshua Doyle",
@@ -15607,8 +14496,8 @@
 			"research": 2
 		},
 		"index": 173,
-		"x": -16,
-		"y": 34
+		"x": 8,
+		"y": -157
 	},
 	{
 		"name": "Sikivu Hutchinson",
@@ -15706,31 +14595,11 @@
 			"drawn": 4,
 			"family": 4,
 			"although": 4,
-			"historically": 4,
-			"long": 4,
-			"organized": 4,
-			"gender": 4,
-			"institution": 3,
-			"community": 3,
-			"history": 3,
-			"anti": 3,
-			"challenge": 3,
-			"reason": 3,
-			"even": 3,
-			"tradition": 3,
-			"example": 3,
-			"issue": 3,
-			"moral": 3,
-			"human": 3,
-			"perspectife": 3,
-			"based": 3,
-			"christian": 3,
-			"examine": 3,
-			"cultural": 3
+			"historically": 4
 		},
 		"index": 174,
-		"x": -223,
-		"y": -126
+		"x": -437,
+		"y": 146
 	},
 	{
 		"name": "Sara Rahmani",
@@ -15767,8 +14636,8 @@
 			"study": 2
 		},
 		"index": 175,
-		"x": 330,
-		"y": -432
+		"x": 291,
+		"y": -376
 	},
 	{
 		"name": "Anna Sofia Salonen",
@@ -15808,8 +14677,8 @@
 			"person": 2
 		},
 		"index": 176,
-		"x": 169,
-		"y": 400
+		"x": 181,
+		"y": 419
 	},
 	{
 		"name": "Amy Unsworth",
@@ -15845,8 +14714,8 @@
 			"question": 2
 		},
 		"index": 177,
-		"x": -245,
-		"y": -369
+		"x": -333,
+		"y": -298
 	},
 	{
 		"name": "Jenny Vorpahl",
@@ -15904,8 +14773,8 @@
 			"study": 2
 		},
 		"index": 178,
-		"x": 356,
-		"y": 230
+		"x": 306,
+		"y": 117
 	},
 	{
 		"name": "Dirk Schuster",
@@ -15963,8 +14832,8 @@
 			"study": 2
 		},
 		"index": 179,
-		"x": 300,
-		"y": 254
+		"x": 266,
+		"y": 161
 	},
 	{
 		"name": "John Shook",
@@ -16049,8 +14918,8 @@
 			"among": 2
 		},
 		"index": 180,
-		"x": 154,
-		"y": -479
+		"x": 138,
+		"y": -458
 	},
 	{
 		"name": "Gerrit Cziehso",
@@ -16148,8 +15017,8 @@
 			"belief": 2
 		},
 		"index": 181,
-		"x": -45,
-		"y": -18
+		"x": 87,
+		"y": 54
 	},
 	{
 		"name": "Wesley J. Wildman",
@@ -16251,24 +15120,11 @@
 			"phenomenon": 3,
 			"human": 3,
 			"population": 3,
-			"science": 3,
-			"perspectife": 3,
-			"empirical": 3,
-			"theoretical": 3,
-			"attitude": 3,
-			"thus": 3,
-			"provide": 3,
-			"when": 3,
-			"suggest": 3,
-			"context": 3,
-			"within": 2,
-			"however": 2,
-			"person": 2,
-			"belief": 2
+			"science": 3
 		},
 		"index": 182,
-		"x": 133,
-		"y": -320
+		"x": 230,
+		"y": -234
 	},
 	{
 		"name": "F. LeRon Shults",
@@ -16370,24 +15226,11 @@
 			"phenomenon": 3,
 			"human": 3,
 			"population": 3,
-			"science": 3,
-			"perspectife": 3,
-			"empirical": 3,
-			"theoretical": 3,
-			"attitude": 3,
-			"thus": 3,
-			"provide": 3,
-			"when": 3,
-			"suggest": 3,
-			"context": 3,
-			"within": 2,
-			"however": 2,
-			"person": 2,
-			"belief": 2
+			"science": 3
 		},
 		"index": 183,
-		"x": 199,
-		"y": -221
+		"x": 188,
+		"y": -276
 	},
 	{
 		"name": "Saikou Y. Diallo",
@@ -16489,24 +15332,11 @@
 			"phenomenon": 3,
 			"human": 3,
 			"population": 3,
-			"science": 3,
-			"perspectife": 3,
-			"empirical": 3,
-			"theoretical": 3,
-			"attitude": 3,
-			"thus": 3,
-			"provide": 3,
-			"when": 3,
-			"suggest": 3,
-			"context": 3,
-			"within": 2,
-			"however": 2,
-			"person": 2,
-			"belief": 2
+			"science": 3
 		},
 		"index": 184,
-		"x": 139,
-		"y": -222
+		"x": 172,
+		"y": -219
 	},
 	{
 		"name": "Ross Gore",
@@ -16608,24 +15438,11 @@
 			"phenomenon": 3,
 			"human": 3,
 			"population": 3,
-			"science": 3,
-			"perspectife": 3,
-			"empirical": 3,
-			"theoretical": 3,
-			"attitude": 3,
-			"thus": 3,
-			"provide": 3,
-			"when": 3,
-			"suggest": 3,
-			"context": 3,
-			"within": 2,
-			"however": 2,
-			"person": 2,
-			"belief": 2
+			"science": 3
 		},
 		"index": 185,
-		"x": 171,
-		"y": -273
+		"x": 214,
+		"y": -176
 	},
 	{
 		"name": "Justin Lane",
@@ -16727,24 +15544,11 @@
 			"phenomenon": 3,
 			"human": 3,
 			"population": 3,
-			"science": 3,
-			"perspectife": 3,
-			"empirical": 3,
-			"theoretical": 3,
-			"attitude": 3,
-			"thus": 3,
-			"provide": 3,
-			"when": 3,
-			"suggest": 3,
-			"context": 3,
-			"within": 2,
-			"however": 2,
-			"person": 2,
-			"belief": 2
+			"science": 3
 		},
 		"index": 186,
-		"x": 102,
-		"y": -268
+		"x": 130,
+		"y": -261
 	},
 	{
 		"name": "Nick Overduin",
@@ -16832,8 +15636,8 @@
 			"post": 2
 		},
 		"index": 187,
-		"x": -421,
-		"y": 222
+		"x": -385,
+		"y": 208
 	},
 	{
 		"name": "Teale N. Phelps Bondaroff",
@@ -16929,8 +15733,8 @@
 			"will": 2
 		},
 		"index": 188,
-		"x": -128,
-		"y": -282
+		"x": -160,
+		"y": -220
 	},
 	{
 		"name": "Ryan Burge",
@@ -17029,17 +15833,11 @@
 			"when": 3,
 			"using": 3,
 			"finding": 3,
-			"state": 3,
-			"analysis": 3,
-			"individual": 2,
-			"will": 2,
-			"question": 2,
-			"however": 2,
-			"study": 2
+			"state": 3
 		},
 		"index": 189,
-		"x": -316,
-		"y": 279
+		"x": -259,
+		"y": 306
 	},
 	{
 		"name": "Hannah Smothers",
@@ -17138,16 +15936,10 @@
 			"when": 3,
 			"using": 3,
 			"finding": 3,
-			"state": 3,
-			"analysis": 3,
-			"individual": 2,
-			"will": 2,
-			"question": 2,
-			"however": 2,
-			"study": 2
+			"state": 3
 		},
 		"index": 190,
-		"x": -361,
-		"y": 220
+		"x": -299,
+		"y": 262
 	}
 ]

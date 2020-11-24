@@ -1,4 +1,4 @@
-# Cartography of NSRN
+# Cartography of Nonreligion and Secularity Research Network
 
 Nonreligion and Secularity Research Network (NSRN) is an international network founded in 2008 with the aim to organize the research on secularity and non-religion offering a stable reference point to researchers active in this emerging field of studies. Initially, the Network mainly offered conferences, workshops and annual lectures. In 2012 the Network founded Secularism & Nonreligion, the first journal entirely committed to the academic study of so-called religious nones and modes of secularity. One year later the journal was joined by a dedicated blog, while starting from 2015 NSRN started to publish its book series on Religion and its others: Studies in Religion, Nonreligion and Secularity.
 

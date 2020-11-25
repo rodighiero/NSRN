@@ -6,13 +6,8 @@ Lexical cartography is designed to look at the Research Network in a visual way.
 
 The current version of the NSRN lexical cartography is available at: https://rodighiero.github.io/NSRN/
 
+For an overview of the geographical distribution of scholars see also: https://chart-studio.plotly.com/~dominik.balazka/2/#plot
+
 The cartography focuses on NSRN’s events and publications — this includes workshops, annual lectures, conferences, blog posts, journal articles and books in NSRN’s book series. Editorials, book reviews, event reports and events promoted by NSRN, but not directly connected to the Network were omitted. Other dedicated materials not directly connected to NSRN — e.g. *Secular Studies* journal, special issues on non-religion, etc. — were not considered either. The resulting dataset includes a total of 191 NSRN-related contributions by 192 different authors for years 2008-2020. Due to missing abstracts, removed conference programs, conference web pages being shut off and broken links, it was not possible to recover the data about 4 annual lectures (out of 5), 5 NSRN conferences (out of 8) and all blog posts published between 2013-2015. Based on the publication history of NSRN’s Facebook page and on the average number of contributions presented during other NSRN events, we estimate that roughly 130 unique contributions — i.e. around 40% of the expected total — are currently missing.
-
-
-<div>
-    <a href="https://plotly.com/~dominik.balazka/2/?share_key=TCcxYU7GbDzQlec7i8oyav" target="_blank" title="NSRN" style="display: block; text-align: center;"><img src="https://plotly.com/~dominik.balazka/2.png?share_key=TCcxYU7GbDzQlec7i8oyav" alt="NSRN" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-
-
-
 
 A special thanks goes to Peter Cameron (University of Ottawa) for his assistance in the ongoing effort to recover the missing data, and to prof. Lori Beaman (University of Ottawa — current director of NSRN) for the support offered to the project.

@@ -2,13 +2,129 @@
 	{
 		"index": 0,
 		"position": [
-			-60,
-			-145
+			240,
+			-26
 		],
 		"tokens": [
 			[
+				"type",
+				37
+			],
+			[
+				"religiosity",
+				36
+			],
+			[
+				"dimension",
+				33
+			],
+			[
+				"scale",
+				30
+			],
+			[
+				"potential",
+				28
+			],
+			[
+				"agnostic",
+				24
+			],
+			[
+				"typology",
+				24
+			],
+			[
+				"emerge",
+				24
+			],
+			[
+				"subject",
+				24
+			],
+			[
+				"used",
+				21
+			],
+			[
+				"individual",
+				17
+			],
+			[
+				"factor",
+				16
+			],
+			[
 				"atheist",
-				14
+				15
+			],
+			[
+				"analysis",
+				15
+			],
+			[
+				"unaware",
+				15
+			],
+			[
+				"misapplied",
+				15
+			],
+			[
+				"layperson",
+				15
+			],
+			[
+				"correctly",
+				15
+			],
+			[
+				"behavioural",
+				15
+			],
+			[
+				"intended",
+				15
+			],
+			[
+				"selfdescribing",
+				15
+			],
+			[
+				"will",
+				15
+			],
+			[
+				"instrument",
+				15
+			],
+			[
+				"distinguish",
+				15
+			],
+			[
+				"misunderstood",
+				15
+			],
+			[
+				"respons",
+				15
+			],
+			[
+				"repertoire",
+				15
+			],
+			[
+				"generate",
+				15
+			],
+			[
+				"even",
+				13
+			],
+			[
+				"present",
+				12
 			],
 			[
 				"within",
@@ -23,259 +139,243 @@
 	{
 		"index": 1,
 		"position": [
-			-26,
-			-151
+			275,
+			-16
 		],
 		"tokens": [
 			[
-				"atheist",
-				17
+				"misunderstood",
+				15
+			],
+			[
+				"present",
+				12
+			],
+			[
+				"within",
+				11
 			]
 		]
 	},
 	{
 		"index": 2,
 		"position": [
-			-16,
-			-92
+			308,
+			-38
 		],
 		"tokens": [
 			[
-				"difference",
+				"present",
 				15
-			],
-			[
-				"belief",
-				14
-			],
-			[
-				"atheist",
-				13
-			],
-			[
-				"within",
-				11
-			],
-			[
-				"however",
-				11
-			],
-			[
-				"data",
-				9
 			]
 		]
 	},
 	{
 		"index": 3,
 		"position": [
-			-50,
-			-86
+			353,
+			-332
 		],
 		"tokens": [
 			[
-				"difference",
-				15
+				"different",
+				21
 			],
 			[
-				"belief",
-				14
-			],
-			[
-				"atheist",
-				13
-			],
-			[
-				"within",
-				11
-			],
-			[
-				"however",
-				11
-			],
-			[
-				"data",
-				9
+				"identity",
+				21
 			]
 		]
 	},
 	{
 		"index": 4,
 		"position": [
-			-4,
-			-124
+			356,
+			-295
 		],
 		"tokens": [
 			[
-				"atheist",
-				16
+				"question",
+				20
+			],
+			[
+				"comparing",
+				15
 			]
 		]
 	},
 	{
 		"index": 5,
 		"position": [
-			-72,
-			-113
+			214,
+			-3
 		],
 		"tokens": [
 			[
-				"difference",
-				15
+				"religiosity",
+				33
 			],
 			[
-				"belief",
+				"scale",
+				27
+			],
+			[
+				"dimension",
+				26
+			],
+			[
+				"cluster",
+				17
+			],
+			[
+				"paper",
 				14
 			],
 			[
-				"atheist",
-				13
+				"will",
+				12
 			],
 			[
-				"within",
-				11
+				"factor",
+				12
 			],
 			[
-				"however",
-				11
-			],
-			[
-				"data",
-				9
+				"secular",
+				8
 			]
 		]
 	},
 	{
 		"index": 6,
 		"position": [
-			245,
-			348
+			-88,
+			-164
 		],
 		"tokens": [
 			[
-				"atheist",
-				24
+				"secular",
+				30
 			],
 			[
-				"belief",
-				18
+				"organization",
+				21
+			],
+			[
+				"relationship",
+				15
+			],
+			[
+				"examine",
+				15
+			],
+			[
+				"atheism",
+				14
+			],
+			[
+				"increasingly",
+				12
 			]
 		]
 	},
 	{
 		"index": 7,
 		"position": [
-			-82,
-			-172
+			-80,
+			-131
 		],
 		"tokens": [
 			[
-				"atheist",
-				14
-			],
-			[
-				"intellectual",
-				9
-			],
-			[
-				"data",
-				6
-			],
-			[
-				"within",
-				6
+				"secular",
+				22
 			]
 		]
 	},
 	{
 		"index": 8,
 		"position": [
-			-70,
-			-205
+			-19,
+			-144
 		],
 		"tokens": [
 			[
-				"potential",
-				20
-			],
-			[
-				"secular",
-				16
-			],
-			[
-				"analysis",
-				15
+				"study",
+				7
 			]
 		]
 	},
 	{
 		"index": 9,
 		"position": [
-			-35,
-			-214
+			-45,
+			-121
 		],
 		"tokens": [
 			[
-				"secular",
-				18
-			],
-			[
-				"potential",
-				16
+				"study",
+				7
 			]
 		]
 	},
 	{
 		"index": 10,
 		"position": [
-			-126,
-			-226
+			328,
+			294
 		],
 		"tokens": [
 			[
 				"will",
-				14
+				21
 			]
 		]
 	},
 	{
 		"index": 11,
 		"position": [
-			147,
-			-84
+			-35,
+			-27
 		],
 		"tokens": [
 			[
-				"field",
-				15
+				"atheist",
+				43
 			],
 			[
-				"cultural",
-				11
+				"atheism",
+				19
 			],
 			[
-				"exploring",
-				9
+				"form",
+				18
 			],
 			[
-				"concept",
-				9
+				"degree",
+				16
+			],
+			[
+				"type",
+				16
 			]
 		]
 	},
 	{
 		"index": 12,
 		"position": [
-			170,
-			-53
+			-61,
+			-5
 		],
 		"tokens": [
 			[
-				"secular",
-				18
+				"atheist",
+				32
 			],
 			[
-				"examine",
+				"identity",
+				24
+			],
+			[
+				"form",
 				15
 			]
 		]
@@ -283,232 +383,50 @@
 	{
 		"index": 13,
 		"position": [
-			151,
-			-20
+			209,
+			-313
 		],
 		"tokens": [
 			[
-				"secular",
-				22
-			],
-			[
-				"examine",
-				18
-			],
-			[
-				"atheism",
-				14
+				"study",
+				13
 			]
 		]
 	},
 	{
 		"index": 14,
 		"position": [
-			96,
-			-50
+			43,
+			349
 		],
 		"tokens": [
 			[
-				"belief",
-				20
-			],
-			[
-				"whether",
-				12
+				"secular",
+				16
 			]
 		]
 	},
 	{
 		"index": 15,
 		"position": [
-			108,
-			-82
-		],
-		"tokens": [
-			[
-				"belief",
-				18
-			],
-			[
-				"cultural",
-				13
-			],
-			[
-				"field",
-				12
-			],
-			[
-				"open",
-				12
-			],
-			[
-				"exploring",
-				9
-			],
-			[
-				"theoretical",
-				9
-			],
-			[
-				"concept",
-				9
-			],
-			[
-				"whether",
-				9
-			],
-			[
-				"approach",
-				9
-			]
-		]
-	},
-	{
-		"index": 16,
-		"position": [
-			350,
-			256
-		],
-		"tokens": [
-			[
-				"research",
-				14
-			]
-		]
-	},
-	{
-		"index": 17,
-		"position": [
-			3,
-			26
-		],
-		"tokens": [
-			[
-				"atheist",
-				38
-			],
-			[
-				"identity",
-				21
-			],
-			[
-				"atheism",
-				17
-			]
-		]
-	},
-	{
-		"index": 18,
-		"position": [
-			16,
-			-6
-		],
-		"tokens": [
-			[
-				"atheist",
-				41
-			]
-		]
-	},
-	{
-		"index": 19,
-		"position": [
-			-143,
-			-10
-		],
-		"tokens": [
-			[
-				"function",
-				16
-			],
-			[
-				"question",
-				16
-			],
-			[
-				"social",
-				14
-			]
-		]
-	},
-	{
-		"index": 20,
-		"position": [
-			-155,
-			22
+			60,
+			292
 		],
 		"tokens": [
 			[
 				"group",
 				20
-			],
-			[
-				"secular",
-				20
-			],
-			[
-				"question",
-				19
-			],
-			[
-				"social",
-				18
-			],
-			[
-				"attitude",
-				15
-			]
-		]
-	},
-	{
-		"index": 21,
-		"position": [
-			-189,
-			28
-		],
-		"tokens": [
-			[
-				"political",
-				27
-			],
-			[
-				"secular",
-				20
-			],
-			[
-				"social",
-				16
-			],
-			[
-				"group",
-				15
 			],
 			[
 				"level",
-				15
-			],
-			[
-				"time",
-				15
-			],
-			[
-				"attitude",
 				12
-			],
-			[
-				"question",
-				12
-			],
-			[
-				"evidence",
-				9
-			],
-			[
-				"examined",
-				9
 			],
 			[
 				"finding",
+				9
+			],
+			[
+				"question",
 				9
 			],
 			[
@@ -518,74 +436,78 @@
 			[
 				"survey",
 				6
-			],
-			[
-				"however",
-				6
 			]
 		]
 	},
 	{
-		"index": 22,
+		"index": 16,
 		"position": [
-			-211,
-			1
+			1,
+			303
 		],
 		"tokens": [
 			[
 				"group",
+				18
+			],
+			[
+				"social",
+				18
+			]
+		]
+	},
+	{
+		"index": 17,
+		"position": [
+			25,
+			280
+		],
+		"tokens": [
+			[
+				"secular",
 				22
 			],
 			[
-				"finding",
-				11
-			]
-		]
-	},
-	{
-		"index": 23,
-		"position": [
-			-51,
-			254
-		],
-		"tokens": [
+				"group",
+				18
+			],
 			[
-				"criticism",
-				50
+				"social",
+				18
 			]
 		]
 	},
 	{
-		"index": 24,
+		"index": 18,
 		"position": [
-			-58,
-			188
-		],
-		"tokens": [
-			[
-				"american",
-				15
-			]
-		]
-	},
-	{
-		"index": 25,
-		"position": [
-			-23,
-			183
+			-200,
+			232
 		],
 		"tokens": [
 			[
 				"atheist",
-				29
+				24
 			]
 		]
 	},
 	{
-		"index": 26,
+		"index": 19,
 		"position": [
-			3,
-			208
+			80,
+			-57
+		],
+		"tokens": [
+			[
+				"atheist",
+				19
+			]
+		]
+	},
+	{
+		"index": 20,
+		"position": [
+			66,
+			-92
 		],
 		"tokens": [
 			[
@@ -599,15 +521,380 @@
 		]
 	},
 	{
-		"index": 27,
+		"index": 21,
 		"position": [
-			209,
-			-45
+			-30,
+			422
 		],
 		"tokens": [
 			[
+				"century",
+				15
+			]
+		]
+	},
+	{
+		"index": 22,
+		"position": [
+			-170,
+			-93
+		],
+		"tokens": [
+			[
+				"study",
+				13
+			]
+		]
+	},
+	{
+		"index": 23,
+		"position": [
+			-210,
+			-137
+		],
+		"tokens": [
+			[
+				"area",
+				18
+			]
+		]
+	},
+	{
+		"index": 24,
+		"position": [
+			-244,
+			-146
+		],
+		"tokens": [
+			[
+				"secularist",
+				37
+			],
+			[
+				"foundation",
+				33
+			],
+			[
+				"secularism",
+				24
+			],
+			[
+				"british",
+				21
+			],
+			[
+				"examine",
+				21
+			],
+			[
+				"sought",
+				19
+			]
+		]
+	},
+	{
+		"index": 25,
+		"position": [
+			-254,
+			-180
+		],
+		"tokens": [
+			[
+				"secularism",
+				19
+			],
+			[
+				"british",
+				15
+			]
+		]
+	},
+	{
+		"index": 26,
+		"position": [
+			17,
+			86
+		],
+		"tokens": [
+			[
+				"research",
+				19
+			],
+			[
+				"united",
+				18
+			],
+			[
+				"future",
+				16
+			],
+			[
+				"state",
+				16
+			],
+			[
+				"social",
+				12
+			]
+		]
+	},
+	{
+		"index": 27,
+		"position": [
+			-16,
+			75
+		],
+		"tokens": [
+			[
+				"research",
+				19
+			],
+			[
+				"united",
+				18
+			],
+			[
+				"future",
+				16
+			],
+			[
+				"state",
+				16
+			],
+			[
+				"social",
+				12
+			]
+		]
+	},
+	{
+		"index": 28,
+		"position": [
+			23,
+			120
+		],
+		"tokens": [
+			[
+				"nonreligious",
+				46
+			],
+			[
+				"research",
+				19
+			],
+			[
+				"united",
+				18
+			],
+			[
+				"future",
+				16
+			],
+			[
+				"state",
+				16
+			],
+			[
+				"society",
+				16
+			],
+			[
+				"population",
+				15
+			],
+			[
+				"social",
+				14
+			]
+		]
+	},
+	{
+		"index": 29,
+		"position": [
+			-42,
+			97
+		],
+		"tokens": [
+			[
+				"nonreligious",
+				41
+			],
+			[
+				"social",
+				24
+			]
+		]
+	},
+	{
+		"index": 30,
+		"position": [
+			-3,
+			143
+		],
+		"tokens": [
+			[
+				"social",
+				24
+			],
+			[
+				"research",
+				22
+			],
+			[
+				"importance",
+				13
+			]
+		]
+	},
+	{
+		"index": 31,
+		"position": [
+			-36,
+			131
+		],
+		"tokens": [
+			[
+				"social",
+				34
+			],
+			[
+				"secular",
+				18
+			],
+			[
+				"importance",
+				13
+			]
+		]
+	},
+	{
+		"index": 32,
+		"position": [
+			-133,
+			386
+		],
+		"tokens": [
+			[
+				"discussion",
+				9
+			],
+			[
+				"christian",
+				9
+			]
+		]
+	},
+	{
+		"index": 33,
+		"position": [
+			-356,
+			-205
+		],
+		"tokens": [
+			[
+				"atheism",
+				44
+			],
+			[
+				"theory",
+				34
+			],
+			[
+				"research",
+				28
+			],
+			[
+				"diversity",
+				21
+			]
+		]
+	},
+	{
+		"index": 34,
+		"position": [
+			-332,
+			-230
+		],
+		"tokens": [
+			[
+				"theory",
+				28
+			]
+		]
+	},
+	{
+		"index": 35,
+		"position": [
+			-390,
+			-214
+		],
+		"tokens": [
+			[
+				"research",
+				21
+			]
+		]
+	},
+	{
+		"index": 36,
+		"position": [
+			-273,
+			-247
+		],
+		"tokens": [
+			[
+				"three",
+				16
+			],
+			[
+				"secularism",
+				15
+			],
+			[
+				"rarely",
+				12
+			],
+			[
+				"critique",
+				12
+			],
+			[
+				"attention",
+				12
+			],
+			[
+				"political",
+				9
+			]
+		]
+	},
+	{
+		"index": 37,
+		"position": [
+			52,
+			384
+		],
+		"tokens": [
+			[
+				"christian",
+				23
+			],
+			[
 				"secular",
 				10
+			]
+		]
+	},
+	{
+		"index": 38,
+		"position": [
+			-289,
+			-281
+		],
+		"tokens": [
+			[
+				"ethnography",
+				12
 			],
 			[
 				"within",
@@ -616,414 +903,49 @@
 		]
 	},
 	{
-		"index": 28,
-		"position": [
-			402,
-			12
-		],
-		"tokens": [
-			[
-				"secularism",
-				41
-			],
-			[
-				"role",
-				18
-			]
-		]
-	},
-	{
-		"index": 29,
-		"position": [
-			-276,
-			156
-		],
-		"tokens": [
-			[
-				"perception",
-				16
-			],
-			[
-				"nonreligious",
-				15
-			],
-			[
-				"research",
-				14
-			]
-		]
-	},
-	{
-		"index": 30,
-		"position": [
-			-302,
-			123
-		],
-		"tokens": [
-			[
-				"nonreligious",
-				15
-			],
-			[
-				"research",
-				10
-			]
-		]
-	},
-	{
-		"index": 31,
-		"position": [
-			-99,
-			43
-		],
-		"tokens": [
-			[
-				"identity",
-				65
-			],
-			[
-				"atheist",
-				43
-			],
-			[
-				"minority",
-				32
-			],
-			[
-				"person",
-				31
-			],
-			[
-				"research",
-				21
-			],
-			[
-				"united",
-				18
-			],
-			[
-				"state",
-				16
-			]
-		]
-	},
-	{
-		"index": 32,
-		"position": [
-			-87,
-			11
-		],
-		"tokens": [
-			[
-				"research",
-				19
-			],
-			[
-				"united",
-				18
-			],
-			[
-				"future",
-				16
-			],
-			[
-				"state",
-				16
-			],
-			[
-				"social",
-				12
-			]
-		]
-	},
-	{
-		"index": 33,
-		"position": [
-			-133,
-			49
-		],
-		"tokens": [
-			[
-				"nonreligious",
-				56
-			],
-			[
-				"individual",
-				44
-			],
-			[
-				"atheist",
-				38
-			],
-			[
-				"minority",
-				32
-			],
-			[
-				"united",
-				26
-			],
-			[
-				"state",
-				26
-			],
-			[
-				"importance",
-				20
-			],
-			[
-				"attitude",
-				15
-			]
-		]
-	},
-	{
-		"index": 34,
-		"position": [
-			-109,
-			-16
-		],
-		"tokens": [
-			[
-				"nonreligious",
-				46
-			],
-			[
-				"organized",
-				46
-			],
-			[
-				"organization",
-				45
-			],
-			[
-				"secularism",
-				36
-			],
-			[
-				"book",
-				28
-			],
-			[
-				"advocate",
-				27
-			],
-			[
-				"serve",
-				27
-			],
-			[
-				"individual",
-				26
-			],
-			[
-				"rise",
-				24
-			],
-			[
-				"effort",
-				24
-			],
-			[
-				"research",
-				21
-			],
-			[
-				"member",
-				21
-			],
-			[
-				"united",
-				21
-			],
-			[
-				"secularist",
-				21
-			],
-			[
-				"interest",
-				20
-			],
-			[
-				"date",
-				20
-			],
-			[
-				"network",
-				20
-			],
-			[
-				"predominantly",
-				19
-			],
-			[
-				"state",
-				18
-			],
-			[
-				"society",
-				18
-			],
-			[
-				"movement",
-				18
-			],
-			[
-				"question",
-				16
-			],
-			[
-				"future",
-				16
-			],
-			[
-				"function",
-				16
-			],
-			[
-				"little",
-				13
-			],
-			[
-				"social",
-				12
-			],
-			[
-				"population",
-				12
-			],
-			[
-				"will",
-				11
-			]
-		]
-	},
-	{
-		"index": 35,
-		"position": [
-			-144,
-			360
-		],
-		"tokens": [
-			[
-				"research",
-				12
-			]
-		]
-	},
-	{
-		"index": 36,
-		"position": [
-			-287,
-			-139
-		],
-		"tokens": [
-			[
-				"group",
-				14
-			]
-		]
-	},
-	{
-		"index": 37,
-		"position": [
-			-138,
-			-387
-		],
-		"tokens": [
-			[
-				"christian",
-				23
-			]
-		]
-	},
-	{
-		"index": 38,
-		"position": [
-			-104,
-			227
-		],
-		"tokens": [
-			[
-				"religiosity",
-				21
-			]
-		]
-	},
-	{
 		"index": 39,
 		"position": [
-			-116,
-			259
+			-102,
+			268
 		],
 		"tokens": [
 			[
-				"religiosity",
-				21
+				"identify",
+				18
 			]
 		]
 	},
 	{
 		"index": 40,
 		"position": [
-			-219,
-			-150
+			-115,
+			199
 		],
 		"tokens": [
 			[
-				"issue",
-				15
+				"study",
+				11
 			]
 		]
 	},
 	{
 		"index": 41,
 		"position": [
-			-175,
-			-96
+			52,
+			-424
 		],
 		"tokens": [
 			[
-				"study",
-				6
+				"explore",
+				15
 			]
 		]
 	},
 	{
 		"index": 42,
 		"position": [
-			-163,
-			-129
-		],
-		"tokens": [
-			[
-				"discuss",
-				12
-			],
-			[
-				"study",
-				9
-			]
-		]
-	},
-	{
-		"index": 43,
-		"position": [
-			-240,
-			-177
-		],
-		"tokens": [
-			[
-				"intervention",
-				15
-			]
-		]
-	},
-	{
-		"index": 44,
-		"position": [
-			200,
-			135
+			-181,
+			-253
 		],
 		"tokens": [
 			[
@@ -1033,96 +955,106 @@
 		]
 	},
 	{
-		"index": 45,
+		"index": 43,
 		"position": [
-			141,
-			110
+			-215,
+			-262
 		],
 		"tokens": [
 			[
 				"secular",
-				20
+				18
+			],
+			[
+				"assumption",
+				13
+			],
+			[
+				"structure",
+				12
+			],
+			[
+				"theory",
+				9
+			]
+		]
+	},
+	{
+		"index": 44,
+		"position": [
+			4,
+			18
+		],
+		"tokens": [
+			[
+				"atheist",
+				30
+			],
+			[
+				"identified",
+				23
+			],
+			[
+				"perceived",
+				15
+			],
+			[
+				"minority",
+				9
+			]
+		]
+	},
+	{
+		"index": 45,
+		"position": [
+			-22,
+			41
+		],
+		"tokens": [
+			[
+				"future",
+				9
 			]
 		]
 	},
 	{
 		"index": 46,
 		"position": [
-			172,
-			161
+			-2,
+			-16
 		],
 		"tokens": [
 			[
-				"world",
-				13
+				"atheist",
+				41
 			],
 			[
-				"multiple",
-				12
-			],
-			[
-				"global",
-				12
-			],
-			[
-				"volume",
-				12
-			],
-			[
-				"ground",
-				12
-			],
-			[
-				"discussion",
-				9
-			],
-			[
-				"study",
-				6
+				"identified",
+				23
 			]
 		]
 	},
 	{
 		"index": 47,
 		"position": [
-			139,
-			145
+			143,
+			258
 		],
 		"tokens": [
 			[
-				"secular",
-				12
+				"individual",
+				19
 			],
 			[
-				"multiple",
-				12
-			],
-			[
-				"global",
-				12
-			],
-			[
-				"volume",
-				12
-			],
-			[
-				"ground",
-				12
-			],
-			[
-				"world",
+				"using",
 				11
 			],
 			[
-				"discussion",
-				9
-			],
-			[
-				"social",
+				"data",
 				6
 			],
 			[
-				"study",
+				"survey",
 				6
 			]
 		]
@@ -1130,205 +1062,37 @@
 	{
 		"index": 48,
 		"position": [
-			232,
-			145
+			134,
+			223
 		],
 		"tokens": [
 			[
-				"secularity",
+				"individual",
+				39
+			],
+			[
+				"social",
 				18
+			],
+			[
+				"influence",
+				12
+			],
+			[
+				"data",
+				6
+			],
+			[
+				"survey",
+				6
 			]
 		]
 	},
 	{
 		"index": 49,
 		"position": [
-			-31,
-			32
-		],
-		"tokens": [
-			[
-				"atheist",
-				27
-			],
-			[
-				"identity",
-				16
-			],
-			[
-				"mixed",
-				12
-			],
-			[
-				"atheism",
-				10
-			],
-			[
-				"future",
-				9
-			],
-			[
-				"method",
-				9
-			]
-		]
-	},
-	{
-		"index": 50,
-		"position": [
-			-53,
-			5
-		],
-		"tokens": [
-			[
-				"future",
-				9
-			]
-		]
-	},
-	{
-		"index": 51,
-		"position": [
-			-6,
-			-33
-		],
-		"tokens": [
-			[
-				"atheist",
-				27
-			],
-			[
-				"identified",
-				20
-			]
-		]
-	},
-	{
-		"index": 52,
-		"position": [
-			-126,
-			200
-		],
-		"tokens": [
-			[
-				"general",
-				12
-			]
-		]
-	},
-	{
-		"index": 53,
-		"position": [
-			-114,
-			167
-		],
-		"tokens": [
-			[
-				"secular",
-				12
-			]
-		]
-	},
-	{
-		"index": 54,
-		"position": [
-			-182,
-			179
-		],
-		"tokens": [
-			[
-				"previous",
-				18
-			],
-			[
-				"recent",
-				12
-			],
-			[
-				"test",
-				12
-			],
-			[
-				"evidence",
-				9
-			]
-		]
-	},
-	{
-		"index": 55,
-		"position": [
-			-170,
-			146
-		],
-		"tokens": [
-			[
-				"previous",
-				15
-			]
-		]
-	},
-	{
-		"index": 56,
-		"position": [
-			156,
-			43
-		],
-		"tokens": [
-			[
-				"political",
-				59
-			],
-			[
-				"atheist",
-				50
-			],
-			[
-				"activism",
-				35
-			],
-			[
-				"movement",
-				30
-			],
-			[
-				"organization",
-				21
-			],
-			[
-				"view",
-				18
-			],
-			[
-				"identity",
-				18
-			],
-			[
-				"atheism",
-				16
-			],
-			[
-				"examine",
-				15
-			],
-			[
-				"relationship",
-				15
-			],
-			[
-				"prominent",
-				12
-			],
-			[
-				"broader",
-				12
-			]
-		]
-	},
-	{
-		"index": 57,
-		"position": [
-			121,
-			49
+			-123,
+			-173
 		],
 		"tokens": [
 			[
@@ -1337,7 +1101,7 @@
 			],
 			[
 				"political",
-				54
+				51
 			],
 			[
 				"atheist",
@@ -1542,224 +1306,286 @@
 		]
 	},
 	{
-		"index": 58,
+		"index": 50,
 		"position": [
-			114,
-			85
+			115,
+			121
 		],
 		"tokens": [
 			[
-				"political",
-				39
+				"atheist",
+				37
 			],
 			[
-				"secular",
+				"anti",
+				17
+			],
+			[
+				"participant",
+				15
+			],
+			[
+				"prejudice",
+				15
+			],
+			[
+				"target",
+				12
+			],
+			[
+				"test",
+				12
+			],
+			[
+				"even",
+				9
+			]
+		]
+	},
+	{
+		"index": 51,
+		"position": [
+			82,
+			109
+		],
+		"tokens": [
+			[
+				"united",
 				18
 			],
 			[
-				"prospect",
+				"state",
+				15
+			],
+			[
+				"individual",
 				12
+			],
+			[
+				"function",
+				12
+			]
+		]
+	},
+	{
+		"index": 52,
+		"position": [
+			102,
+			53
+		],
+		"tokens": [
+			[
+				"atheist",
+				22
+			],
+			[
+				"identified",
+				17
+			],
+			[
+				"belief",
+				12
+			],
+			[
+				"investigation",
+				12
+			],
+			[
+				"american",
+				9
+			]
+		]
+	},
+	{
+		"index": 53,
+		"position": [
+			135,
+			64
+		],
+		"tokens": [
+			[
+				"atheist",
+				27
+			]
+		]
+	},
+	{
+		"index": 54,
+		"position": [
+			141,
+			98
+		],
+		"tokens": [
+			[
+				"atheist",
+				32
+			],
+			[
+				"prejudice",
+				18
+			],
+			[
+				"participant",
+				15
+			],
+			[
+				"anti",
+				13
+			],
+			[
+				"target",
+				12
+			],
+			[
+				"test",
+				12
+			]
+		]
+	},
+	{
+		"index": 55,
+		"position": [
+			121,
+			155
+		],
+		"tokens": [
+			[
+				"atheist",
+				30
+			]
+		]
+	},
+	{
+		"index": 56,
+		"position": [
+			95,
+			177
+		],
+		"tokens": [
+			[
+				"individual",
+				34
+			],
+			[
+				"atheist",
+				23
+			],
+			[
+				"survey",
+				9
+			],
+			[
+				"based",
+				9
+			]
+		]
+	},
+	{
+		"index": 57,
+		"position": [
+			56,
+			132
+		],
+		"tokens": [
+			[
+				"united",
+				15
+			],
+			[
+				"state",
+				13
+			]
+		]
+	},
+	{
+		"index": 58,
+		"position": [
+			62,
+			166
+		],
+		"tokens": [
+			[
+				"state",
+				21
+			],
+			[
+				"united",
+				20
+			],
+			[
+				"american",
+				15
+			],
+			[
+				"survey",
+				9
 			]
 		]
 	},
 	{
 		"index": 59,
 		"position": [
-			170,
-			11
+			37,
+			30
 		],
 		"tokens": [
 			[
-				"movement",
-				39
+				"atheist",
+				27
 			],
 			[
-				"examine",
-				18
+				"identified",
+				20
 			],
 			[
-				"atheism",
-				16
+				"research",
+				8
 			]
 		]
 	},
 	{
 		"index": 60,
 		"position": [
-			-33,
-			124
+			43,
+			64
 		],
 		"tokens": [
 			[
-				"atheist",
-				46
+				"research",
+				8
 			],
 			[
-				"when",
-				34
-			],
-			[
-				"identified",
-				16
-			],
-			[
-				"participant",
-				15
-			],
-			[
-				"reacting",
-				12
-			],
-			[
-				"nonbelief",
-				12
+				"social",
+				6
 			]
 		]
 	},
 	{
 		"index": 61,
 		"position": [
-			-11,
-			150
+			24,
+			-38
 		],
 		"tokens": [
 			[
+				"family",
+				48
+			],
+			[
 				"atheist",
-				39
+				45
 			],
 			[
-				"when",
-				34
-			],
-			[
-				"participant",
-				13
-			],
-			[
-				"reacting",
-				12
-			],
-			[
-				"nonbelief",
-				12
-			],
-			[
-				"report",
-				12
+				"experience",
+				18
 			]
 		]
 	},
 	{
 		"index": 62,
 		"position": [
-			-67,
-			129
-		],
-		"tokens": [
-			[
-				"participant",
-				15
-			]
-		]
-	},
-	{
-		"index": 63,
-		"position": [
-			-79,
-			162
-		],
-		"tokens": [
-			[
-				"religiosity",
-				15
-			]
-		]
-	},
-	{
-		"index": 64,
-		"position": [
-			-21,
-			91
-		],
-		"tokens": [
-			[
-				"atheist",
-				45
-			],
-			[
-				"participant",
-				13
-			]
-		]
-	},
-	{
-		"index": 65,
-		"position": [
-			-43,
-			64
-		],
-		"tokens": [
-			[
-				"atheist",
-				38
-			],
-			[
-				"mixed",
-				12
-			],
-			[
-				"group",
-				12
-			],
-			[
-				"participant",
-				11
-			],
-			[
-				"atheism",
-				10
-			]
-		]
-	},
-	{
-		"index": 66,
-		"position": [
-			-77,
-			70
-		],
-		"tokens": [
-			[
-				"atheist",
-				36
-			],
-			[
-				"health",
-				34
-			],
-			[
-				"implication",
-				16
-			]
-		]
-	},
-	{
-		"index": 67,
-		"position": [
-			-150,
-			265
-		],
-		"tokens": [
-			[
-				"religiosity",
-				24
-			]
-		]
-	},
-	{
-		"index": 68,
-		"position": [
-			-277,
-			-79
+			128,
+			316
 		],
 		"tokens": [
 			[
@@ -2037,79 +1863,20 @@
 		]
 	},
 	{
-		"index": 69,
+		"index": 63,
 		"position": [
-			-255,
-			-52
+			119,
+			281
 		],
 		"tokens": [
 			[
-				"group",
-				23
-			],
-			[
-				"identity",
-				15
-			],
-			[
-				"additionally",
-				12
-			],
-			[
-				"finding",
-				11
-			],
-			[
-				"answer",
-				9
-			]
-		]
-	},
-	{
-		"index": 70,
-		"position": [
-			-267,
-			-20
-		],
-		"tokens": [
-			[
-				"group",
+				"less",
 				21
-			]
-		]
-	},
-	{
-		"index": 71,
-		"position": [
-			-305,
-			-21
-		],
-		"tokens": [
-			[
-				"group",
-				17
 			],
 			[
-				"participant",
-				16
+				"stereotype",
+				20
 			],
-			[
-				"support",
-				9
-			],
-			[
-				"whether",
-				9
-			]
-		]
-	},
-	{
-		"index": 72,
-		"position": [
-			-265,
-			-112
-		],
-		"tokens": [
 			[
 				"group",
 				16
@@ -2119,33 +1886,657 @@
 				13
 			],
 			[
+				"level",
+				12
+			],
+			[
+				"individual",
+				11
+			],
+			[
+				"based",
+				9
+			],
+			[
+				"finding",
+				9
+			],
+			[
+				"question",
+				9
+			],
+			[
 				"data",
+				6
+			],
+			[
+				"survey",
 				6
 			]
 		]
 	},
 	{
-		"index": 73,
+		"index": 64,
 		"position": [
-			-123,
-			108
+			84,
+			269
 		],
 		"tokens": [
 			[
-				"person",
-				24
+				"stereotype",
+				16
 			],
 			[
-				"importance",
+				"individual",
 				16
+			],
+			[
+				"less",
+				15
+			],
+			[
+				"level",
+				15
+			],
+			[
+				"question",
+				12
+			],
+			[
+				"group",
+				11
+			],
+			[
+				"using",
+				11
+			],
+			[
+				"based",
+				9
+			],
+			[
+				"finding",
+				9
+			],
+			[
+				"data",
+				6
+			],
+			[
+				"survey",
+				6
 			]
 		]
 	},
 	{
-		"index": 74,
+		"index": 65,
 		"position": [
-			6,
-			-65
+			-114,
+			40
+		],
+		"tokens": [
+			[
+				"group",
+				37
+			],
+			[
+				"identity",
+				35
+			],
+			[
+				"participant",
+				11
+			]
+		]
+	},
+	{
+		"index": 66,
+		"position": [
+			-173,
+			51
+		],
+		"tokens": [
+			[
+				"christianity",
+				12
+			],
+			[
+				"become",
+				9
+			],
+			[
+				"term",
+				9
+			]
+		]
+	},
+	{
+		"index": 67,
+		"position": [
+			122,
+			-4
+		],
+		"tokens": [
+			[
+				"gender",
+				54
+			],
+			[
+				"qualitative",
+				27
+			],
+			[
+				"equality",
+				24
+			],
+			[
+				"feminism",
+				24
+			],
+			[
+				"hand",
+				24
+			],
+			[
+				"identified",
+				21
+			],
+			[
+				"atheism",
+				18
+			],
+			[
+				"perspectife",
+				18
+			],
+			[
+				"midwest",
+				15
+			],
+			[
+				"analyzed",
+				15
+			],
+			[
+				"consensual",
+				15
+			],
+			[
+				"hill",
+				15
+			],
+			[
+				"proclivity",
+				15
+			],
+			[
+				"questioning",
+				15
+			],
+			[
+				"prioritizing",
+				15
+			],
+			[
+				"else",
+				15
+			],
+			[
+				"linking",
+				15
+			],
+			[
+				"thompson",
+				12
+			],
+			[
+				"william",
+				12
+			],
+			[
+				"indicated",
+				12
+			],
+			[
+				"believed",
+				12
+			],
+			[
+				"highlighted",
+				12
+			],
+			[
+				"necessarily",
+				12
+			],
+			[
+				"appeared",
+				12
+			],
+			[
+				"thing",
+				12
+			],
+			[
+				"pathway",
+				12
+			],
+			[
+				"methodology",
+				12
+			],
+			[
+				"freethought",
+				12
+			],
+			[
+				"throughout",
+				12
+			],
+			[
+				"feminist",
+				12
+			],
+			[
+				"belief",
+				12
+			],
+			[
+				"investigation",
+				12
+			],
+			[
+				"explored",
+				12
+			],
+			[
+				"primarily",
+				12
+			],
+			[
+				"inequality",
+				12
+			],
+			[
+				"commitment",
+				12
+			],
+			[
+				"lead",
+				12
+			],
+			[
+				"semi",
+				12
+			],
+			[
+				"orientation",
+				12
+			],
+			[
+				"atheist",
+				12
+			],
+			[
+				"drawing",
+				12
+			],
+			[
+				"structured",
+				12
+			],
+			[
+				"influence",
+				12
+			],
+			[
+				"upon",
+				9
+			],
+			[
+				"regarding",
+				9
+			],
+			[
+				"reason",
+				9
+			],
+			[
+				"problem",
+				9
+			],
+			[
+				"intellectual",
+				9
+			],
+			[
+				"difference",
+				9
+			],
+			[
+				"result",
+				9
+			],
+			[
+				"american",
+				9
+			],
+			[
+				"interview",
+				9
+			],
+			[
+				"self",
+				9
+			],
+			[
+				"using",
+				9
+			],
+			[
+				"cultural",
+				9
+			],
+			[
+				"society",
+				9
+			],
+			[
+				"world",
+				9
+			],
+			[
+				"data",
+				6
+			],
+			[
+				"within",
+				6
+			],
+			[
+				"however",
+				6
+			],
+			[
+				"social",
+				6
+			],
+			[
+				"research",
+				6
+			],
+			[
+				"study",
+				6
+			]
+		]
+	},
+	{
+		"index": 68,
+		"position": [
+			96,
+			19
+		],
+		"tokens": [
+			[
+				"gender",
+				54
+			],
+			[
+				"qualitative",
+				27
+			],
+			[
+				"equality",
+				24
+			],
+			[
+				"feminism",
+				24
+			],
+			[
+				"hand",
+				24
+			],
+			[
+				"identified",
+				21
+			],
+			[
+				"atheism",
+				18
+			],
+			[
+				"perspectife",
+				18
+			],
+			[
+				"midwest",
+				15
+			],
+			[
+				"analyzed",
+				15
+			],
+			[
+				"consensual",
+				15
+			],
+			[
+				"hill",
+				15
+			],
+			[
+				"proclivity",
+				15
+			],
+			[
+				"questioning",
+				15
+			],
+			[
+				"prioritizing",
+				15
+			],
+			[
+				"else",
+				15
+			],
+			[
+				"linking",
+				15
+			],
+			[
+				"thompson",
+				12
+			],
+			[
+				"william",
+				12
+			],
+			[
+				"indicated",
+				12
+			],
+			[
+				"believed",
+				12
+			],
+			[
+				"highlighted",
+				12
+			],
+			[
+				"necessarily",
+				12
+			],
+			[
+				"appeared",
+				12
+			],
+			[
+				"thing",
+				12
+			],
+			[
+				"pathway",
+				12
+			],
+			[
+				"methodology",
+				12
+			],
+			[
+				"freethought",
+				12
+			],
+			[
+				"throughout",
+				12
+			],
+			[
+				"feminist",
+				12
+			],
+			[
+				"belief",
+				12
+			],
+			[
+				"investigation",
+				12
+			],
+			[
+				"explored",
+				12
+			],
+			[
+				"primarily",
+				12
+			],
+			[
+				"inequality",
+				12
+			],
+			[
+				"commitment",
+				12
+			],
+			[
+				"lead",
+				12
+			],
+			[
+				"semi",
+				12
+			],
+			[
+				"orientation",
+				12
+			],
+			[
+				"atheist",
+				12
+			],
+			[
+				"drawing",
+				12
+			],
+			[
+				"structured",
+				12
+			],
+			[
+				"influence",
+				12
+			],
+			[
+				"upon",
+				9
+			],
+			[
+				"regarding",
+				9
+			],
+			[
+				"reason",
+				9
+			],
+			[
+				"problem",
+				9
+			],
+			[
+				"intellectual",
+				9
+			],
+			[
+				"difference",
+				9
+			],
+			[
+				"result",
+				9
+			],
+			[
+				"american",
+				9
+			],
+			[
+				"interview",
+				9
+			],
+			[
+				"self",
+				9
+			],
+			[
+				"using",
+				9
+			],
+			[
+				"cultural",
+				9
+			],
+			[
+				"society",
+				9
+			],
+			[
+				"world",
+				9
+			],
+			[
+				"data",
+				6
+			],
+			[
+				"within",
+				6
+			],
+			[
+				"however",
+				6
+			],
+			[
+				"social",
+				6
+			],
+			[
+				"research",
+				6
+			],
+			[
+				"study",
+				6
+			]
+		]
+	},
+	{
+		"index": 69,
+		"position": [
+			63,
+			7
 		],
 		"tokens": [
 			[
@@ -2199,26 +2590,135 @@
 		]
 	},
 	{
-		"index": 75,
+		"index": 70,
 		"position": [
-			-62,
-			-54
+			57,
+			-27
 		],
 		"tokens": [
 			[
-				"society",
-				11
+				"atheist",
+				31
 			],
 			[
-				"research",
-				8
+				"qualitative",
+				15
+			]
+		]
+	},
+	{
+		"index": 71,
+		"position": [
+			155,
+			8
+		],
+		"tokens": [
+			[
+				"american",
+				15
 			],
 			[
-				"however",
-				6
+				"belief",
+				12
+			],
+			[
+				"using",
+				9
 			],
 			[
 				"social",
+				6
+			],
+			[
+				"study",
+				6
+			]
+		]
+	},
+	{
+		"index": 72,
+		"position": [
+			-34,
+			292
+		],
+		"tokens": [
+			[
+				"community",
+				42
+			],
+			[
+				"social",
+				20
+			],
+			[
+				"period",
+				17
+			],
+			[
+				"group",
+				14
+			],
+			[
+				"increased",
+				12
+			]
+		]
+	},
+	{
+		"index": 73,
+		"position": [
+			-92,
+			305
+		],
+		"tokens": [
+			[
+				"sample",
+				23
+			]
+		]
+	},
+	{
+		"index": 74,
+		"position": [
+			-43,
+			257
+		],
+		"tokens": [
+			[
+				"community",
+				42
+			],
+			[
+				"social",
+				22
+			],
+			[
+				"assembly",
+				21
+			],
+			[
+				"group",
+				17
+			],
+			[
+				"period",
+				13
+			],
+			[
+				"increased",
+				12
+			]
+		]
+	},
+	{
+		"index": 75,
+		"position": [
+			13,
+			-132
+		],
+		"tokens": [
+			[
+				"study",
 				6
 			]
 		]
@@ -2226,20 +2726,224 @@
 	{
 		"index": 76,
 		"position": [
-			40,
-			-71
+			174,
+			110
 		],
 		"tokens": [
 			[
+				"morality",
+				90
+			],
+			[
+				"innate",
+				42
+			],
+			[
+				"intuitive",
+				42
+			],
+			[
+				"immorality",
+				39
+			],
+			[
 				"atheist",
-				22
+				27
+			],
+			[
+				"lead",
+				24
+			],
+			[
+				"association",
+				21
+			],
+			[
+				"representative",
+				21
+			],
+			[
+				"prejudice",
+				21
+			],
+			[
+				"previous",
+				21
+			],
+			[
+				"view",
+				18
+			],
+			[
+				"moral",
+				18
+			],
+			[
+				"participant",
+				15
+			],
+			[
+				"nonreligious",
+				15
+			],
+			[
+				"root",
+				15
+			],
+			[
+				"wrong",
+				15
+			],
+			[
+				"primate",
+				15
+			],
+			[
+				"preverbal",
+				15
+			],
+			[
+				"infant",
+				15
+			],
+			[
+				"putatively",
+				15
+			],
+			[
+				"resilient",
+				15
+			],
+			[
+				"persisting",
+				15
+			],
+			[
+				"atheism",
+				14
 			],
 			[
 				"research",
-				10
+				14
 			],
 			[
-				"difference",
+				"stem",
+				12
+			],
+			[
+				"ultimate",
+				12
+			],
+			[
+				"nonhuman",
+				12
+			],
+			[
+				"reducing",
+				12
+			],
+			[
+				"reduce",
+				12
+			],
+			[
+				"presenting",
+				12
+			],
+			[
+				"consistent",
+				12
+			],
+			[
+				"viewed",
+				12
+			],
+			[
+				"transgression",
+				12
+			],
+			[
+				"origin",
+				12
+			],
+			[
+				"target",
+				12
+			],
+			[
+				"right",
+				12
+			],
+			[
+				"frequent",
+				12
+			],
+			[
+				"distrust",
+				12
+			],
+			[
+				"learning",
+				12
+			],
+			[
+				"discrimination",
+				12
+			],
+			[
+				"perception",
+				12
+			],
+			[
+				"basis",
+				12
+			],
+			[
+				"quite",
+				12
+			],
+			[
+				"without",
+				12
+			],
+			[
+				"good",
+				12
+			],
+			[
+				"test",
+				12
+			],
+			[
+				"scientific",
+				12
+			],
+			[
+				"appear",
+				12
+			],
+			[
+				"face",
+				12
+			],
+			[
+				"part",
+				9
+			],
+			[
+				"evidence",
+				9
+			],
+			[
+				"anti",
+				9
+			],
+			[
+				"regarding",
+				9
+			],
+			[
+				"nature",
 				9
 			]
 		]
@@ -2247,62 +2951,373 @@
 	{
 		"index": 77,
 		"position": [
-			52,
-			-103
+			180,
+			144
 		],
 		"tokens": [
 			[
-				"belief",
-				20
+				"atheist",
+				22
 			],
 			[
-				"cultural",
-				13
+				"association",
+				21
 			],
 			[
-				"within",
+				"representative",
+				18
+			],
+			[
+				"nonreligious",
+				15
+			],
+			[
+				"discrimination",
 				12
 			],
 			[
-				"research",
-				10
+				"finding",
+				11
 			],
 			[
-				"problem",
+				"part",
 				9
-			],
-			[
-				"difference",
-				9
-			],
-			[
-				"self",
-				9
-			],
-			[
-				"world",
-				9
-			],
-			[
-				"atheist",
-				8
 			]
 		]
 	},
 	{
 		"index": 78,
 		"position": [
-			30,
-			-130
+			200,
+			88
+		],
+		"tokens": [
+			[
+				"morality",
+				90
+			],
+			[
+				"innate",
+				42
+			],
+			[
+				"intuitive",
+				42
+			],
+			[
+				"immorality",
+				39
+			],
+			[
+				"atheist",
+				27
+			],
+			[
+				"lead",
+				24
+			],
+			[
+				"association",
+				21
+			],
+			[
+				"representative",
+				21
+			],
+			[
+				"prejudice",
+				21
+			],
+			[
+				"previous",
+				21
+			],
+			[
+				"view",
+				18
+			],
+			[
+				"moral",
+				18
+			],
+			[
+				"participant",
+				15
+			],
+			[
+				"nonreligious",
+				15
+			],
+			[
+				"root",
+				15
+			],
+			[
+				"wrong",
+				15
+			],
+			[
+				"primate",
+				15
+			],
+			[
+				"preverbal",
+				15
+			],
+			[
+				"infant",
+				15
+			],
+			[
+				"putatively",
+				15
+			],
+			[
+				"resilient",
+				15
+			],
+			[
+				"persisting",
+				15
+			],
+			[
+				"atheism",
+				14
+			],
+			[
+				"research",
+				14
+			],
+			[
+				"stem",
+				12
+			],
+			[
+				"ultimate",
+				12
+			],
+			[
+				"nonhuman",
+				12
+			],
+			[
+				"reducing",
+				12
+			],
+			[
+				"reduce",
+				12
+			],
+			[
+				"presenting",
+				12
+			],
+			[
+				"consistent",
+				12
+			],
+			[
+				"viewed",
+				12
+			],
+			[
+				"transgression",
+				12
+			],
+			[
+				"origin",
+				12
+			],
+			[
+				"target",
+				12
+			],
+			[
+				"right",
+				12
+			],
+			[
+				"frequent",
+				12
+			],
+			[
+				"distrust",
+				12
+			],
+			[
+				"learning",
+				12
+			],
+			[
+				"discrimination",
+				12
+			],
+			[
+				"perception",
+				12
+			],
+			[
+				"basis",
+				12
+			],
+			[
+				"quite",
+				12
+			],
+			[
+				"without",
+				12
+			],
+			[
+				"good",
+				12
+			],
+			[
+				"test",
+				12
+			],
+			[
+				"scientific",
+				12
+			],
+			[
+				"appear",
+				12
+			],
+			[
+				"face",
+				12
+			],
+			[
+				"part",
+				9
+			],
+			[
+				"evidence",
+				9
+			],
+			[
+				"anti",
+				9
+			],
+			[
+				"regarding",
+				9
+			],
+			[
+				"nature",
+				9
+			]
+		]
+	},
+	{
+		"index": 79,
+		"position": [
+			233,
+			99
+		],
+		"tokens": [
+			[
+				"anti",
+				13
+			],
+			[
+				"atheism",
+				12
+			],
+			[
+				"research",
+				10
+			],
+			[
+				"nature",
+				9
+			],
+			[
+				"recent",
+				9
+			]
+		]
+	},
+	{
+		"index": 80,
+		"position": [
+			154,
+			167
 		],
 		"tokens": [
 			[
 				"atheist",
-				13
+				20
+			]
+		]
+	},
+	{
+		"index": 81,
+		"position": [
+			259,
+			77
+		],
+		"tokens": [
+			[
+				"research",
+				10
+			]
+		]
+	},
+	{
+		"index": 82,
+		"position": [
+			-101,
+			108
+		],
+		"tokens": [
+			[
+				"study",
+				12
+			]
+		]
+	},
+	{
+		"index": 83,
+		"position": [
+			-134,
+			96
+		],
+		"tokens": [
+			[
+				"research",
+				10
 			],
 			[
-				"self",
+				"field",
 				9
+			]
+		]
+	},
+	{
+		"index": 84,
+		"position": [
+			-75,
+			86
+		],
+		"tokens": [
+			[
+				"social",
+				22
+			]
+		]
+	},
+	{
+		"index": 85,
+		"position": [
+			-81,
+			52
+		],
+		"tokens": [
+			[
+				"social",
+				14
 			],
 			[
 				"research",
@@ -2311,1326 +3326,150 @@
 		]
 	},
 	{
-		"index": 79,
-		"position": [
-			-106,
-			-107
-		],
-		"tokens": [
-			[
-				"identified",
-				21
-			],
-			[
-				"atheism",
-				16
-			],
-			[
-				"social",
-				16
-			],
-			[
-				"atheist",
-				15
-			],
-			[
-				"throughout",
-				12
-			],
-			[
-				"research",
-				11
-			],
-			[
-				"difference",
-				9
-			],
-			[
-				"self",
-				9
-			],
-			[
-				"world",
-				9
-			],
-			[
-				"within",
-				6
-			],
-			[
-				"study",
-				6
-			]
-		]
-	},
-	{
-		"index": 80,
-		"position": [
-			-128,
-			-134
-		],
-		"tokens": [
-			[
-				"social",
-				28
-			],
-			[
-				"world",
-				11
-			],
-			[
-				"study",
-				9
-			]
-		]
-	},
-	{
-		"index": 81,
-		"position": [
-			-97,
-			-48
-		],
-		"tokens": [
-			[
-				"society",
-				13
-			],
-			[
-				"research",
-				10
-			],
-			[
-				"however",
-				6
-			],
-			[
-				"social",
-				6
-			]
-		]
-	},
-	{
-		"index": 82,
-		"position": [
-			-119,
-			-75
-		],
-		"tokens": [
-			[
-				"social",
-				16
-			],
-			[
-				"research",
-				13
-			]
-		]
-	},
-	{
-		"index": 83,
-		"position": [
-			312,
-			-279
-		],
-		"tokens": [
-			[
-				"atheism",
-				37
-			]
-		]
-	},
-	{
-		"index": 84,
-		"position": [
-			-194,
-			-215
-		],
-		"tokens": [
-			[
-				"challenge",
-				23
-			]
-		]
-	},
-	{
-		"index": 85,
-		"position": [
-			-172,
-			-188
-		],
-		"tokens": [
-			[
-				"practical",
-				22
-			]
-		]
-	},
-	{
 		"index": 86,
 		"position": [
-			173,
-			194
+			-116,
+			327
 		],
 		"tokens": [
 			[
-				"world",
-				13
-			],
-			[
-				"multiple",
-				12
-			],
-			[
-				"global",
-				12
-			],
-			[
-				"volume",
-				12
-			],
-			[
-				"ground",
-				12
-			],
-			[
-				"discussion",
-				9
-			],
-			[
-				"study",
-				6
+				"belief",
+				10
 			]
 		]
 	},
 	{
 		"index": 87,
 		"position": [
-			136,
-			210
+			319,
+			222
 		],
 		"tokens": [
 			[
-				"multiple",
-				12
-			],
-			[
-				"global",
-				12
-			],
-			[
-				"volume",
-				12
-			],
-			[
-				"ground",
-				12
-			],
-			[
-				"world",
-				11
-			],
-			[
-				"discussion",
-				9
-			],
-			[
-				"study",
-				6
+				"group",
+				21
 			]
 		]
 	},
 	{
 		"index": 88,
 		"position": [
-			102,
-			191
+			-301,
+			-60
 		],
 		"tokens": [
 			[
-				"study",
-				6
+				"model",
+				23
+			],
+			[
+				"sustain",
+				22
+			],
+			[
+				"cognitive",
+				15
 			]
 		]
 	},
 	{
 		"index": 89,
 		"position": [
-			106,
-			158
+			258,
+			235
 		],
 		"tokens": [
 			[
-				"study",
-				6
+				"answer",
+				13
+			],
+			[
+				"belief",
+				12
 			]
 		]
 	},
 	{
 		"index": 90,
 		"position": [
-			67,
-			209
+			-194,
+			266
 		],
 		"tokens": [
 			[
-				"study",
-				6
+				"atheist",
+				27
+			],
+			[
+				"number",
+				12
+			],
+			[
+				"structured",
+				12
 			]
 		]
 	},
 	{
 		"index": 91,
 		"position": [
-			38,
-			193
+			-161,
+			278
 		],
 		"tokens": [
 			[
-				"family",
-				66
-			],
-			[
-				"member",
-				48
-			],
-			[
-				"atheist",
-				33
-			],
-			[
-				"relationship",
-				24
-			],
-			[
-				"support",
-				21
-			],
-			[
-				"experience",
-				18
-			],
-			[
-				"when",
-				18
-			],
-			[
-				"react",
+				"number",
 				15
-			],
-			[
-				"anger",
-				15
-			],
-			[
-				"inability",
-				15
-			],
-			[
-				"communicate",
-				15
-			],
-			[
-				"authenticity",
-				15
-			],
-			[
-				"adapt",
-				15
-			],
-			[
-				"disclosure",
-				15
-			],
-			[
-				"coded",
-				15
-			],
-			[
-				"unsupportive",
-				15
-			],
-			[
-				"supportive",
-				15
-			],
-			[
-				"lend",
-				15
-			],
-			[
-				"circumplex",
-				15
-			],
-			[
-				"functioning",
-				15
-			],
-			[
-				"effectively",
-				12
-			],
-			[
-				"feel",
-				12
-			],
-			[
-				"manage",
-				12
-			],
-			[
-				"tell",
-				12
-			],
-			[
-				"comment",
-				12
-			],
-			[
-				"reacting",
-				12
-			],
-			[
-				"communication",
-				12
-			],
-			[
-				"coming",
-				12
-			],
-			[
-				"continued",
-				12
-			],
-			[
-				"stigmatized",
-				12
-			],
-			[
-				"distrust",
-				12
-			],
-			[
-				"enjoy",
-				12
-			],
-			[
-				"either",
-				12
-			],
-			[
-				"familial",
-				12
-			],
-			[
-				"rejection",
-				12
-			],
-			[
-				"greater",
-				12
-			],
-			[
-				"nonbelief",
-				12
-			],
-			[
-				"outcome",
-				12
-			],
-			[
-				"america",
-				12
-			],
-			[
-				"acceptance",
-				12
-			],
-			[
-				"report",
-				12
-			],
-			[
-				"believe",
-				9
-			],
-			[
-				"model",
-				9
-			],
-			[
-				"find",
-				9
-			],
-			[
-				"qualitative",
-				9
-			],
-			[
-				"often",
-				9
-			],
-			[
-				"participant",
-				9
-			],
-			[
-				"however",
-				6
-			],
-			[
-				"group",
-				6
-			],
-			[
-				"study",
-				6
 			]
 		]
 	},
 	{
 		"index": 92,
 		"position": [
-			-238,
-			157
+			-349,
+			-167
 		],
 		"tokens": [
 			[
-				"morality",
-				90
+				"study",
+				22
 			],
 			[
-				"innate",
-				42
+				"framework",
+				19
 			],
 			[
-				"intuitive",
-				42
+				"question",
+				17
 			],
 			[
-				"immorality",
-				39
-			],
-			[
-				"atheist",
-				27
-			],
-			[
-				"lead",
-				24
-			],
-			[
-				"association",
-				21
-			],
-			[
-				"representative",
-				21
-			],
-			[
-				"prejudice",
-				21
-			],
-			[
-				"previous",
-				21
-			],
-			[
-				"view",
-				18
-			],
-			[
-				"moral",
-				18
-			],
-			[
-				"participant",
-				15
-			],
-			[
-				"nonreligious",
-				15
-			],
-			[
-				"root",
-				15
-			],
-			[
-				"wrong",
-				15
-			],
-			[
-				"primate",
-				15
-			],
-			[
-				"preverbal",
-				15
-			],
-			[
-				"infant",
-				15
-			],
-			[
-				"putatively",
-				15
-			],
-			[
-				"resilient",
-				15
-			],
-			[
-				"persisting",
-				15
-			],
-			[
-				"atheism",
-				14
-			],
-			[
-				"research",
-				14
-			],
-			[
-				"stem",
+				"anthropology",
 				12
 			],
 			[
-				"ultimate",
+				"regard",
 				12
-			],
-			[
-				"nonhuman",
-				12
-			],
-			[
-				"reducing",
-				12
-			],
-			[
-				"reduce",
-				12
-			],
-			[
-				"presenting",
-				12
-			],
-			[
-				"consistent",
-				12
-			],
-			[
-				"viewed",
-				12
-			],
-			[
-				"transgression",
-				12
-			],
-			[
-				"origin",
-				12
-			],
-			[
-				"target",
-				12
-			],
-			[
-				"right",
-				12
-			],
-			[
-				"frequent",
-				12
-			],
-			[
-				"distrust",
-				12
-			],
-			[
-				"learning",
-				12
-			],
-			[
-				"discrimination",
-				12
-			],
-			[
-				"perception",
-				12
-			],
-			[
-				"basis",
-				12
-			],
-			[
-				"quite",
-				12
-			],
-			[
-				"without",
-				12
-			],
-			[
-				"good",
-				12
-			],
-			[
-				"test",
-				12
-			],
-			[
-				"scientific",
-				12
-			],
-			[
-				"appear",
-				12
-			],
-			[
-				"face",
-				12
-			],
-			[
-				"part",
-				9
-			],
-			[
-				"evidence",
-				9
-			],
-			[
-				"anti",
-				9
-			],
-			[
-				"regarding",
-				9
-			],
-			[
-				"nature",
-				9
 			]
 		]
 	},
 	{
 		"index": 93,
 		"position": [
-			-226,
-			125
+			-315,
+			-158
 		],
 		"tokens": [
 			[
-				"atheist",
-				20
-			],
-			[
-				"prejudice",
-				18
-			],
-			[
-				"previous",
-				18
-			],
-			[
-				"nonreligious",
-				12
-			],
-			[
-				"face",
-				12
-			],
-			[
-				"evidence",
-				9
-			],
-			[
-				"less",
-				9
-			],
-			[
-				"thus",
-				9
-			],
-			[
-				"finding",
-				9
-			],
-			[
-				"however",
-				6
-			],
-			[
-				"study",
-				6
+				"question",
+				14
 			]
 		]
 	},
 	{
 		"index": 94,
 		"position": [
-			-286,
-			97
-		],
-		"tokens": [
-			[
-				"suggest",
-				9
-			]
-		]
-	},
-	{
-		"index": 95,
-		"position": [
-			-248,
-			98
-		],
-		"tokens": [
-			[
-				"atheist",
-				18
-			]
-		]
-	},
-	{
-		"index": 96,
-		"position": [
-			-216,
-			184
-		],
-		"tokens": [
-			[
-				"morality",
-				90
-			],
-			[
-				"innate",
-				42
-			],
-			[
-				"intuitive",
-				42
-			],
-			[
-				"immorality",
-				39
-			],
-			[
-				"atheist",
-				27
-			],
-			[
-				"lead",
-				24
-			],
-			[
-				"association",
-				21
-			],
-			[
-				"representative",
-				21
-			],
-			[
-				"prejudice",
-				21
-			],
-			[
-				"previous",
-				21
-			],
-			[
-				"view",
-				18
-			],
-			[
-				"moral",
-				18
-			],
-			[
-				"participant",
-				15
-			],
-			[
-				"nonreligious",
-				15
-			],
-			[
-				"root",
-				15
-			],
-			[
-				"wrong",
-				15
-			],
-			[
-				"primate",
-				15
-			],
-			[
-				"preverbal",
-				15
-			],
-			[
-				"infant",
-				15
-			],
-			[
-				"putatively",
-				15
-			],
-			[
-				"resilient",
-				15
-			],
-			[
-				"persisting",
-				15
-			],
-			[
-				"atheism",
-				14
-			],
-			[
-				"research",
-				14
-			],
-			[
-				"stem",
-				12
-			],
-			[
-				"ultimate",
-				12
-			],
-			[
-				"nonhuman",
-				12
-			],
-			[
-				"reducing",
-				12
-			],
-			[
-				"reduce",
-				12
-			],
-			[
-				"presenting",
-				12
-			],
-			[
-				"consistent",
-				12
-			],
-			[
-				"viewed",
-				12
-			],
-			[
-				"transgression",
-				12
-			],
-			[
-				"origin",
-				12
-			],
-			[
-				"target",
-				12
-			],
-			[
-				"right",
-				12
-			],
-			[
-				"frequent",
-				12
-			],
-			[
-				"distrust",
-				12
-			],
-			[
-				"learning",
-				12
-			],
-			[
-				"discrimination",
-				12
-			],
-			[
-				"perception",
-				12
-			],
-			[
-				"basis",
-				12
-			],
-			[
-				"quite",
-				12
-			],
-			[
-				"without",
-				12
-			],
-			[
-				"good",
-				12
-			],
-			[
-				"test",
-				12
-			],
-			[
-				"scientific",
-				12
-			],
-			[
-				"appear",
-				12
-			],
-			[
-				"face",
-				12
-			],
-			[
-				"part",
-				9
-			],
-			[
-				"evidence",
-				9
-			],
-			[
-				"anti",
-				9
-			],
-			[
-				"regarding",
-				9
-			],
-			[
-				"nature",
-				9
-			]
-		]
-	},
-	{
-		"index": 97,
-		"position": [
-			-192,
-			119
-		],
-		"tokens": [
-			[
-				"previous",
-				15
-			],
-			[
-				"nonreligious",
-				14
-			],
-			[
-				"finding",
-				9
-			]
-		]
-	},
-	{
-		"index": 98,
-		"position": [
-			-228,
-			217
-		],
-		"tokens": [
-			[
-				"nonreligious",
-				20
-			],
-			[
-				"previous",
-				18
-			],
-			[
-				"research",
-				14
-			]
-		]
-	},
-	{
-		"index": 99,
-		"position": [
-			-206,
-			243
-		],
-		"tokens": [
-			[
-				"research",
-				10
-			]
-		]
-	},
-	{
-		"index": 100,
-		"position": [
-			-91,
-			-342
-		],
-		"tokens": [
-			[
-				"atheist",
-				11
-			]
-		]
-	},
-	{
-		"index": 101,
-		"position": [
-			-375,
-			-48
-		],
-		"tokens": [
-			[
-				"group",
-				12
-			]
-		]
-	},
-	{
-		"index": 102,
-		"position": [
-			279,
-			-45
-		],
-		"tokens": [
-			[
-				"theoretical",
-				24
-			],
-			[
-				"approach",
-				12
-			],
-			[
-				"critique",
-				12
-			],
-			[
-				"review",
-				12
-			]
-		]
-	},
-	{
-		"index": 103,
-		"position": [
-			275,
-			-11
-		],
-		"tokens": [
-			[
-				"approach",
-				12
-			],
-			[
-				"critique",
-				12
-			],
-			[
-				"attention",
-				12
-			],
-			[
-				"scholar",
-				9
-			]
-		]
-	},
-	{
-		"index": 104,
-		"position": [
-			-162,
-			297
-		],
-		"tokens": [
-			[
-				"measuring",
-				39
-			],
-			[
-				"differentiating",
-				30
-			],
-			[
-				"religiosity",
-				27
-			],
-			[
-				"anti",
-				21
-			],
-			[
-				"different",
-				18
-			],
-			[
-				"egbert",
-				15
-			],
-			[
-				"ribberink",
-				15
-			],
-			[
-				"achterberg",
-				15
-			],
-			[
-				"dick",
-				15
-			],
-			[
-				"houtman",
-				15
-			],
-			[
-				"obstacle",
-				15
-			],
-			[
-				"overcame",
-				15
-			],
-			[
-				"elucidate",
-				15
-			],
-			[
-				"atheism",
-				12
-			],
-			[
-				"problematic",
-				12
-			],
-			[
-				"detail",
-				12
-			],
-			[
-				"produce",
-				12
-			],
-			[
-				"existing",
-				12
-			],
-			[
-				"call",
-				12
-			],
-			[
-				"phenomena",
-				12
-			],
-			[
-				"large",
-				9
-			],
-			[
-				"answer",
-				9
-			],
-			[
-				"nature",
-				9
-			],
-			[
-				"particular",
-				9
-			],
-			[
-				"scale",
-				9
-			],
-			[
-				"understand",
-				9
-			],
-			[
-				"recent",
-				9
-			],
-			[
-				"explore",
-				9
-			],
-			[
-				"using",
-				9
-			],
-			[
-				"survey",
-				6
-			],
-			[
-				"question",
-				6
-			],
-			[
-				"post",
-				6
-			],
-			[
-				"belief",
-				6
-			],
-			[
-				"research",
-				6
-			]
-		]
-	},
-	{
-		"index": 105,
-		"position": [
-			-139,
-			323
-		],
-		"tokens": [
-			[
-				"atheism",
-				14
-			],
-			[
-				"understand",
-				12
-			],
-			[
-				"research",
-				10
-			]
-		]
-	},
-	{
-		"index": 106,
-		"position": [
-			-183,
-			-252
-		],
-		"tokens": [
-			[
-				"challenge",
-				16
-			]
-		]
-	},
-	{
-		"index": 107,
-		"position": [
-			-115,
-			-411
+			-165,
+			376
 		],
 		"tokens": [
 			[
@@ -3644,53 +3483,36 @@
 		]
 	},
 	{
-		"index": 108,
+		"index": 95,
 		"position": [
-			-350,
-			69
+			-7,
+			397
 		],
 		"tokens": [
 			[
-				"nonreligious",
-				22
+				"historical",
+				9
 			]
 		]
 	},
 	{
-		"index": 109,
+		"index": 96,
 		"position": [
-			317,
-			-242
+			28,
+			407
 		],
 		"tokens": [
 			[
-				"atheism",
-				47
-			],
-			[
-				"study",
-				19
+				"post",
+				9
 			]
 		]
 	},
 	{
-		"index": 110,
+		"index": 97,
 		"position": [
-			-13,
-			-393
-		],
-		"tokens": [
-			[
-				"propose",
-				12
-			]
-		]
-	},
-	{
-		"index": 111,
-		"position": [
-			-33,
-			-360
+			-219,
+			294
 		],
 		"tokens": [
 			[
@@ -3708,23 +3530,10 @@
 		]
 	},
 	{
-		"index": 112,
+		"index": 98,
 		"position": [
-			-311,
-			63
-		],
-		"tokens": [
-			[
-				"life",
-				21
-			]
-		]
-	},
-	{
-		"index": 113,
-		"position": [
-			-236,
-			66
+			101,
+			211
 		],
 		"tokens": [
 			[
@@ -3774,57 +3583,23 @@
 		]
 	},
 	{
-		"index": 114,
+		"index": 99,
 		"position": [
-			-258,
-			39
-		],
-		"tokens": [
-			[
-				"social",
-				20
-			]
-		]
-	},
-	{
-		"index": 115,
-		"position": [
-			-19,
-			360
+			330,
+			-269
 		],
 		"tokens": [
 			[
 				"recent",
 				21
-			],
-			[
-				"study",
-				12
 			]
 		]
 	},
 	{
-		"index": 116,
+		"index": 100,
 		"position": [
-			-266,
-			272
-		],
-		"tokens": [
-			[
-				"affiliation",
-				24
-			],
-			[
-				"determine",
-				12
-			]
-		]
-	},
-	{
-		"index": 117,
-		"position": [
-			-25,
-			-249
+			-154,
+			153
 		],
 		"tokens": [
 			[
@@ -3954,56 +3729,74 @@
 		]
 	},
 	{
-		"index": 118,
+		"index": 101,
 		"position": [
-			-50,
-			383
+			-160,
+			119
 		],
 		"tokens": [
 			[
-				"recent",
+				"research",
 				12
+			],
+			[
+				"field",
+				9
 			]
 		]
 	},
 	{
-		"index": 119,
+		"index": 102,
 		"position": [
-			-321,
-			4
+			-193,
+			107
 		],
 		"tokens": [
 			[
-				"activity",
-				45
+				"research",
+				12
 			],
 			[
-				"sunday",
-				27
-			],
-			[
-				"secular",
-				26
-			],
-			[
-				"group",
-				24
-			],
-			[
-				"seek",
-				19
-			],
-			[
-				"among",
-				17
+				"field",
+				9
 			]
 		]
 	},
 	{
-		"index": 120,
+		"index": 103,
 		"position": [
-			-145,
-			81
+			-121,
+			165
+		],
+		"tokens": [
+			[
+				"study",
+				11
+			],
+			[
+				"research",
+				10
+			]
+		]
+	},
+	{
+		"index": 104,
+		"position": [
+			-95,
+			142
+		],
+		"tokens": [
+			[
+				"study",
+				9
+			]
+		]
+	},
+	{
+		"index": 105,
+		"position": [
+			36,
+			188
 		],
 		"tokens": [
 			[
@@ -4041,10 +3834,131 @@
 		]
 	},
 	{
-		"index": 121,
+		"index": 106,
 		"position": [
-			-292,
-			296
+			3,
+			177
+		],
+		"tokens": [
+			[
+				"health",
+				67
+			],
+			[
+				"importance",
+				16
+			],
+			[
+				"research",
+				15
+			]
+		]
+	},
+	{
+		"index": 107,
+		"position": [
+			42,
+			222
+		],
+		"tokens": [
+			[
+				"state",
+				31
+			],
+			[
+				"individual",
+				29
+			],
+			[
+				"united",
+				28
+			],
+			[
+				"nonreligious",
+				26
+			],
+			[
+				"minority",
+				22
+			],
+			[
+				"importance",
+				16
+			],
+			[
+				"atheist",
+				15
+			],
+			[
+				"relationship",
+				15
+			],
+			[
+				"using",
+				14
+			],
+			[
+				"show",
+				12
+			],
+			[
+				"first",
+				12
+			],
+			[
+				"attitude",
+				12
+			]
+		]
+	},
+	{
+		"index": 108,
+		"position": [
+			-17,
+			233
+		],
+		"tokens": [
+			[
+				"health",
+				34
+			],
+			[
+				"person",
+				24
+			]
+		]
+	},
+	{
+		"index": 109,
+		"position": [
+			-23,
+			199
+		],
+		"tokens": [
+			[
+				"health",
+				45
+			]
+		]
+	},
+	{
+		"index": 110,
+		"position": [
+			394,
+			-119
+		],
+		"tokens": [
+			[
+				"state",
+				9
+			]
+		]
+	},
+	{
+		"index": 111,
+		"position": [
+			373,
+			-88
 		],
 		"tokens": [
 			[
@@ -4062,100 +3976,23 @@
 		]
 	},
 	{
-		"index": 122,
+		"index": 112,
 		"position": [
-			-153,
-			-69
+			-62,
+			154
 		],
 		"tokens": [
 			[
-				"network",
-				23
-			],
-			[
-				"research",
-				13
+				"study",
+				9
 			]
 		]
 	},
 	{
-		"index": 123,
+		"index": 113,
 		"position": [
-			-180,
-			87
-		],
-		"tokens": [
-			[
-				"state",
-				29
-			],
-			[
-				"united",
-				25
-			],
-			[
-				"american",
-				21
-			],
-			[
-				"social",
-				16
-			],
-			[
-				"relationship",
-				15
-			],
-			[
-				"outcome",
-				12
-			],
-			[
-				"previous",
-				12
-			],
-			[
-				"nonreligious",
-				11
-			],
-			[
-				"using",
-				11
-			],
-			[
-				"importance",
-				9
-			],
-			[
-				"show",
-				9
-			],
-			[
-				"first",
-				9
-			],
-			[
-				"finding",
-				9
-			],
-			[
-				"life",
-				9
-			],
-			[
-				"data",
-				6
-			],
-			[
-				"survey",
-				6
-			]
-		]
-	},
-	{
-		"index": 124,
-		"position": [
-			-201,
-			60
+			75,
+			234
 		],
 		"tokens": [
 			[
@@ -4477,27 +4314,10 @@
 		]
 	},
 	{
-		"index": 125,
+		"index": 114,
 		"position": [
-			-245,
-			7
-		],
-		"tokens": [
-			[
-				"group",
-				16
-			],
-			[
-				"among",
-				12
-			]
-		]
-	},
-	{
-		"index": 126,
-		"position": [
-			86,
-			-109
+			-199,
+			73
 		],
 		"tokens": [
 			[
@@ -4747,10 +4567,10 @@
 		]
 	},
 	{
-		"index": 127,
+		"index": 115,
 		"position": [
-			196,
-			-243
+			-311,
+			-27
 		],
 		"tokens": [
 			[
@@ -5076,10 +4896,10 @@
 		]
 	},
 	{
-		"index": 128,
+		"index": 116,
 		"position": [
-			205,
-			-209
+			-287,
+			-1
 		],
 		"tokens": [
 			[
@@ -5405,10 +5225,10 @@
 		]
 	},
 	{
-		"index": 129,
+		"index": 117,
 		"position": [
-			163,
-			-252
+			-297,
+			32
 		],
 		"tokens": [
 			[

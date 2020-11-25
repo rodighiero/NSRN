@@ -26,6 +26,7 @@ const analysis = authors => {
     // Reduce authors
 
     const nodes = authors
+        .filter(a => a.text.length > 10)
 
     // Tokenizer
 
@@ -87,7 +88,7 @@ const analysis = authors => {
                 return tokens
             }, {})
 
-        // node.relevancy = Object.values(node.tokens).reduce((a, b) => a + b)
+        node.relevancy = Object.values(node.tokens).reduce((a, b) => a + b)
     })
 
     // Set links
@@ -176,33 +177,33 @@ const analysis = authors => {
 
     // const network = (nodes, links) => {
 
-        console.log('\nSimulation starts\n')
+    console.log('\nSimulation starts\n')
 
-        const simulation = d3.forceSimulation()
+    const simulation = d3.forceSimulation()
 
-        simulation
-            .force('charge', reuse.forceManyBodyReuse()
-                .strength(-1)
-            )
-            .force('collide', d3.forceCollide()
-                .radius(30)
-                .strength(.5)
-                .iterations(5)
-            )
-            .force('center', d3.forceCenter(0, 0))
+    simulation
+        .force('charge', reuse.forceManyBodyReuse()
+            .strength(-1)
+        )
+        .force('collide', d3.forceCollide()
+            .radius(30)
+            .strength(.5)
+            .iterations(5)
+        )
+        .force('center', d3.forceCenter(0, 0))
 
-        simulation
-            .nodes(nodes)
-            .force('link', d3.forceLink()
-                .id(d => d.id)
-                .strength(d => d.value)
-            )
-            .force('link').links(links)
+    simulation
+        .nodes(nodes)
+        .force('link', d3.forceLink()
+            .id(d => d.id)
+            .strength(d => d.value)
+        )
+        .force('link').links(links)
 
-        simulation
-            .on('end', () => {
-                afterSimulation(nodes, links)
-            })
+    simulation
+        .on('end', () => {
+            afterSimulation(nodes, links)
+        })
 
     // }
 

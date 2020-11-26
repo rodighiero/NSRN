@@ -31,7 +31,7 @@
     "remove-accents": "^0.4.2",
     "skmeans": "^0.11.3",
     "stopword": "^1.0.3",
-    "webpack": "^5.6.0",
+    "webpack": "^5.7.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },

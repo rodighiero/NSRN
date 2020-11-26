@@ -21,10 +21,16 @@ export default () => {
         const x = triplet.position[0]
         const y = triplet.position[1]
 
-        const scale = .015
         const text = new PIXI.BitmapText(token[0][0], { fontName: 'KeywordFont' })
         text.align = 'center'
-        text.scale.set(scale * token[0][1])
+        
+        const value = token[0][1]
+        const base = 15
+        const magnitude = .007
+        
+        // console.log(value, base, magnitude)
+        text.scale.set((value + base) * magnitude)
+        
         text.position.set(x - text.width / 2, y - text.height / 2)
 
         // Check overlapping

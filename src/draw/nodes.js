@@ -25,6 +25,7 @@ PIXI.BitmapFont.from('NodeFont', {
 export default () => {
 
     const stage = new PIXI.Graphics()
+    stage.alpha = 0
     s.pixi.addChild(stage)
 
     s.nodes.forEach(node => {

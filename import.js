@@ -60,7 +60,10 @@ const parse = (records) => {
     const authors = records.reduce((authors, record, i) => {
 
         const year = record['Year']
-        const text = `${record['Title']} ${record['Abstract']} `
+        let text = `${record['Title']} ${record['Abstract']} `
+        author.name.split(' ').forEach(segment => {
+            text.replaceAll(segment, ' ')
+        })
 
         const update = author => {
             author.docs++

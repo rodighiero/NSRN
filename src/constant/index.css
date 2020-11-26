@@ -27,7 +27,7 @@ canvas {
 	position: absolute;
 }
 
-a {
+a, input {
 	color: #c7d1c2;
 }
 

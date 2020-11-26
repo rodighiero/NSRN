@@ -55,7 +55,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['religion', 'religious', 'joel', 'peter']
+    const stopWords = []
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -75,7 +75,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 80
+    const max = 100
 
     nodes.forEach((node, i) => {
 
@@ -94,7 +94,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 10
+    const minCommonTokens = 3
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -183,7 +183,7 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-1)
+            .strength(10)
         )
         .force('collide', d3.forceCollide()
             .radius(30)

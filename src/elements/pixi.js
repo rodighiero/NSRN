@@ -73,7 +73,7 @@ export default (arialXML) => {
     s.pixi.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children[2].alpha = zoomOut(scale) // Contours
-        // e.viewport.children[3].alpha = zoomIn(scale) // Nodes
+        e.viewport.children[3].alpha = zoomIn(scale) // Nodes
         e.viewport.children[4].alpha = zoomIn(scale) // Close Keywords
         e.viewport.children[5].alpha = zoomOut(scale) // Distant Keywords
     })

@@ -30,11 +30,13 @@ const analysis = authors => {
 
     // Tokenizer
 
-    const tokenizer = new natural.WordTokenizer()
+    // const tokenizer = new natural.WordTokenizer()
+    const tokenizer = new natural.RegexpTokenizer({pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i})
 
     nodes.forEach((node, i) => {
         console.log('Tokenizing author #', i)
-        node.tokens = tokenizer.tokenize(node.text.toLowerCase())
+        const text = node.text.toLowerCase()
+        node.tokens = tokenizer.tokenize(text)
         delete node.text
     })
 

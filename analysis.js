@@ -57,7 +57,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = []
+    const stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)

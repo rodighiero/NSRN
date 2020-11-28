@@ -1,15 +1,10 @@
 import * as PIXI from 'pixi.js'
 
-PIXI.BitmapFont.from('TripletFont', {
-    fontFamily: 'Arial',
-    fontSize: 24,
-    fill: 0x636d60,
-})
-
 export default () => {
 
     const stage = new PIXI.Graphics()
     stage.alpha = 0
+    stage.name = 'keywords_close'
     stage.interactiveChildren = false
     s.pixi.addChild(stage)
 
@@ -25,9 +20,16 @@ export default () => {
 
         tokens.forEach(([key, value], i) => {
 
+            const text = new PIXI.BitmapText(
+                key,
+                {
+                    fontName: 'Arial',
+                    fontSize: '24',
+                    fill: 0x636d60,
+                    align: 'center',
+                })
+
             const scale = .16   
-            const text = new PIXI.BitmapText(key, { fontName: 'TripletFont' })
-            text.align = 'center'
             text.scale.set(scale)
             text.position.set(x - text.width / 2, y - offsetY + lineHeight * i)
             stage.addChild(text)

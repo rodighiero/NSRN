@@ -3,7 +3,7 @@
        <info aa='1' size='50' smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='Arial'/>
        <common scaleW='512' packed='0' pages='1' lineHeight='58' scaleH='448' base='48'/>
        <pages>
-            <page id='0' file='Arial.png'/>
+            <page id='0' file='arial.png'/>
        </pages>
         <chars count='190'>
             <char xadvance='14' x='42' chnl='0' yoffset='46' y='278' xoffset='0' id='32' page='0' height='0' width='0'/>

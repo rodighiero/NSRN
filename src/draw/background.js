@@ -22,7 +22,8 @@ export default () => {
     context.fillRect(0, 0, canvas.width, canvas.height)
 
     let texture = PIXI.Texture.from(canvas)
-    let sprite = new PIXI.Sprite(texture)
+    const sprite = new PIXI.Sprite(texture)
+    sprite.name = 'background'
     sprite.width = size
     sprite.height = size
     sprite.position = new PIXI.Point(-size / 2, -size / 2)

@@ -16,16 +16,12 @@ const color = {
     off: 0xc7d1c2,
 }
 
-PIXI.BitmapFont.from('NodeFont', {
-    fontFamily: 'Arial',
-    fontSize: 21,
-    fill: color.off,
-})
 
 export default () => {
 
     const stage = new PIXI.Graphics()
     stage.alpha = 0
+    stage.name = 'nodes'
     s.pixi.addChild(stage)
 
     s.nodes.forEach(node => {
@@ -42,7 +38,7 @@ export default () => {
         node.circle.position = new PIXI.Point(node.x, node.y)
         node.circle.hitArea = new PIXI.Circle(0, 0, s.distance)
         node.circle.interactive = true
-        
+
         stage.addChild(node.circle)
 
         // Label
@@ -50,11 +46,18 @@ export default () => {
         const scale = .2
         const [nA, nB] = splitInTwo(node.name)
 
-        node.text = new PIXI.BitmapText(`${nA}\n${nB}`, { fontName: 'NodeFont' })
+        node.text = new PIXI.BitmapText(
+            `${nA}\n${nB}`,
+            {
+                fontName: 'Arial',
+                fontSize: '21',
+                fill: color.off,
+                align: 'center',
+            })
+
         node.text.scale.set(scale)
-        node.text.align = 'center'
         node.text.position.set(node.x - node.text.width / 2, node.y + size + 2)
-        
+
         stage.addChild(node.text)
 
         // Set information panel & set on circles
@@ -73,9 +76,9 @@ export default () => {
         node.circle.mouseout = mouseData => {
             mouseout(node)
             s.nodes.forEach(node => {
-                    node.circle.tint = color.off
-                    node.text.tint = color.off
-                })
+                node.circle.tint = color.off
+                node.text.tint = color.off
+            })
         }
 
     })

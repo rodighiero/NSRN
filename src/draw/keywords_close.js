@@ -24,8 +24,8 @@ export default () => {
                 key,
                 {
                     fontName: 'Arial',
-                    fontSize: '24',
-                    fill: 0x636d60,
+                    fontSize: '28',
+                    tint: 0x666666,
                     align: 'center',
                 })
 

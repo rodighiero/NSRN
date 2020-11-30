@@ -57,7 +57,8 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will']
+    let stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will']
+    // stopWords = stopWords.concat(['religion', 'religious', 'atheist', 'atheism'])
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -185,7 +186,7 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(10)
+            .strength(-10)
         )
         .force('collide', d3.forceCollide()
             .radius(30)

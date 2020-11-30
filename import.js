@@ -42,10 +42,18 @@ const parse = (records) => {
                 gender: record['Gender A' + a],
             }
 
+            // Remove names from text
+            if (record['Author ' + a])
+                record['Author ' + a].split(' ').forEach(segment => {
+                    record['Abstract'] = record['Abstract'].replaceAll(segment, ' ')
+                })
+
+            // Remove unuseful fields
             delete record['Author ' + a]
             delete record['Affiliation A' + a]
             delete record['Country A' + a]
             delete record['Gender A' + a]
+
 
             record.authors.push(obj)
 
@@ -61,9 +69,6 @@ const parse = (records) => {
 
         const year = record['Year']
         let text = `${record['Title']} ${record['Abstract']} `
-        author.name.split(' ').forEach(segment => {
-            text.replaceAll(segment, ' ')
-        })
 
         const update = author => {
             author.docs++

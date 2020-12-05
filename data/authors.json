@@ -3649,5 +3649,23 @@
 			"Hannah Smothers"
 		],
 		"id": 190
+	},
+	{
+		"name": "Rebecca Banham",
+		"affiliation": "University of Tasmania",
+		"country": "Australia",
+		"gender": "F",
+		"docs": 1,
+		"peers": [
+			191
+		],
+		"text": "Forest Experiences as Nonreligious ‘Frame of Reference’ In this blog,     explores how experiences in forests can help shape nonreligious understandings of a person’s place in the world. ",
+		"years": {
+			"2020": 1
+		},
+		"variants": [
+			"Rebecca Banham"
+		],
+		"id": 191
 	}
 ]

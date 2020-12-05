@@ -20,8 +20,6 @@ fs.createReadStream('./data/metadata.csv').pipe(csv())
 
 const parse = (records) => {
 
-    // Filtering and inversion
-
     records.forEach(record => {
 
         record.authors = []
@@ -70,9 +68,12 @@ const parse = (records) => {
         const year = record['Year']
         let text = `${record['Title']} ${record['Abstract']} `
 
+        console.log()
+
         const update = author => {
             author.docs++
             author.text += text
+            author.affiliation = author.affiliation
             if (author.years[year])
                 (author.years[year])++
             else
@@ -83,6 +84,7 @@ const parse = (records) => {
             author.docs = 1
             author.peers = []
             author.text = text
+            author.affiliation = author.affiliation
             author.years = { [year]: 1 }
             author.variants = [author.name]
             authors.push(author)
@@ -90,12 +92,14 @@ const parse = (records) => {
 
         record.authors.forEach(author => {
 
+            // console.log(author.affiliation)
+
             const same = authors.find(same => same.name === author.name)
             if (same) {
-                console.log('update')
+                // console.log('update')
                 update(same)
             } else {
-                console.log('add')
+                // console.log('add')
                 add(author)
             }
 

@@ -81,8 +81,8 @@
 		},
 		"relevancy": 528,
 		"index": 0,
-		"x": 354,
-		"y": -124
+		"x": 349,
+		"y": 35
 	},
 	{
 		"name": "Abby Day",
@@ -166,8 +166,8 @@
 		},
 		"relevancy": 392,
 		"index": 1,
-		"x": -43,
-		"y": 45
+		"x": -46,
+		"y": -54
 	},
 	{
 		"name": "Miguel Farias",
@@ -249,8 +249,8 @@
 		},
 		"relevancy": 336,
 		"index": 2,
-		"x": 303,
-		"y": 77
+		"x": 332,
+		"y": 94
 	},
 	{
 		"name": "Nicholas Gibson",
@@ -334,8 +334,8 @@
 		},
 		"relevancy": 288,
 		"index": 3,
-		"x": 361,
-		"y": 92
+		"x": 372,
+		"y": 139
 	},
 	{
 		"name": "Claire White",
@@ -419,8 +419,8 @@
 		},
 		"relevancy": 288,
 		"index": 4,
-		"x": 387,
-		"y": -9
+		"x": 390,
+		"y": 79
 	},
 	{
 		"name": "Stacey Gutkowski",
@@ -504,8 +504,8 @@
 		},
 		"relevancy": 530,
 		"index": 5,
-		"x": -202,
-		"y": -261
+		"x": -180,
+		"y": -272
 	},
 	{
 		"name": "Kim Knott",
@@ -587,8 +587,8 @@
 		},
 		"relevancy": 323,
 		"index": 6,
-		"x": -175,
-		"y": -42
+		"x": -188,
+		"y": 4
 	},
 	{
 		"name": "Jonathan A. Lanman",
@@ -639,16 +639,16 @@
 			"approach": 8,
 			"construction": 8,
 			"constructed": 8,
-			"help": 7,
 			"possible": 7,
 			"insight": 7,
+			"help": 7,
 			"interest": 7,
 			"answer": 7,
 			"study": 7,
 			"particular": 7,
 			"religious": 6,
-			"level": 6,
 			"religion": 6,
+			"level": 6,
 			"term": 6,
 			"whether": 6,
 			"research": 6,
@@ -671,8 +671,8 @@
 		},
 		"relevancy": 581,
 		"index": 7,
-		"x": 90,
-		"y": 72
+		"x": 80,
+		"y": 49
 	},
 	{
 		"name": "Björn Mastiaux",
@@ -756,8 +756,8 @@
 		},
 		"relevancy": 618,
 		"index": 8,
-		"x": 0,
-		"y": -60
+		"x": 57,
+		"y": -50
 	},
 	{
 		"name": "Sven Oelsner",
@@ -839,8 +839,8 @@
 		},
 		"relevancy": 433,
 		"index": 9,
-		"x": -21,
-		"y": 369
+		"x": 334,
+		"y": 256
 	},
 	{
 		"name": "Stratos Patrikios",
@@ -922,8 +922,8 @@
 		},
 		"relevancy": 314,
 		"index": 10,
-		"x": -186,
-		"y": -145
+		"x": -70,
+		"y": -228
 	},
 	{
 		"name": "Marjan Smrke",
@@ -1005,8 +1005,8 @@
 		},
 		"relevancy": 440,
 		"index": 11,
-		"x": 260,
-		"y": 119
+		"x": 274,
+		"y": 108
 	},
 	{
 		"name": "Steven Sutcliffe",
@@ -1088,8 +1088,8 @@
 		},
 		"relevancy": 376,
 		"index": 12,
-		"x": -292,
-		"y": -28
+		"x": -264,
+		"y": -136
 	},
 	{
 		"name": "Teemu Taira",
@@ -1171,8 +1171,8 @@
 		},
 		"relevancy": 392,
 		"index": 13,
-		"x": 330,
-		"y": -24
+		"x": 366,
+		"y": -23
 	},
 	{
 		"name": "Thomas Zenk",
@@ -1210,13 +1210,13 @@
 			"judaism": 5,
 			"pagan": 5,
 			"fundamentalism": 5,
-			"frame": 5,
 			"returned": 5,
 			"dennett": 5,
 			"widely": 5,
 			"berlin": 5,
 			"german": 5,
 			"interpreted": 5,
+			"frame": 5,
 			"traced": 5,
 			"enlightenment": 5,
 			"voice": 5,
@@ -1254,8 +1254,8 @@
 		},
 		"relevancy": 346,
 		"index": 14,
-		"x": -351,
-		"y": -21
+		"x": -355,
+		"y": -58
 	},
 	{
 		"name": "Katie Aston",
@@ -1337,8 +1337,8 @@
 		},
 		"relevancy": 404,
 		"index": 15,
-		"x": -269,
-		"y": -83
+		"x": -309,
+		"y": -97
 	},
 	{
 		"name": "Steph Berns",
@@ -1406,8 +1406,8 @@
 			"work": 3,
 			"examine": 3,
 			"different": 3,
-			"explore": 3,
 			"cultural": 3,
+			"explore": 3,
 			"person": 2,
 			"research": 2,
 			"religion": 2,
@@ -1415,8 +1415,8 @@
 		},
 		"relevancy": 307,
 		"index": 16,
-		"x": -34,
-		"y": 254
+		"x": -113,
+		"y": 140
 	},
 	{
 		"name": "Stephen Bullivant",
@@ -1439,7 +1439,7 @@
 		"id": 18,
 		"tokens": {
 			"commitment": 38,
-			"lack": 20,
+			"lack": 21,
 			"definition": 18,
 			"atheism": 15,
 			"already": 13,
@@ -1499,10 +1499,10 @@
 			"regular": 5,
 			"located": 5
 		},
-		"relevancy": 457,
+		"relevancy": 458,
 		"index": 17,
-		"x": -315,
-		"y": 26
+		"x": -334,
+		"y": 63
 	},
 	{
 		"name": "Rebecca Catto",
@@ -1587,8 +1587,8 @@
 		},
 		"relevancy": 490,
 		"index": 18,
-		"x": -256,
-		"y": 20
+		"x": -300,
+		"y": -35
 	},
 	{
 		"name": "Janet Betty Eccles",
@@ -1672,8 +1672,8 @@
 		},
 		"relevancy": 474,
 		"index": 19,
-		"x": -278,
-		"y": 76
+		"x": -345,
+		"y": 4
 	},
 	{
 		"name": "Chris Cotter",
@@ -1756,8 +1756,8 @@
 		},
 		"relevancy": 372,
 		"index": 20,
-		"x": -233,
-		"y": -35
+		"x": -244,
+		"y": -16
 	},
 	{
 		"name": "Ryan T. Cragun",
@@ -1808,8 +1808,8 @@
 			"gender": 14,
 			"secularism": 14,
 			"experiencing": 14,
-			"person": 14,
 			"interest": 14,
+			"person": 14,
 			"minority": 13,
 			"research": 13,
 			"date": 12,
@@ -1827,9 +1827,9 @@
 			"chapter": 10,
 			"hegemony": 10,
 			"homosexual": 10,
-			"member": 9,
 			"religion": 9,
 			"pro-religion": 9,
+			"member": 9,
 			"series": 9,
 			"predominantly": 9,
 			"deviant": 9,
@@ -1850,8 +1850,8 @@
 		},
 		"relevancy": 814,
 		"index": 21,
-		"x": 64,
-		"y": -39
+		"x": 97,
+		"y": -7
 	},
 	{
 		"name": "Matthew Engelke",
@@ -1933,8 +1933,8 @@
 		},
 		"relevancy": 287,
 		"index": 22,
-		"x": -245,
-		"y": -138
+		"x": -172,
+		"y": -212
 	},
 	{
 		"name": "Katharina Goetze",
@@ -2016,8 +2016,8 @@
 		},
 		"relevancy": 321,
 		"index": 23,
-		"x": -258,
-		"y": -241
+		"x": -281,
+		"y": -211
 	},
 	{
 		"name": "Lois Lee",
@@ -2042,7 +2042,7 @@
 			"existential": 34,
 			"nonreligion": 23,
 			"glossary": 21,
-			"term": 17,
+			"term": 18,
 			"nonreligious": 17,
 			"theory": 16,
 			"culture": 12,
@@ -2100,10 +2100,10 @@
 			"modernization": 6,
 			"decline": 6
 		},
-		"relevancy": 517,
+		"relevancy": 518,
 		"index": 24,
-		"x": -9,
-		"y": 94
+		"x": -67,
+		"y": 100
 	},
 	{
 		"name": "Patrick McKearney",
@@ -2185,8 +2185,8 @@
 		},
 		"relevancy": 370,
 		"index": 25,
-		"x": -221,
-		"y": -193
+		"x": -125,
+		"y": -249
 	},
 	{
 		"name": "Sarah Jane-Page",
@@ -2268,8 +2268,8 @@
 		},
 		"relevancy": 406,
 		"index": 26,
-		"x": 365,
-		"y": -280
+		"x": 367,
+		"y": -241
 	},
 	{
 		"name": "Johannes Quack",
@@ -2352,8 +2352,8 @@
 		},
 		"relevancy": 455,
 		"index": 27,
-		"x": 85,
-		"y": 284
+		"x": -45,
+		"y": 305
 	},
 	{
 		"name": "Lydia Reid",
@@ -2435,8 +2435,8 @@
 		},
 		"relevancy": 299,
 		"index": 28,
-		"x": -66,
-		"y": -321
+		"x": 45,
+		"y": -306
 	},
 	{
 		"name": "Leo Schlöndorff",
@@ -2456,8 +2456,8 @@
 		"id": 30,
 		"tokens": {
 			"apocalypse": 33,
-			"world": 16,
 			"secularized": 15,
+			"world": 15,
 			"catch": 11,
 			"complete": 11,
 			"happen": 10,
@@ -2516,10 +2516,10 @@
 			"thinking": 4,
 			"once": 4
 		},
-		"relevancy": 394,
+		"relevancy": 393,
 		"index": 29,
-		"x": 37,
-		"y": 403
+		"x": 29,
+		"y": 400
 	},
 	{
 		"name": "Matt Sheard",
@@ -2602,8 +2602,8 @@
 		},
 		"relevancy": 515,
 		"index": 30,
-		"x": 172,
-		"y": 202
+		"x": 160,
+		"y": 135
 	},
 	{
 		"name": "Ruth Sheldon",
@@ -2650,7 +2650,7 @@
 			"othered": 6,
 			"deepen": 6,
 			"heterogeneous": 6,
-			"explore": 6,
+			"explore": 5,
 			"context": 5,
 			"contemporary": 5,
 			"portrayed": 5,
@@ -2684,10 +2684,10 @@
 			"relate": 4,
 			"sense": 4
 		},
-		"relevancy": 378,
+		"relevancy": 377,
 		"index": 31,
-		"x": 338,
-		"y": -182
+		"x": 339,
+		"y": -124
 	},
 	{
 		"name": "Marian Burchardt",
@@ -2720,12 +2720,12 @@
 			"given": 7,
 			"secular": 6,
 			"practice": 6,
-			"world": 5,
 			"designated": 5,
 			"encompassing": 5,
 			"deploy": 5,
 			"differentiation": 5,
 			"ahistorically": 5,
+			"world": 5,
 			"treat": 5,
 			"break": 5,
 			"hitherto": 5,
@@ -2773,8 +2773,8 @@
 		},
 		"relevancy": 306,
 		"index": 32,
-		"x": -274,
-		"y": 240
+		"x": -267,
+		"y": 142
 	},
 	{
 		"name": "Cora Schuh",
@@ -2843,8 +2843,8 @@
 		},
 		"relevancy": 208,
 		"index": 33,
-		"x": -138,
-		"y": 164
+		"x": -223,
+		"y": 102
 	},
 	{
 		"name": "Joseph H. Hammer",
@@ -2930,8 +2930,8 @@
 		},
 		"relevancy": 348,
 		"index": 34,
-		"x": 159,
-		"y": -68
+		"x": 210,
+		"y": -36
 	},
 	{
 		"name": "Stephen M. Merino",
@@ -3013,8 +3013,8 @@
 		},
 		"relevancy": 381,
 		"index": 35,
-		"x": 104,
-		"y": -83
+		"x": 4,
+		"y": -33
 	},
 	{
 		"name": "Christopher Smith",
@@ -3099,8 +3099,8 @@
 		},
 		"relevancy": 416,
 		"index": 36,
-		"x": 11,
-		"y": -232
+		"x": -16,
+		"y": -206
 	},
 	{
 		"name": "Richard Cimino",
@@ -3185,8 +3185,8 @@
 		},
 		"relevancy": 416,
 		"index": 37,
-		"x": -86,
-		"y": -266
+		"x": -16,
+		"y": -265
 	},
 	{
 		"name": "Lawton K. Swan",
@@ -3269,8 +3269,8 @@
 		},
 		"relevancy": 324,
 		"index": 38,
-		"x": 219,
-		"y": -210
+		"x": 324,
+		"y": -66
 	},
 	{
 		"name": "Martin Heesacker",
@@ -3353,8 +3353,8 @@
 		},
 		"relevancy": 324,
 		"index": 39,
-		"x": 238,
-		"y": -154
+		"x": 282,
+		"y": -109
 	},
 	{
 		"name": "Karen Hwang",
@@ -3439,8 +3439,8 @@
 		},
 		"relevancy": 284,
 		"index": 40,
-		"x": 83,
-		"y": -138
+		"x": 183,
+		"y": -135
 	},
 	{
 		"name": "Jesse M. Smith",
@@ -3529,8 +3529,8 @@
 		},
 		"relevancy": 388,
 		"index": 41,
-		"x": 110,
-		"y": -191
+		"x": 196,
+		"y": -192
 	},
 	{
 		"name": "Claude M. J. Braun",
@@ -3612,8 +3612,8 @@
 		},
 		"relevancy": 356,
 		"index": 42,
-		"x": 287,
-		"y": 235
+		"x": 314,
+		"y": 153
 	},
 	{
 		"name": "Justin Didyoung",
@@ -3697,8 +3697,8 @@
 		},
 		"relevancy": 362,
 		"index": 43,
-		"x": 153,
-		"y": -307
+		"x": 310,
+		"y": -225
 	},
 	{
 		"name": "Eric Charles",
@@ -3782,8 +3782,8 @@
 		},
 		"relevancy": 362,
 		"index": 44,
-		"x": 135,
-		"y": -245
+		"x": 252,
+		"y": -210
 	},
 	{
 		"name": "Nicholas James Rowland",
@@ -3867,8 +3867,8 @@
 		},
 		"relevancy": 362,
 		"index": 45,
-		"x": 95,
-		"y": -296
+		"x": 205,
+		"y": -251
 	},
 	{
 		"name": "Ingrid Storm",
@@ -3914,8 +3914,8 @@
 			"individual": 5,
 			"interviewed": 5,
 			"strong": 5,
-			"person": 5,
 			"group": 5,
+			"person": 5,
 			"actually": 4,
 			"majority": 4,
 			"small": 4,
@@ -3942,16 +3942,16 @@
 			"become": 3,
 			"focus": 3,
 			"moral": 3,
-			"member": 3,
 			"religion": 3,
+			"member": 3,
 			"debate": 3,
 			"public": 3,
-			"experience": 3
+			"term": 3
 		},
 		"relevancy": 322,
 		"index": 46,
-		"x": 50,
-		"y": -187
+		"x": 91,
+		"y": -215
 	},
 	{
 		"name": "Rebecca D. Stinson",
@@ -4034,8 +4034,8 @@
 		},
 		"relevancy": 237,
 		"index": 47,
-		"x": 216,
-		"y": 161
+		"x": 83,
+		"y": 202
 	},
 	{
 		"name": "Kathleen M. Goodman",
@@ -4118,8 +4118,8 @@
 		},
 		"relevancy": 237,
 		"index": 48,
-		"x": 189,
-		"y": 46
+		"x": 141,
+		"y": 191
 	},
 	{
 		"name": "Charles Bermingham",
@@ -4202,8 +4202,8 @@
 		},
 		"relevancy": 237,
 		"index": 49,
-		"x": 160,
-		"y": 145
+		"x": 119,
+		"y": 91
 	},
 	{
 		"name": "Saba R. Ali",
@@ -4286,8 +4286,8 @@
 		},
 		"relevancy": 237,
 		"index": 50,
-		"x": 146,
-		"y": 88
+		"x": 103,
+		"y": 147
 	},
 	{
 		"name": "Steven Kettell",
@@ -4355,8 +4355,8 @@
 		},
 		"relevancy": 213,
 		"index": 51,
-		"x": -12,
-		"y": 310
+		"x": -85,
+		"y": 349
 	},
 	{
 		"name": "Ariela Keysar",
@@ -4438,8 +4438,8 @@
 		},
 		"relevancy": 279,
 		"index": 52,
-		"x": -127,
-		"y": -152
+		"x": 58,
+		"y": -107
 	},
 	{
 		"name": "Christopher Hassall",
@@ -4522,8 +4522,8 @@
 		},
 		"relevancy": 302,
 		"index": 53,
-		"x": 229,
-		"y": 218
+		"x": 179,
+		"y": 237
 	},
 	{
 		"name": "Ian Bushfield",
@@ -4608,8 +4608,8 @@
 		},
 		"relevancy": 480,
 		"index": 54,
-		"x": 98,
-		"y": 342
+		"x": 173,
+		"y": 395
 	},
 	{
 		"name": "Monika Wohlrab-Sahr",
@@ -4667,8 +4667,8 @@
 		},
 		"relevancy": 147,
 		"index": 55,
-		"x": -174,
-		"y": 277
+		"x": -194,
+		"y": 225
 	},
 	{
 		"name": "Matthias Middell",
@@ -4726,8 +4726,8 @@
 		},
 		"relevancy": 147,
 		"index": 56,
-		"x": -215,
-		"y": 231
+		"x": -234,
+		"y": 269
 	},
 	{
 		"name": "Michael Rectenwald",
@@ -4786,8 +4786,8 @@
 		},
 		"relevancy": 138,
 		"index": 57,
-		"x": -116,
-		"y": 264
+		"x": -177,
+		"y": 287
 	},
 	{
 		"name": "Rochelle Almeida",
@@ -4846,8 +4846,8 @@
 		},
 		"relevancy": 138,
 		"index": 58,
-		"x": -71,
-		"y": 303
+		"x": -118,
+		"y": 300
 	},
 	{
 		"name": "George Levine",
@@ -4906,8 +4906,8 @@
 		},
 		"relevancy": 138,
 		"index": 59,
-		"x": -157,
-		"y": 220
+		"x": -137,
+		"y": 243
 	},
 	{
 		"name": "Kevin J. Zimmerman",
@@ -4980,8 +4980,8 @@
 		},
 		"relevancy": 241,
 		"index": 60,
-		"x": 75,
-		"y": -398
+		"x": 161,
+		"y": -291
 	},
 	{
 		"name": "Kevin Simonson",
@@ -5054,8 +5054,8 @@
 		},
 		"relevancy": 241,
 		"index": 61,
-		"x": 16,
-		"y": -386
+		"x": 116,
+		"y": -330
 	},
 	{
 		"name": "W. Benjamin Myers",
@@ -5128,8 +5128,8 @@
 		},
 		"relevancy": 241,
 		"index": 62,
-		"x": 56,
-		"y": -341
+		"x": 173,
+		"y": -350
 	},
 	{
 		"name": "Tommy L. Mudd",
@@ -5214,8 +5214,8 @@
 		},
 		"relevancy": 320,
 		"index": 63,
-		"x": 198,
-		"y": -111
+		"x": 169,
+		"y": -78
 	},
 	{
 		"name": "Maxine B. Najle",
@@ -5300,8 +5300,8 @@
 		},
 		"relevancy": 320,
 		"index": 64,
-		"x": 215,
-		"y": -54
+		"x": 225,
+		"y": -93
 	},
 	{
 		"name": "Ben K. L. Ng",
@@ -5386,8 +5386,8 @@
 		},
 		"relevancy": 320,
 		"index": 65,
-		"x": 256,
-		"y": -97
+		"x": 267,
+		"y": -51
 	},
 	{
 		"name": "Will Gervais",
@@ -5473,8 +5473,8 @@
 		},
 		"relevancy": 382,
 		"index": 66,
-		"x": 272,
-		"y": -39
+		"x": 251,
+		"y": 7
 	},
 	{
 		"name": "Marcus Mann",
@@ -5556,8 +5556,8 @@
 		},
 		"relevancy": 369,
 		"index": 67,
-		"x": -48,
-		"y": -222
+		"x": 85,
+		"y": -157
 	},
 	{
 		"name": "Dusty Hoesly",
@@ -5639,8 +5639,8 @@
 		},
 		"relevancy": 436,
 		"index": 68,
-		"x": 28,
-		"y": -445
+		"x": 53,
+		"y": -430
 	},
 	{
 		"name": "Derek Anderson",
@@ -5718,8 +5718,8 @@
 		},
 		"relevancy": 260,
 		"index": 69,
-		"x": 203,
-		"y": 103
+		"x": 194,
+		"y": 21
 	},
 	{
 		"name": "Henrik Ohlsson",
@@ -5759,8 +5759,8 @@
 		},
 		"relevancy": 73,
 		"index": 70,
-		"x": -247,
-		"y": -301
+		"x": -184,
+		"y": -331
 	},
 	{
 		"name": "Kyle Thompson",
@@ -5793,9 +5793,9 @@
 			"viewed": 4,
 			"comparison": 4,
 			"america": 4,
-			"help": 4,
 			"anti-atheist": 4,
 			"atheist": 4,
+			"help": 4,
 			"worldview": 3,
 			"including": 3,
 			"even": 3,
@@ -5808,8 +5808,8 @@
 		},
 		"relevancy": 110,
 		"index": 71,
-		"x": 371,
-		"y": -67
+		"x": 407,
+		"y": 20
 	},
 	{
 		"name": "Elisa Järnefelt",
@@ -5878,11 +5878,11 @@
 			"along": 5,
 			"implicit": 4,
 			"ssnb": 4,
-			"shape": 4,
 			"critique": 4,
 			"illuminate": 4,
 			"previously": 4,
 			"review": 4,
+			"shape": 4,
 			"placed": 4,
 			"sustain": 4,
 			"researching": 4,
@@ -5892,8 +5892,8 @@
 		},
 		"relevancy": 362,
 		"index": 72,
-		"x": -140,
-		"y": 6
+		"x": -143,
+		"y": -35
 	},
 	{
 		"name": "Tim Hutchings",
@@ -5945,11 +5945,11 @@
 			"express": 5,
 			"invitation": 5,
 			"resource": 5,
-			"reference": 5,
 			"outline": 5,
 			"introduction": 5,
 			"religion": 5,
 			"norm": 5,
+			"reference": 5,
 			"ssnb": 4,
 			"construct": 4,
 			"know": 4,
@@ -5976,8 +5976,8 @@
 		},
 		"relevancy": 393,
 		"index": 73,
-		"x": -161,
-		"y": 61
+		"x": -199,
+		"y": -55
 	},
 	{
 		"name": "Egbert Ribberink",
@@ -6029,8 +6029,8 @@
 		},
 		"relevancy": 99,
 		"index": 74,
-		"x": 274,
-		"y": 177
+		"x": 98,
+		"y": 303
 	},
 	{
 		"name": "Peter Achterberg",
@@ -6082,8 +6082,8 @@
 		},
 		"relevancy": 99,
 		"index": 75,
-		"x": 317,
-		"y": 134
+		"x": 136,
+		"y": 348
 	},
 	{
 		"name": "Dick Houtman",
@@ -6135,8 +6135,8 @@
 		},
 		"relevancy": 99,
 		"index": 76,
-		"x": 345,
-		"y": 34
+		"x": 216,
+		"y": 283
 	},
 	{
 		"name": "Marta Trzebiatowska",
@@ -6219,8 +6219,8 @@
 		},
 		"relevancy": 399,
 		"index": 77,
-		"x": -41,
-		"y": 195
+		"x": -78,
+		"y": 256
 	},
 	{
 		"name": "Valerie van Mulukom",
@@ -6261,8 +6261,8 @@
 		},
 		"relevancy": 97,
 		"index": 78,
-		"x": -125,
-		"y": -312
+		"x": -128,
+		"y": -309
 	},
 	{
 		"name": "Samantha May",
@@ -6315,8 +6315,8 @@
 		},
 		"relevancy": 128,
 		"index": 79,
-		"x": -128,
-		"y": 322
+		"x": -290,
+		"y": 250
 	},
 	{
 		"name": "Ann Taves",
@@ -6399,8 +6399,8 @@
 		},
 		"relevancy": 398,
 		"index": 80,
-		"x": -124,
-		"y": 107
+		"x": -178,
+		"y": 63
 	},
 	{
 		"name": "Nickolas Garth Conrad",
@@ -6483,8 +6483,8 @@
 		},
 		"relevancy": 431,
 		"index": 81,
-		"x": 29,
-		"y": 267
+		"x": 32,
+		"y": 309
 	},
 	{
 		"name": "Stephen Pihlaja",
@@ -6541,8 +6541,8 @@
 		},
 		"relevancy": 153,
 		"index": 82,
-		"x": 16,
-		"y": 210
+		"x": 198,
+		"y": 179
 	},
 	{
 		"name": "Jesse LeFebvre",
@@ -6586,8 +6586,8 @@
 		},
 		"relevancy": 117,
 		"index": 83,
-		"x": -305,
-		"y": -279
+		"x": -244,
+		"y": -333
 	},
 	{
 		"name": "Roger Mitchell",
@@ -6634,8 +6634,8 @@
 		},
 		"relevancy": 103,
 		"index": 84,
-		"x": 313,
-		"y": -82
+		"x": 25,
+		"y": 212
 	},
 	{
 		"name": "Liam Jerrold Fraser",
@@ -6690,8 +6690,8 @@
 		},
 		"relevancy": 135,
 		"index": 85,
-		"x": 38,
-		"y": 342
+		"x": -9,
+		"y": 353
 	},
 	{
 		"name": "Galen Watts",
@@ -6774,8 +6774,8 @@
 		},
 		"relevancy": 354,
 		"index": 86,
-		"x": 1,
-		"y": 152
+		"x": -6,
+		"y": 165
 	},
 	{
 		"name": "Laura Schwartz",
@@ -6826,8 +6826,8 @@
 		},
 		"relevancy": 113,
 		"index": 87,
-		"x": -98,
-		"y": 208
+		"x": -155,
+		"y": 181
 	},
 	{
 		"name": "Timothy Stacey",
@@ -6871,13 +6871,13 @@
 			"demonstrating": 8,
 			"life": 8,
 			"modern": 8,
-			"world": 8,
 			"reflect": 8,
+			"world": 8,
 			"question": 7,
 			"period": 7,
 			"role": 6,
-			"understanding": 6,
 			"whether": 6,
+			"understanding": 6,
 			"bear": 6,
 			"merry": 6,
 			"giving": 6,
@@ -6913,8 +6913,8 @@
 		},
 		"relevancy": 485,
 		"index": 88,
-		"x": -163,
-		"y": -199
+		"x": -164,
+		"y": -153
 	},
 	{
 		"name": "Halima Begum",
@@ -6996,8 +6996,8 @@
 		},
 		"relevancy": 374,
 		"index": 89,
-		"x": 252,
-		"y": -260
+		"x": 292,
+		"y": 50
 	},
 	{
 		"name": "Yosr Ben Slima",
@@ -7079,8 +7079,8 @@
 		},
 		"relevancy": 476,
 		"index": 90,
-		"x": -397,
-		"y": 90
+		"x": -455,
+		"y": 251
 	},
 	{
 		"name": "Josh Bullock",
@@ -7163,8 +7163,8 @@
 		},
 		"relevancy": 530,
 		"index": 91,
-		"x": 300,
-		"y": -295
+		"x": 135,
+		"y": -396
 	},
 	{
 		"name": "Nicole Hartmann",
@@ -7221,7 +7221,6 @@
 			"nonetheless": 6,
 			"conceptualize": 6,
 			"empire": 6,
-			"world": 5,
 			"theological": 5,
 			"text": 5,
 			"proper": 5,
@@ -7232,6 +7231,7 @@
 			"meet": 5,
 			"namely": 5,
 			"roman": 5,
+			"world": 5,
 			"literary": 5,
 			"behaviour": 5,
 			"latest": 5,
@@ -7246,8 +7246,8 @@
 		},
 		"relevancy": 368,
 		"index": 92,
-		"x": 257,
-		"y": 336
+		"x": 354,
+		"y": 198
 	},
 	{
 		"name": "Tayfun Kasapoglu",
@@ -7329,8 +7329,8 @@
 		},
 		"relevancy": 341,
 		"index": 93,
-		"x": 103,
-		"y": 129
+		"x": 49,
+		"y": 98
 	},
 	{
 		"name": "Christiane Königstedt",
@@ -7412,8 +7412,8 @@
 		},
 		"relevancy": 421,
 		"index": 94,
-		"x": 172,
-		"y": -364
+		"x": 320,
+		"y": -284
 	},
 	{
 		"name": "Stephen LeDrew",
@@ -7496,8 +7496,8 @@
 		},
 		"relevancy": 355,
 		"index": 95,
-		"x": 33,
-		"y": 55
+		"x": 42,
+		"y": 7
 	},
 	{
 		"name": "Evelina Lundmark",
@@ -7580,8 +7580,8 @@
 		},
 		"relevancy": 355,
 		"index": 96,
-		"x": 78,
-		"y": 17
+		"x": 9,
+		"y": 54
 	},
 	{
 		"name": "Katharina Pöhls",
@@ -7663,8 +7663,8 @@
 		},
 		"relevancy": 428,
 		"index": 97,
-		"x": 175,
-		"y": -11
+		"x": 177,
+		"y": 78
 	},
 	{
 		"name": "Ulrike Popp-Baier",
@@ -7702,8 +7702,8 @@
 			"context": 8,
 			"former": 8,
 			"pattern": 8,
-			"nonreligious": 7,
 			"adult": 7,
+			"nonreligious": 7,
 			"personal": 7,
 			"common": 7,
 			"sample": 7,
@@ -7746,8 +7746,8 @@
 		},
 		"relevancy": 460,
 		"index": 98,
-		"x": -84,
-		"y": -3
+		"x": 2,
+		"y": -90
 	},
 	{
 		"name": "Atko Remmel",
@@ -7832,8 +7832,8 @@
 		},
 		"relevancy": 480,
 		"index": 99,
-		"x": 46,
-		"y": 112
+		"x": -9,
+		"y": 108
 	},
 	{
 		"name": "Hannah Scheidt",
@@ -7915,8 +7915,8 @@
 		},
 		"relevancy": 369,
 		"index": 100,
-		"x": 116,
-		"y": 186
+		"x": 137,
+		"y": 35
 	},
 	{
 		"name": "Mascha Schulz",
@@ -7998,8 +7998,8 @@
 		},
 		"relevancy": 459,
 		"index": 101,
-		"x": -299,
-		"y": 131
+		"x": -289,
+		"y": 24
 	},
 	{
 		"name": "Amanda Schutz",
@@ -8081,8 +8081,8 @@
 		},
 		"relevancy": 396,
 		"index": 102,
-		"x": 192,
-		"y": -263
+		"x": 240,
+		"y": -151
 	},
 	{
 		"name": "Hugh Turpin",
@@ -8164,8 +8164,8 @@
 		},
 		"relevancy": 400,
 		"index": 103,
-		"x": 344,
-		"y": 251
+		"x": 69,
+		"y": 356
 	},
 	{
 		"name": "Florian Zemmin",
@@ -8225,8 +8225,8 @@
 		},
 		"relevancy": 162,
 		"index": 104,
-		"x": -313,
-		"y": 189
+		"x": -393,
+		"y": 58
 	},
 	{
 		"name": "Colin Jager",
@@ -8286,8 +8286,8 @@
 		},
 		"relevancy": 162,
 		"index": 105,
-		"x": -292,
-		"y": 297
+		"x": -323,
+		"y": 122
 	},
 	{
 		"name": "Guido Vanheeswijck",
@@ -8327,7 +8327,6 @@
 			"dynamic": 8,
 			"methodological": 7,
 			"study": 7,
-			"world": 5,
 			"obviously": 5,
 			"datum": 5,
 			"liable": 5,
@@ -8341,6 +8340,7 @@
 			"worldviewing": 5,
 			"usefulness": 5,
 			"fore": 5,
+			"world": 5,
 			"analysis": 5,
 			"monumental": 5,
 			"worked": 5,
@@ -8373,8 +8373,8 @@
 		},
 		"relevancy": 412,
 		"index": 106,
-		"x": -254,
-		"y": 183
+		"x": -250,
+		"y": 206
 	},
 	{
 		"name": "Daniel Kinitz",
@@ -8435,8 +8435,8 @@
 		},
 		"relevancy": 172,
 		"index": 107,
-		"x": 48,
-		"y": -91
+		"x": -60,
+		"y": 158
 	},
 	{
 		"name": "Daniel J. Linford",
@@ -8518,8 +8518,8 @@
 		},
 		"relevancy": 437,
 		"index": 108,
-		"x": -83,
-		"y": 362
+		"x": -125,
+		"y": 394
 	},
 	{
 		"name": "Joel Thiessen",
@@ -8545,8 +8545,8 @@
 			"socialization": 39,
 			"digital": 29,
 			"child": 28,
-			"canada": 27,
 			"religious": 27,
+			"canada": 27,
 			"nonbelief": 23,
 			"activity": 23,
 			"organized": 21,
@@ -8588,8 +8588,8 @@
 			"identify": 7,
 			"discuss": 7,
 			"answer": 7,
-			"blog": 6,
 			"theory": 6,
+			"blog": 6,
 			"post": 6,
 			"united": 6,
 			"holiday": 6,
@@ -8605,8 +8605,8 @@
 		},
 		"relevancy": 717,
 		"index": 109,
-		"x": 141,
-		"y": -128
+		"x": 127,
+		"y": -119
 	},
 	{
 		"name": "Jason Edward Sumerau",
@@ -8691,8 +8691,8 @@
 		},
 		"relevancy": 663,
 		"index": 110,
-		"x": 119,
-		"y": -26
+		"x": 112,
+		"y": -63
 	},
 	{
 		"name": "Simon Dein",
@@ -8772,8 +8772,8 @@
 		},
 		"relevancy": 321,
 		"index": 111,
-		"x": -27,
-		"y": -277
+		"x": 308,
+		"y": -8
 	},
 	{
 		"name": "Alexandros Sakellariou",
@@ -8825,8 +8825,8 @@
 		},
 		"relevancy": 166,
 		"index": 112,
-		"x": 231,
-		"y": 4
+		"x": 234,
+		"y": 64
 	},
 	{
 		"name": "Kevin Lenehan",
@@ -8874,8 +8874,8 @@
 		},
 		"relevancy": 142,
 		"index": 113,
-		"x": 200,
-		"y": 318
+		"x": 275,
+		"y": 270
 	},
 	{
 		"name": "Nella van den Brandt",
@@ -8938,8 +8938,8 @@
 		},
 		"relevancy": 185,
 		"index": 114,
-		"x": -196,
-		"y": 175
+		"x": -278,
+		"y": 83
 	},
 	{
 		"name": "Hugh Rock",
@@ -8975,8 +8975,8 @@
 		},
 		"relevancy": 61,
 		"index": 115,
-		"x": 279,
-		"y": -351
+		"x": 275,
+		"y": -328
 	},
 	{
 		"name": "Ben Wood",
@@ -9030,8 +9030,8 @@
 		},
 		"relevancy": 143,
 		"index": 116,
-		"x": -146,
-		"y": 380
+		"x": -217,
+		"y": 331
 	},
 	{
 		"name": "Masato Kato",
@@ -9065,8 +9065,8 @@
 			"condition": 4,
 			"tradition": 3,
 			"present": 3,
-			"explore": 3,
 			"cultural": 3,
+			"explore": 3,
 			"society": 3,
 			"analysis": 3,
 			"non-religious": 2,
@@ -9075,8 +9075,8 @@
 		},
 		"relevancy": 103,
 		"index": 117,
-		"x": -328,
-		"y": -76
+		"x": -317,
+		"y": -163
 	},
 	{
 		"name": "Fernande Pool",
@@ -9124,8 +9124,8 @@
 			"muslim": 3,
 			"period": 3,
 			"upon": 3,
-			"blog": 3,
 			"present": 3,
+			"blog": 3,
 			"public": 3,
 			"experience": 3,
 			"suggest": 3,
@@ -9136,8 +9136,8 @@
 		},
 		"relevancy": 164,
 		"index": 118,
-		"x": 288,
-		"y": 19
+		"x": 217,
+		"y": 121
 	},
 	{
 		"name": "Bill McConochie",
@@ -9172,8 +9172,8 @@
 		},
 		"relevancy": 71,
 		"index": 119,
-		"x": -434,
-		"y": 29
+		"x": -442,
+		"y": 24
 	},
 	{
 		"name": "Evan Stewart",
@@ -9215,8 +9215,8 @@
 		},
 		"relevancy": 74,
 		"index": 120,
-		"x": 36,
-		"y": -285
+		"x": 297,
+		"y": -167
 	},
 	{
 		"name": "Lori Beaman",
@@ -9265,8 +9265,8 @@
 		},
 		"relevancy": 148,
 		"index": 121,
-		"x": 331,
-		"y": 192
+		"x": 295,
+		"y": 211
 	},
 	{
 		"name": "Madeleine Parkes",
@@ -9302,8 +9302,8 @@
 		},
 		"relevancy": 64,
 		"index": 122,
-		"x": -376,
-		"y": -113
+		"x": -275,
+		"y": -281
 	},
 	{
 		"name": "Cecilie Endresen",
@@ -9354,8 +9354,8 @@
 		},
 		"relevancy": 123,
 		"index": 123,
-		"x": 246,
-		"y": 61
+		"x": 120,
+		"y": 247
 	},
 	{
 		"name": "Joseph O. Baker",
@@ -9392,8 +9392,8 @@
 		},
 		"relevancy": 64,
 		"index": 124,
-		"x": -245,
-		"y": 347
+		"x": -275,
+		"y": 313
 	},
 	{
 		"name": "Cees Tulp",
@@ -9433,8 +9433,8 @@
 		},
 		"relevancy": 89,
 		"index": 125,
-		"x": -50,
-		"y": -490
+		"x": -7,
+		"y": -436
 	},
 	{
 		"name": "Christel Manning",
@@ -9518,8 +9518,8 @@
 		},
 		"relevancy": 292,
 		"index": 126,
-		"x": -32,
-		"y": -111
+		"x": -88,
+		"y": -14
 	},
 	{
 		"name": "Lori L. Fazzino",
@@ -9603,8 +9603,8 @@
 		},
 		"relevancy": 292,
 		"index": 127,
-		"x": -59,
-		"y": -58
+		"x": -31,
+		"y": 11
 	},
 	{
 		"name": "Simone Kolysh",
@@ -9686,8 +9686,8 @@
 		},
 		"relevancy": 531,
 		"index": 128,
-		"x": 212,
-		"y": -319
+		"x": 79,
+		"y": -376
 	},
 	{
 		"name": "Lain A. B. Mathers",
@@ -9765,8 +9765,8 @@
 		},
 		"relevancy": 307,
 		"index": 129,
-		"x": -29,
-		"y": -10
+		"x": -78,
+		"y": 44
 	},
 	{
 		"name": "Alexandra C. H. Nowakowski",
@@ -9794,11 +9794,11 @@
 			"older": 9,
 			"prevalence": 9,
 			"consistent": 9,
-			"nonreligious": 7,
 			"adult": 7,
+			"nonreligious": 7,
 			"common": 7,
-			"population": 6,
 			"religion": 6,
+			"population": 6,
 			"relationship": 5,
 			"disparity": 5,
 			"compute": 5,
@@ -9849,8 +9849,8 @@
 		},
 		"relevancy": 335,
 		"index": 130,
-		"x": 24,
-		"y": -1
+		"x": -53,
+		"y": -111
 	},
 	{
 		"name": "Isabella Kasselstrand",
@@ -9928,14 +9928,14 @@
 			"historical": 3,
 			"value": 3,
 			"less": 3,
-			"show": 3,
 			"religion": 3,
+			"show": 3,
 			"first": 3
 		},
 		"relevancy": 324,
 		"index": 131,
-		"x": -68,
-		"y": -158
+		"x": -6,
+		"y": -148
 	},
 	{
 		"name": "Tiana Couse",
@@ -10013,14 +10013,14 @@
 			"historical": 3,
 			"value": 3,
 			"less": 3,
-			"show": 3,
 			"religion": 3,
+			"show": 3,
 			"first": 3
 		},
 		"relevancy": 324,
 		"index": 132,
-		"x": 22,
-		"y": -137
+		"x": -62,
+		"y": -169
 	},
 	{
 		"name": "Shanell Sanchez",
@@ -10098,14 +10098,14 @@
 			"historical": 3,
 			"value": 3,
 			"less": 3,
-			"show": 3,
 			"religion": 3,
+			"show": 3,
 			"first": 3
 		},
 		"relevancy": 324,
 		"index": 133,
-		"x": -13,
-		"y": -179
+		"x": 38,
+		"y": -188
 	},
 	{
 		"name": "Jelle Wiering",
@@ -10187,8 +10187,8 @@
 		},
 		"relevancy": 347,
 		"index": 134,
-		"x": -232,
-		"y": 288
+		"x": -307,
+		"y": 187
 	},
 	{
 		"name": "Lloyd Hawkeye Robertson",
@@ -10254,15 +10254,15 @@
 			"focus": 3,
 			"organization": 3,
 			"examine": 3,
-			"person": 2,
 			"group": 2,
+			"person": 2,
 			"non-religious": 0,
 			"on-line": 0
 		},
 		"relevancy": 264,
 		"index": 135,
-		"x": -143,
-		"y": -255
+		"x": -73,
+		"y": -287
 	},
 	{
 		"name": "Erlend Hovdkinn",
@@ -10300,8 +10300,8 @@
 		},
 		"relevancy": 71,
 		"index": 136,
-		"x": 321,
-		"y": -239
+		"x": 354,
+		"y": -183
 	},
 	{
 		"name": "Helge Årsheim",
@@ -10330,8 +10330,8 @@
 		},
 		"relevancy": 24,
 		"index": 137,
-		"x": -206,
-		"y": 392
+		"x": -199,
+		"y": 388
 	},
 	{
 		"name": "Néstor Da Costa",
@@ -10370,8 +10370,8 @@
 		},
 		"relevancy": 63,
 		"index": 138,
-		"x": -185,
-		"y": -318
+		"x": -81,
+		"y": -346
 	},
 	{
 		"name": "Sarah Wilkins-Laflamme",
@@ -10455,8 +10455,8 @@
 		},
 		"relevancy": 496,
 		"index": 139,
-		"x": 168,
-		"y": -180
+		"x": 140,
+		"y": -176
 	},
 	{
 		"name": "Mitsutoshi Horii",
@@ -10494,8 +10494,8 @@
 		},
 		"relevancy": 88,
 		"index": 140,
-		"x": -359,
-		"y": 137
+		"x": -400,
+		"y": -19
 	},
 	{
 		"name": "Zachary Munro",
@@ -10551,8 +10551,8 @@
 		},
 		"relevancy": 152,
 		"index": 141,
-		"x": 114,
-		"y": -353
+		"x": 21,
+		"y": -361
 	},
 	{
 		"name": "Charlotte Hobson",
@@ -10596,8 +10596,8 @@
 		},
 		"relevancy": 93,
 		"index": 142,
-		"x": -186,
-		"y": 335
+		"x": -158,
+		"y": 343
 	},
 	{
 		"name": "Aura Di Febo",
@@ -10641,8 +10641,8 @@
 		},
 		"relevancy": 100,
 		"index": 143,
-		"x": -374,
-		"y": 34
+		"x": -362,
+		"y": -124
 	},
 	{
 		"name": "Polina Batanova",
@@ -10694,10 +10694,10 @@
 			"sociologist": 4,
 			"modernity": 4,
 			"back": 4,
-			"help": 4,
 			"demonstrate": 4,
 			"discuss": 4,
 			"definition": 4,
+			"help": 4,
 			"beyond": 3,
 			"importance": 3,
 			"nature": 3,
@@ -10713,8 +10713,8 @@
 		},
 		"relevancy": 226,
 		"index": 144,
-		"x": 72,
-		"y": 226
+		"x": -5,
+		"y": 262
 	},
 	{
 		"name": "Hans Alma",
@@ -10745,7 +10745,6 @@
 			"tool": 8,
 			"dynamic": 8,
 			"methodological": 7,
-			"world": 5,
 			"obviously": 5,
 			"datum": 5,
 			"liable": 5,
@@ -10759,6 +10758,7 @@
 			"worldviewing": 5,
 			"usefulness": 5,
 			"fore": 5,
+			"world": 5,
 			"analysis": 5,
 			"study": 5,
 			"genealogy": 5,
@@ -10797,8 +10797,8 @@
 		},
 		"relevancy": 354,
 		"index": 145,
-		"x": -182,
-		"y": 117
+		"x": -168,
+		"y": 121
 	},
 	{
 		"name": "Stefan Schröder",
@@ -10829,7 +10829,7 @@
 			"wende": 6,
 			"uncover": 6,
 			"strategic": 6,
-			"explore": 6,
+			"explore": 5,
 			"evolving": 5,
 			"milieu": 5,
 			"germany": 5,
@@ -10853,10 +10853,10 @@
 			"free-thinking": 0,
 			"post-": 0
 		},
-		"relevancy": 154,
+		"relevancy": 153,
 		"index": 146,
-		"x": -109,
-		"y": -369
+		"x": -90,
+		"y": -405
 	},
 	{
 		"name": "Eric O. Silva",
@@ -10905,10 +10905,10 @@
 			"putative": 6,
 			"ally": 6,
 			"representing": 6,
-			"frame": 5,
 			"separate": 5,
 			"framing": 5,
 			"editor": 5,
+			"frame": 5,
 			"doing": 5,
 			"combination": 5,
 			"ethnographic": 4,
@@ -10931,8 +10931,8 @@
 		},
 		"relevancy": 437,
 		"index": 147,
-		"x": 133,
-		"y": 31
+		"x": 154,
+		"y": -21
 	},
 	{
 		"name": "Pascale Fourier",
@@ -11015,8 +11015,8 @@
 		},
 		"relevancy": 308,
 		"index": 148,
-		"x": -304,
-		"y": -131
+		"x": -219,
+		"y": -176
 	},
 	{
 		"name": "Jacques Berlinerblau",
@@ -11099,8 +11099,8 @@
 		},
 		"relevancy": 308,
 		"index": 149,
-		"x": -281,
-		"y": -186
+		"x": -227,
+		"y": -235
 	},
 	{
 		"name": "Anton Jansson",
@@ -11182,8 +11182,8 @@
 		},
 		"relevancy": 381,
 		"index": 150,
-		"x": 186,
-		"y": 260
+		"x": 61,
+		"y": 257
 	},
 	{
 		"name": "Kenan Sevinç",
@@ -11266,8 +11266,8 @@
 		},
 		"relevancy": 229,
 		"index": 151,
-		"x": -102,
-		"y": 52
+		"x": -98,
+		"y": 200
 	},
 	{
 		"name": "Thomas J. Coleman III",
@@ -11350,8 +11350,8 @@
 		},
 		"relevancy": 229,
 		"index": 152,
-		"x": -81,
-		"y": 153
+		"x": -133,
+		"y": 24
 	},
 	{
 		"name": "Ralph W. Hood Jr.",
@@ -11434,8 +11434,8 @@
 		},
 		"relevancy": 229,
 		"index": 153,
-		"x": -66,
-		"y": 98
+		"x": -123,
+		"y": 82
 	},
 	{
 		"name": "Michael E. Price",
@@ -11518,8 +11518,8 @@
 		},
 		"relevancy": 386,
 		"index": 154,
-		"x": 296,
-		"y": -140
+		"x": 262,
+		"y": -269
 	},
 	{
 		"name": "Jacques Launay",
@@ -11602,8 +11602,8 @@
 		},
 		"relevancy": 386,
 		"index": 155,
-		"x": 278,
-		"y": -198
+		"x": 218,
+		"y": -309
 	},
 	{
 		"name": "Shuhei Fujii",
@@ -11685,8 +11685,8 @@
 		},
 		"relevancy": 430,
 		"index": 156,
-		"x": -337,
-		"y": 82
+		"x": -209,
+		"y": -114
 	},
 	{
 		"name": "Mikko Sillfors",
@@ -11769,8 +11769,8 @@
 		},
 		"relevancy": 276,
 		"index": 157,
-		"x": 59,
-		"y": 169
+		"x": 48,
+		"y": 156
 	},
 	{
 		"name": "Elliot Hanowski",
@@ -11852,8 +11852,8 @@
 		},
 		"relevancy": 419,
 		"index": 158,
-		"x": 156,
-		"y": 359
+		"x": 195,
+		"y": 339
 	},
 	{
 		"name": "Stefan Fisher-Høyrem",
@@ -11899,8 +11899,8 @@
 		},
 		"relevancy": 94,
 		"index": 159,
-		"x": -327,
-		"y": -223
+		"x": -137,
+		"y": -368
 	},
 	{
 		"name": "Jolyon Thomas",
@@ -11933,8 +11933,8 @@
 		},
 		"relevancy": 48,
 		"index": 160,
-		"x": 375,
-		"y": 150
+		"x": 430,
+		"y": 124
 	},
 	{
 		"name": "Paul Merchant",
@@ -11971,8 +11971,8 @@
 		},
 		"relevancy": 48,
 		"index": 161,
-		"x": -240,
-		"y": 126
+		"x": -254,
+		"y": -75
 	},
 	{
 		"name": "Alberta Giorgi",
@@ -11996,8 +11996,8 @@
 			"secularism": 6,
 			"directly": 5,
 			"built": 5,
-			"shape": 4,
 			"taken": 4,
+			"shape": 4,
 			"catholic": 4,
 			"describe": 3,
 			"politic": 3,
@@ -12010,8 +12010,8 @@
 		},
 		"relevancy": 77,
 		"index": 162,
-		"x": 229,
-		"y": -383
+		"x": 230,
+		"y": -368
 	},
 	{
 		"name": "Nathan Alexander ",
@@ -12070,8 +12070,8 @@
 		},
 		"relevancy": 180,
 		"index": 163,
-		"x": 142,
-		"y": 301
+		"x": 158,
+		"y": 293
 	},
 	{
 		"name": "Niels De Nutte",
@@ -12117,8 +12117,8 @@
 		},
 		"relevancy": 101,
 		"index": 164,
-		"x": -352,
-		"y": -168
+		"x": -364,
+		"y": -200
 	},
 	{
 		"name": "David Nash",
@@ -12167,8 +12167,8 @@
 		},
 		"relevancy": 110,
 		"index": 165,
-		"x": 243,
-		"y": 277
+		"x": 256,
+		"y": 166
 	},
 	{
 		"name": "Patrick John Corbeil",
@@ -12250,8 +12250,8 @@
 		},
 		"relevancy": 384,
 		"index": 166,
-		"x": -210,
-		"y": -90
+		"x": -117,
+		"y": -190
 	},
 	{
 		"name": "Jonathan S. Simmons",
@@ -12271,7 +12271,7 @@
 		"id": 168,
 		"tokens": {
 			"political": 24,
-			"atheist": 23,
+			"atheist": 24,
 			"activist": 23,
 			"attitude": 18,
 			"scholar": 13,
@@ -12331,10 +12331,10 @@
 			"personal": 4,
 			"expression": 4
 		},
-		"relevancy": 413,
+		"relevancy": 414,
 		"index": 167,
-		"x": 76,
-		"y": -240
+		"x": 95,
+		"y": -274
 	},
 	{
 		"name": "Sergio Perez",
@@ -12362,8 +12362,8 @@
 			"religious": 8,
 			"atheist": 7,
 			"personal": 7,
-			"person": 7,
 			"category": 7,
+			"person": 7,
 			"process": 7,
 			"become": 6,
 			"religion": 6,
@@ -12417,8 +12417,8 @@
 		},
 		"relevancy": 348,
 		"index": 168,
-		"x": -117,
-		"y": -50
+		"x": -99,
+		"y": -74
 	},
 	{
 		"name": "Frédérique Vallières",
@@ -12446,8 +12446,8 @@
 			"religious": 8,
 			"atheist": 7,
 			"personal": 7,
-			"person": 7,
 			"category": 7,
+			"person": 7,
 			"process": 7,
 			"become": 6,
 			"religion": 6,
@@ -12501,8 +12501,8 @@
 		},
 		"relevancy": 348,
 		"index": 169,
-		"x": -151,
-		"y": -97
+		"x": -154,
+		"y": -94
 	},
 	{
 		"name": "Amy I. McClure",
@@ -12584,8 +12584,8 @@
 		},
 		"relevancy": 550,
 		"index": 170,
-		"x": 440,
-		"y": -207
+		"x": 412,
+		"y": -197
 	},
 	{
 		"name": "Kevin McCaffree",
@@ -12667,8 +12667,8 @@
 		},
 		"relevancy": 324,
 		"index": 171,
-		"x": -92,
-		"y": -105
+		"x": -108,
+		"y": -132
 	},
 	{
 		"name": "Joshua Doyle",
@@ -12750,8 +12750,8 @@
 		},
 		"relevancy": 365,
 		"index": 172,
-		"x": -3,
-		"y": -330
+		"x": 148,
+		"y": -234
 	},
 	{
 		"name": "Sikivu Hutchinson",
@@ -12833,8 +12833,8 @@
 		},
 		"relevancy": 485,
 		"index": 173,
-		"x": -43,
-		"y": -375
+		"x": -25,
+		"y": -324
 	},
 	{
 		"name": "Sara Rahmani",
@@ -12870,8 +12870,8 @@
 		},
 		"relevancy": 53,
 		"index": 174,
-		"x": -413,
-		"y": -29
+		"x": -453,
+		"y": -46
 	},
 	{
 		"name": "Anna Sofia Salonen",
@@ -12909,8 +12909,8 @@
 		},
 		"relevancy": 64,
 		"index": 175,
-		"x": -31,
-		"y": -433
+		"x": -34,
+		"y": -383
 	},
 	{
 		"name": "Amy Unsworth",
@@ -12947,8 +12947,8 @@
 		},
 		"relevancy": 56,
 		"index": 176,
-		"x": -19,
-		"y": 429
+		"x": -49,
+		"y": 397
 	},
 	{
 		"name": "Jenny Vorpahl",
@@ -13006,8 +13006,8 @@
 		},
 		"relevancy": 159,
 		"index": 177,
-		"x": -219,
-		"y": 70
+		"x": -211,
+		"y": 161
 	},
 	{
 		"name": "Dirk Schuster",
@@ -13065,8 +13065,8 @@
 		},
 		"relevancy": 159,
 		"index": 178,
-		"x": -198,
-		"y": 14
+		"x": -233,
+		"y": 43
 	},
 	{
 		"name": "John Shook",
@@ -13148,8 +13148,8 @@
 		},
 		"relevancy": 351,
 		"index": 179,
-		"x": 129,
-		"y": 243
+		"x": -38,
+		"y": 213
 	},
 	{
 		"name": "Gerrit Cziehso",
@@ -13233,8 +13233,8 @@
 		},
 		"relevancy": 318,
 		"index": 180,
-		"x": -104,
-		"y": -206
+		"x": 41,
+		"y": -247
 	},
 	{
 		"name": "Wesley J. Wildman",
@@ -13320,8 +13320,8 @@
 		},
 		"relevancy": 331,
 		"index": 181,
-		"x": -398,
-		"y": 250
+		"x": -383,
+		"y": 117
 	},
 	{
 		"name": "F. LeRon Shults",
@@ -13407,8 +13407,8 @@
 		},
 		"relevancy": 331,
 		"index": 182,
-		"x": -360,
-		"y": 300
+		"x": -405,
+		"y": 218
 	},
 	{
 		"name": "Saikou Y. Diallo",
@@ -13494,8 +13494,8 @@
 		},
 		"relevancy": 331,
 		"index": 183,
-		"x": -432,
-		"y": 198
+		"x": -423,
+		"y": 161
 	},
 	{
 		"name": "Ross Gore",
@@ -13581,8 +13581,8 @@
 		},
 		"relevancy": 331,
 		"index": 184,
-		"x": -373,
-		"y": 195
+		"x": -365,
+		"y": 174
 	},
 	{
 		"name": "Justin Lane",
@@ -13668,8 +13668,8 @@
 		},
 		"relevancy": 331,
 		"index": 185,
-		"x": -338,
-		"y": 244
+		"x": -347,
+		"y": 231
 	},
 	{
 		"name": "Nick Overduin",
@@ -13722,9 +13722,9 @@
 			"thinker": 5,
 			"final": 5,
 			"dead": 5,
-			"reference": 5,
 			"section": 5,
 			"short": 5,
+			"reference": 5,
 			"elucidate": 5,
 			"conclusion": 4,
 			"death": 4,
@@ -13751,8 +13751,8 @@
 		},
 		"relevancy": 344,
 		"index": 186,
-		"x": 300,
-		"y": 293
+		"x": 237,
+		"y": 224
 	},
 	{
 		"name": "Teale N. Phelps Bondaroff",
@@ -13835,7 +13835,7 @@
 		},
 		"relevancy": 415,
 		"index": 187,
-		"x": 99,
+		"x": 108,
 		"y": 402
 	},
 	{
@@ -13919,8 +13919,8 @@
 		},
 		"relevancy": 321,
 		"index": 188,
-		"x": 382,
-		"y": -222
+		"x": 397,
+		"y": -139
 	},
 	{
 		"name": "Hannah Smothers",
@@ -14003,7 +14003,43 @@
 		},
 		"relevancy": 321,
 		"index": 189,
-		"x": 398,
-		"y": -165
+		"x": 382,
+		"y": -81
+	},
+	{
+		"name": "Rebecca Banham",
+		"affiliation": "University of Tasmania",
+		"country": "Australia",
+		"gender": "F",
+		"docs": 1,
+		"peers": [
+			191
+		],
+		"years": {
+			"2020": 1
+		},
+		"variants": [
+			"Rebecca Banham"
+		],
+		"id": 191,
+		"tokens": {
+			"forest": 11,
+			"experience": 6,
+			"nonreligious": 5,
+			"frame": 5,
+			"reference": 5,
+			"shape": 4,
+			"place": 4,
+			"help": 4,
+			"blog": 3,
+			"understanding": 3,
+			"explore": 3,
+			"world": 3,
+			"person": 2
+		},
+		"relevancy": 58,
+		"index": 190,
+		"x": -408,
+		"y": -86
 	}
 ]

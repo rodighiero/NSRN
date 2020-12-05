@@ -12,7 +12,8 @@ export function mouseover(node) {
     // Heading
 
     focus.append('h2').html(node.name)
-    focus.append('h3').html(`${node.docs} Publications`)
+    focus.append('h2').html(`${node.affiliation}`)
+    focus.append('h2').html(`${node.docs} Publications`)
 
     // Tokens
 

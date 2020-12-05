@@ -31,7 +31,7 @@ const analysis = authors => {
     // Tokenizer
 
     // const tokenizer = new natural.WordTokenizer()
-    const tokenizer = new natural.RegexpTokenizer({pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i})
+    const tokenizer = new natural.RegexpTokenizer({ pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i })
 
     nodes.forEach((node, i) => {
         console.log('Tokenizing author #', i)
@@ -57,7 +57,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    let stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will']
+    let stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will', 'among', 'paper']
     // stopWords = stopWords.concat(['religion', 'religious', 'atheist', 'atheism'])
 
     nodes.forEach((node, i) => {
@@ -78,7 +78,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 100
+    const max = 60
 
     nodes.forEach((node, i) => {
 
@@ -182,16 +182,19 @@ const analysis = authors => {
 
     console.log('\nSimulation starts\n')
 
+    const radius = 30
+
     const simulation = d3.forceSimulation()
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-10)
+            .strength(10)
+            .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()
-            .radius(30)
-            .strength(.5)
-            .iterations(5)
+            .radius(radius)
+            .strength(.1)
+            .iterations(10)
         )
         .force('center', d3.forceCenter(0, 0))
 
@@ -285,7 +288,11 @@ const analysis = authors => {
                     triplets.push({
                         index: triplets.length,
                         position: [Math.round(x), Math.round(y)],
-                        tokens: list
+                        tokens: list,
+                        value: list.reduce((sum, el) => {
+                            sum += el[1]
+                            return sum
+                        }, 0)
                     })
 
                     counter += 1
@@ -293,6 +300,16 @@ const analysis = authors => {
                 }
             }
         }
+
+        // Sor triplets by value
+
+        const compare = (a, b) => {
+            if (a.tokens[0][1] > b.tokens[0][1]) return -1
+            if (b.tokens[0][1] > a.tokens[0][1]) return 1
+            return 0
+        }
+
+        triplets.sort(compare)
 
 
         writing(nodes, links, triplets)

@@ -1,19 +1,21 @@
 import * as PIXI from 'pixi.js'
 
 export default () => {
-    
+
     const stage = new PIXI.Graphics()
     stage.interactiveChildren = false
-    stage.alpha = .05
+    stage.alpha = .1
     stage.name = 'links'
     s.pixi.addChild(stage)
 
-    s.links.forEach(({ source, target, value }) => {
+    s.links
+        .filter(l => l.value > .1)
+        .forEach(({ source, target, value }) => {
 
-        stage.lineStyle(value, 0xFFFFFF)
-        stage.moveTo(source.x, source.y)
-        stage.lineTo(target.x, target.y)
+            stage.lineStyle(value, 0xFFFFFF)
+            stage.moveTo(source.x, source.y)
+            stage.lineTo(target.x, target.y)
 
-    })
+        })
 
 }

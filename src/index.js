@@ -67,7 +67,7 @@ Promise.all([
         resolution: 2,
         autoDensity: true,
         autoResize: true,
-        resizeTo: window,
+        resizeTo: window
     })
     document.body.prepend(s.app.view)
 

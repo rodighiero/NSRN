@@ -26,8 +26,8 @@ export default () => {
             })
 
         const value = token[0][1]
-        const base = 0
-        const magnitude = .015
+        const base = 30
+        const magnitude = .005
         text.scale.set((value + base) * magnitude)
 
         text.position.set(x - text.width / 2, y - text.height / 2)

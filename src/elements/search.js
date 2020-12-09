@@ -75,11 +75,8 @@ export default () => {
 
             document.querySelector("#autoComplete").value = name
 
-            const zoomMin = .3
-            const zoomMax = 5
-
             const zoomIn = () => s.pixi.animate({
-                scale: zoomMax,
+                scale: s.zoomMax,
                 position: new PIXI.Point(x, y),
                 time: 2000,
                 ease: 'easeInOutSine',
@@ -91,13 +88,13 @@ export default () => {
             }
 
             const zoomOutIn = () => s.pixi.animate({
-                scale: zoomMin,
+                scale: s.zoomMin,
                 position: new PIXI.Point((x + center.x) / 2, (y + center.y) / 2),
                 time: 2000,
                 ease: 'easeInOutSine',
                 callbackOnComplete: () => {
                     s.pixi.animate({
-                        scale: zoomMax,
+                        scale: s.zoomMax,
                         position: new PIXI.Point(x, y),
                         time: 2000,
                         ease: 'easeInOutSine',
@@ -105,7 +102,7 @@ export default () => {
                 }
             })
 
-            if (s.pixi.scale.x < 1)
+            if (s.pixi.scale.x < (s.zoomMax - s.zoomMin) / 2)
                 zoomIn()
             else
                 zoomOutIn()

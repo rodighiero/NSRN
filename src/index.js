@@ -92,19 +92,19 @@ Promise.all([
     let scale = scaleX < scaleY ? scaleX : scaleY
     scale = printing ? scale * 10 : scale
 
-    const zoomMin = scale * .9
-    const zoomMax = 3
+    s.zoomMin = scale * .9
+    s.zoomMax = 3
 
     // Set vieport
 
     s.pixi.drag().pinch().wheel().decelerate()
-        .clampZoom({ minScale: zoomMin, maxScale: zoomMax })
+        .clampZoom({ minScale: s.zoomMin, maxScale: s.zoomMax })
         .setTransform(window.innerWidth / 2, window.innerHeight / 2, scale, scale)
 
     // Transparency on zoom
 
-    const zoomOut = scaleLinear().domain([zoomMin, 2]).range([1, 0])
-    const zoomIn = scaleLinear().domain([zoomMin, 2]).range([0, 1])
+    const zoomOut = scaleLinear().domain([s.zoomMin, 2]).range([1, 0])
+    const zoomIn = scaleLinear().domain([s.zoomMin, 2]).range([0, 1])
 
     s.pixi.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX

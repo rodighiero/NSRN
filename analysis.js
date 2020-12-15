@@ -188,7 +188,7 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-1)
+            .strength(-10)
             .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()
@@ -202,7 +202,7 @@ const analysis = authors => {
         .nodes(nodes)
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * 1.5)
+            .strength(d => d.value * 2)
         )
         .force('link').links(links)
 

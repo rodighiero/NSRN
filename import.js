@@ -63,14 +63,13 @@ const parse = (records) => {
 
     // Grouping by author
 
-    const authors = records.reduce((authors, record, i) => {
+    const authors = records.reverse().reduce((authors, record, i) => {
 
         const year = record['Year']
         let text = `${record['Title']} ${record['Abstract']} `
 
-        console.log()
-
         const update = author => {
+            // if (author.name == 'Lois Lee') console.log(author.affiliation)
             author.docs++
             author.text += text
             author.affiliation = author.affiliation
@@ -81,6 +80,7 @@ const parse = (records) => {
         }
 
         const add = author => {
+            // if (author.name == 'Lois Lee') console.log(author.affiliation)
             author.docs = 1
             author.peers = []
             author.text = text

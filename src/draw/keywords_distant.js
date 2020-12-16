@@ -1,14 +1,13 @@
-import * as PIXI from 'pixi.js'
+import { BitmapText, Graphics } from 'pixi.js'
 
-let stage, max
 let index = []
 
 export default () => {
 
-    const tokens = new PIXI.Graphics()
-    tokens.interactiveChildren = false
-    stage = s.pixi.addChild(tokens)
+    const stage = new Graphics()
     stage.name = 'keywords_distant'
+    stage.interactiveChildren = false
+    s.viewport.addChild(stage)
 
     s.triplets.forEach(triplet => {
 
@@ -16,10 +15,10 @@ export default () => {
         const x = triplet.position[0]
         const y = triplet.position[1]
 
-        const text = new PIXI.BitmapText(
+        const text = new BitmapText(
             token[0][0],
             {
-                fontName: 'Arial',
+                fontName: 'Lato',
                 fontSize: '64',
                 fill: 0xFEDD00,
                 align: 'center',
@@ -40,11 +39,12 @@ export default () => {
 
             const l1 = index[i]
             const l2 = text
+            const margin = 10 // Important to correct shorter height
 
-            if (!(l2.x > l1.x + l1.width
-                || l2.x + l2.width < l1.x
-                || l2.y > l1.y + l1.height
-                || l2.y + l2.height < l1.y)) {
+            if (!(l2.x > l1.x + l1.width + margin
+                || l2.x + l2.width + margin < l1.x
+                || l2.y > l1.y + l1.height + margin
+                || l2.y + l2.height + margin < l1.y)) {
                 overlapping = true
                 break
             }
@@ -55,7 +55,8 @@ export default () => {
             stage.addChild(text)
             index.push(text)
 
-            // draw a rounded rectangle
+            // draw rectangle to check overlapping
+
             // const graphics = new PIXI.Graphics();
             // graphics.lineStyle(2, 0xFF00FF, 1)
             // graphics.beginFill(0x650A5A, 0.25)

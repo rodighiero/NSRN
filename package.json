@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "csv-parser": "^3.0.0",
@@ -31,12 +31,13 @@
     "remove-accents": "^0.4.2",
     "skmeans": "^0.11.3",
     "stopword": "^1.0.5",
-    "webpack": "^5.10.1",
+    "webpack": "^5.10.3",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@tarekraafat/autocomplete.js": "^7.2.0",
+    "@tarekraafat/autocomplete.js": "^8.1.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
     "d3-array": "^2.9.1",
     "d3-contour": "^2.0.0",
     "d3-fetch": "^2.0.0",
@@ -46,6 +47,6 @@
     "fps": "0.0.3",
     "normalize.css": "^8.0.1",
     "pixi-viewport": "^4.18.1",
-    "pixi.js": "^5.3.3"
+    "pixi.js": "^5.3.4"
   }
 }

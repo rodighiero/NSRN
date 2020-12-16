@@ -1,4 +1,4 @@
-import * as PIXI from 'pixi.js'
+import { BitmapText, Circle, Graphics, Point } from 'pixi.js'
 
 import { mouseover, mouseout } from '../elements/mouseover'
 
@@ -19,24 +19,24 @@ const color = {
 
 export default () => {
 
-    const stage = new PIXI.Graphics()
+    const stage = new Graphics()
     stage.alpha = 0
     stage.name = 'nodes'
-    s.pixi.addChild(stage)
+    s.viewport.addChild(stage)
 
     s.nodes.forEach(node => {
 
         // Circle
 
-        const size = node.docs
+        const size = node.docs * .1
 
-        node.circle = new PIXI.Graphics()
+        node.circle = new Graphics()
         node.circle.beginFill(color.off, 1)
         node.circle.drawCircle(0, 0, size)
         node.circle.endFill()
         node.circle.tint = color.off
-        node.circle.position = new PIXI.Point(node.x, node.y)
-        node.circle.hitArea = new PIXI.Circle(0, 0, s.distance)
+        node.circle.position = new Point(node.x, node.y)
+        node.circle.hitArea = new Circle(0, 0, s.distance)
         node.circle.interactive = true
 
         stage.addChild(node.circle)
@@ -46,10 +46,10 @@ export default () => {
         const scale = .2
         const [nA, nB] = splitInTwo(node.name)
 
-        node.text = new PIXI.BitmapText(
+        node.text = new BitmapText(
             `${nA}\n${nB}`,
             {
-                fontName: 'Arial',
+                fontName: 'Lato',
                 fontSize: '21',
                 fill: color.off,
                 align: 'center',

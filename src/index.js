@@ -5,7 +5,7 @@ import './constant/index.css'
 
 // Libraries
 
-import { json, xml } from 'd3-fetch'
+import { json, xml, image, blob } from 'd3'
 
 
 // Data
@@ -29,13 +29,12 @@ import keywords_close from './draw/keywords_close.js'
 import keywords_distant from './draw/keywords_distant.js'
 import nodes from './draw/nodes.js'
 
-import * as PIXI from 'pixi.js'
+import { Application, BitmapFont, Texture } from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
-import { scaleLinear } from 'd3-scale'
-import { extent } from "d3-array"
+import { extent, scaleLinear } from 'd3'
 
-import arialXML from './constant/arial.xml'
-import arialPNG from './constant/arial.png'
+import arialXML from './constant/Lato.fnt'
+import arialPNG from './constant/Lato.png'
 
 // Global variables
 
@@ -51,18 +50,20 @@ window.s = {
 Promise.all([
     json(linksJSON),
     json(nodesJSON),
-    json(tripletsJSON)
-    // xml(arialXML)
+    json(tripletsJSON),
+    xml(arialXML),
+    image(arialPNG),
 
-]).then(([linksData, nodesData, tripletsData]) => {
+]).then(([linksData, nodesData, tripletsData, xml, png]) => {
 
-    s.links = linksData; console.log('nodes', s.nodes.length)
-    s.nodes = nodesData; console.log('links', s.links.length)
+    s.links = linksData; console.log('links', s.links.length)
+    s.nodes = nodesData; console.log('nodes', s.nodes.length)
     s.triplets = tripletsData; console.log('triplets', s.triplets.length)
 
+    
     // Set App
-
-    s.app = new PIXI.Application({
+    
+    s.app = new Application({
         width: window.innerWidth, height: window.innerHeight,
         antialias: true,
         transparent: true,
@@ -72,82 +73,87 @@ Promise.all([
         resizeTo: window
     })
     document.body.prepend(s.app.view)
-
+    
     // Create and append viewport
-
-    s.pixi = new Viewport({
+    
+    s.viewport = new Viewport({
         screenWidth: window.innerWidth, screenHeight: window.innerHeight,
         interaction: s.app.renderer.plugins.interaction
     })
-    s.app.stage.addChild(s.pixi)
-
+    s.app.stage.addChild(s.viewport)
+    
     // Set scales
-
+    
     const extX = extent(s.nodes, d => d.x)
     const extY = extent(s.nodes, d => d.y)
     const width = extX[1] - extX[0]
     const height = extY[1] - extY[0]
     const scaleX = window.innerWidth / width
     const scaleY = window.innerHeight / height
-
-    const printing = false // costant for export canvas
+    
+    // Scale for saving PNG
+    
+    const printing = false
     let scale = scaleX < scaleY ? scaleX : scaleY
     scale = printing ? scale * 10 : scale
-
-    s.zoomMin = scale * .9
-    s.zoomMax = 3
-
-    // Set vieport
-
-    s.pixi.drag().pinch().wheel().decelerate()
-        .clampZoom({ minScale: s.zoomMin, maxScale: s.zoomMax })
-        .setTransform(window.innerWidth / 2, window.innerHeight / 2, scale, scale)
-
+    
+    // Zoom Min and Max
+    
+    s.zoomMin = scale * .9 // reduction is to create a margin
+    s.zoomMax = 4
+    
+    // Vieport
+    
+    s.viewport.drag().pinch().wheel().decelerate()
+    .clampZoom({ minScale: s.zoomMin, maxScale: s.zoomMax })
+    .setTransform(window.innerWidth / 2, window.innerHeight / 2, s.zoomMin, s.zoomMin)
+    
     // Transparency on zoom
-
-    const zoomOut = scaleLinear().domain([s.zoomMin, 2]).range([1, 0])
-    const zoomIn = scaleLinear().domain([s.zoomMin, 2]).range([0, 1])
-
-    s.pixi.on('zoomed', e => {
+    
+    const zoomOut = scaleLinear().domain([s.zoomMin, 2]).range([1, 0]) // Visible when zooming out
+    const zoomIn = scaleLinear().domain([s.zoomMin, 2]).range([0, 1]) // Visible when zooming in
+    
+    s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
     })
+    
+    // Font loader
+    
+    BitmapFont.install(xml, Texture.from(png))
+    
+    /**
+     * Rendering
+     */
+    
+    background()
+    links()
+    contours()
+    nodes()
+    keywords_close()
+    keywords_distant()
+    // clusters()
+    fps()
+    search()
 
-    // Font Loading and Rendering
-
-    const onFontLoad = (() => {
-
-        background()
-        links()
-        contours()
-        nodes()
-        keywords_close()
-        keywords_distant()
-        // clusters()
-        fps()
-        search()
-        // stats()
-
-    })
-
-    s.app.loader
-        .add('Arial', arialXML)
-        .load(onFontLoad)
-
-    // Settings on the Interface
+    return
+    
+    // Prevent pinch gesture in Chrome
 
     window.onresize = function () {
-        s.pixi.resize() // Prevent pinch gesture in Chrome
+        s.viewport.resize()
     }
 
+    // Prevent wheel interference
+
     window.addEventListener('wheel', e => {
-        e.preventDefault() // Prevent wheel interference
+        e.preventDefault()
     }, { passive: false })
 
-    // Export PNG
+    // Code to save PNG
 
     // s.app.renderer.extract.canvas(s.app.stage).toBlob((b) => {
     //     const a = document.createElement('a')

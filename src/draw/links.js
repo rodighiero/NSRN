@@ -1,15 +1,13 @@
-import * as PIXI from 'pixi.js'
+import { Graphics } from 'pixi.js'
 
 export default () => {
 
-    const stage = new PIXI.Graphics()
+    const stage = new Graphics()
     stage.interactiveChildren = false
-    stage.alpha = .1
-    stage.name = 'links'
-    s.pixi.addChild(stage)
+    stage.alpha = .05
+    s.viewport.addChild(stage)
 
-    s.links
-        .filter(l => l.value > .1)
+    s.links.filter(l => l.value > .2)
         .forEach(({ source, target, value }) => {
 
             stage.lineStyle(value, 0xFFFFFF)

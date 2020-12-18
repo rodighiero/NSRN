@@ -6,7 +6,7 @@ Lexical cartography is designed to look at the Research Network in a visual way.
 
 The current version of the NSRN lexical cartography is available at: https://rodighiero.github.io/NSRN/
 
-For an overview of the geographical distribution of scholars see also: https://chart-studio.plotly.com/~dominik.balazka/2/#plot
+For an overview of the geographical distribution of scholars see also: https://chart-studio.plotly.com/~dominik.balazka/2.embed
 
 The cartography focuses on NSRN’s events and publications — this includes workshops, annual lectures, conferences, blog posts, journal articles and books in NSRN’s book series. Editorials, book reviews, event reports, sponsored panel sessions, roundtables and events promoted by NSRN, but not directly connected to the Network were omitted. Other dedicated materials not directly connected to NSRN — e.g. *Secular Studies* journal, special issues on non-religion, etc. — were not considered either. The resulting dataset includes a total of 283 NSRN-related contributions by 250 different authors for years 2008-2020. Due to missing abstracts, removed conference programs, conference web pages being shut off and broken links, it was not possible to recover the data about 2 annual lectures (out of 10), 2 NSRN conferences (out of 7) and all blog posts published between 2013-2015. Based on the publication history of NSRN’s Facebook page and available material, we estimate that roughly 130 unique contributions — i.e. around 32% of the expected total — are currently missing (see [here](https://chart-studio.plotly.com/~dominik.balazka/7) for additional information).
 

@@ -348,7 +348,7 @@ if (true) {
 /***/ 194:
 /***/ (function(module) {
 
-var a,b;a=this,b=function(){"use strict";function e(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}function t(t,e){var n,i=Object.keys(t);return Object.getOwnPropertySymbols&&(n=Object.getOwnPropertySymbols(t),e&&(n=n.filter(function(e){return Object.getOwnPropertyDescriptor(t,e).enumerable})),i.push.apply(i,n)),i}function c(i){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?arguments[e]:{};e%2?t(Object(r),!0).forEach(function(e){var t,n;t=i,e=r[n=e],n in t?Object.defineProperty(t,n,{value:e,enumerable:!0,configurable:!0,writable:!0}):t[n]=e}):Object.getOwnPropertyDescriptors?Object.defineProperties(i,Object.getOwnPropertyDescriptors(r)):t(Object(r)).forEach(function(e){Object.defineProperty(i,e,Object.getOwnPropertyDescriptor(r,e))})}return i}function a(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,i=new Array(t);n<t;n++)i[n]=e[n];return i}function l(e,t){var n;if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(n=function(e,t){if(e){if("string"==typeof e)return a(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?a(e,t):void 0}}(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var i=0,t=function(){};return{s:t,n:function(){return i>=e.length?{done:!0}:{done:!1,value:e[i++]}},e:function(e){throw e},f:t}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var r,o=!0,s=!1;return{s:function(){n=e[Symbol.iterator]()},n:function(){var e=n.next();return o=e.done,e},e:function(e){s=!0,r=e},f:function(){try{o||null==n.return||n.return()}finally{if(s)throw r}}}}function u(e,t){for(var n=document.getElementsByClassName(e.resultsList.className),i=0;i<n.length;i++)t!==n[i]&&t!==e.inputField&&n[i].parentNode.removeChild(n[i]);e.inputField.removeAttribute("aria-activedescendant"),e.inputField.setAttribute("aria-expanded",!1)}function r(s,a,l){var e,t,u=(e=s,(t=document.createElement(e.resultsList.element)).setAttribute("id",e.resultsList.idName),t.setAttribute("aria-label",e.name),t.setAttribute("class",e.resultsList.className),t.setAttribute("role","listbox"),t.setAttribute("tabindex","-1"),e.resultsList.container&&e.resultsList.container(t),document.querySelector(e.resultsList.destination).insertAdjacentElement(e.resultsList.position,t),t);s.inputField.setAttribute("aria-expanded",!0);for(var n=function(t){var e,n,i,r,o=a.results[t],r=(e=o,n=t,i=s,(r=document.createElement(i.resultItem.element)).setAttribute("id","".concat(i.resultItem.className,"_").concat(n)),r.setAttribute("class",i.resultItem.className),r.setAttribute("role","option"),r.innerHTML=e.match,i.resultItem.content&&i.resultItem.content(e.value,r),r);r.addEventListener("click",function(){var e={matches:l,input:a.input,query:a.query,results:a.results,selection:c(c({},o),{},{index:t})};s.onSelection&&s.onSelection(e)}),u.appendChild(r)},i=0;i<a.results.length;i++)n(i);return u}function d(e,t,n){e.dispatchEvent(new CustomEvent(n,{bubbles:!0,detail:t,cancelable:!0}))}function o(n,r){function i(e,t,n,i){e.preventDefault(),n?o++:o--,s(t),i.inputField.setAttribute("aria-activedescendant",t[o].id),d(e.srcElement,c(c({event:e},r),{},{selection:r.results[o]}),"navigation")}var o=-1,s=function(e){if(!e)return!1;!function(e){for(var t=0;t<e.length;t++)e[t].removeAttribute("aria-selected"),e[t].classList.remove("autoComplete_selected")}(e),o>=e.length&&(o=0),o<0&&(o=e.length-1),e[o].setAttribute("aria-selected","true"),e[o].classList.add("autoComplete_selected")},a=n.resultsList.navigation||function(e){var t=document.getElementById(n.resultsList.idName);if(!t)return n.inputField.removeEventListener("keydown",a);t=t.getElementsByTagName(n.resultItem.element),27===e.keyCode?(n.inputField.value="",u(n)):40===e.keyCode||9===e.keyCode?i(e,t,!0,n):38===e.keyCode||9===e.keyCode?i(e,t,!1,n):13===e.keyCode&&(e.preventDefault(),-1<o&&t&&t[o].click())};n.inputField.addEventListener("keydown",a)}function s(o,s){for(var a=[],e=function(n){function e(e){var t=(e?i[e]:i).toString();t&&((t="function"==typeof o.searchEngine?o.searchEngine(s,t):function(e,t,n){var i=n.diacritics?t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""):t.toLowerCase();if("loose"===n.searchEngine){e=e.replace(/ /g,"");for(var r=[],o=0,s=0;s<i.length;s++){var a=t[s];o<e.length&&i[s]===e[o]&&(a=n.highlight?'<span class="autoComplete_highlighted">'.concat(a,"</span>"):a,o++),r.push(a)}if(o===e.length)return r.join("")}else if(i.includes(e))return e=new RegExp("".concat(e),"i").exec(t),n.highlight?t.replace(e,'<span class="autoComplete_highlighted">'.concat(e,"</span>")):t}(s,t,o))&&e?a.push({key:e,index:n,match:t,value:i}):t&&!e&&a.push({index:n,match:t,value:i}))}var i=o.data.store[n];if(o.data.key){var t,r=l(o.data.key);try{for(r.s();!(t=r.n()).done;)e(t.value)}catch(e){r.e(e)}finally{r.f()}}else e()},t=0;t<o.data.store.length;t++)e(t);return o.sort?a.sort(o.sort):a}var n,i,h;function P(e){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,P);var t=e.name,n=void 0===t?"Search":t,i=e.selector,r=void 0===i?"#autoComplete":i,o=e.observer,s=void 0!==o&&o,a=e.data,l=a.src,u=a.key,c=a.cache,d=void 0!==c&&c,h=a.store,f=e.query,p=e.trigger,v=(p=void 0===p?{}:p).event,m=void 0===v?["input"]:v,b=p.condition,y=void 0!==b&&b,g=e.searchEngine,k=void 0===g?"strict":g,L=e.diacritics,A=void 0!==L&&L,E=e.threshold,F=void 0===E?1:E,w=e.debounce,C=void 0===w?0:w,O=e.resultsList,N=(O=void 0===O?{}:O).render,j=void 0===N||N,x=O.container,S=void 0!==x&&x,I=O.destination,t=O.position,i=void 0===t?"afterend":t,o=O.element,c=void 0===o?"ul":o,a=O.idName,v=void 0===a?"autoComplete_list":a,p=O.className,b=void 0===p?"autoComplete_list":p,g=O.navigation,L=void 0!==g&&g,E=e.sort,w=void 0!==E&&E,N=e.placeHolder,x=e.maxResults,t=void 0===x?5:x,o=e.resultItem,a=(o=void 0===o?{}:o).content,p=void 0!==a&&a,O=o.element,g=void 0===O?"li":O,E=o.idName,x=void 0===E?"autoComplete_result":E,a=o.className,O=void 0===a?"autoComplete_result":a,E=e.noResults,o=e.highlight,a=void 0!==o&&o,o=e.feedback,e=e.onSelection;this.name=n,this.selector=r,this.observer=s,this.data={src:l,key:u,cache:d,store:h},this.query=f,this.trigger={event:m,condition:y},this.searchEngine=k,this.diacritics=A,this.threshold=F,this.debounce=C,this.resultsList={render:j,container:S,destination:I||this.selector,position:i,element:c,idName:v,className:b,navigation:L},this.sort=w,this.placeHolder=N,this.maxResults=t,this.resultItem={content:p,element:g,idName:x,className:O},this.noResults=E,this.highlight=a,this.feedback=o,this.onSelection=e,this.observer?this.preInit():this.init()}return n=P,(i=[{key:"start",value:function(e,t){var n=this,i=s(this,t),t={input:e,query:t,matches:i,results:i.slice(0,this.maxResults)};if(d(this.inputField,t,"results"),!i.length)return this.noResults?this.noResults(t,r):null;if(!this.resultsList.render)return this.feedback(t);i.length&&r(this,t,i);d(this.inputField,t,"rendered"),o(this,t),document.addEventListener("click",function(e){return u(n,e.target)})}},{key:"dataStore",value:function(){var i=this;return new Promise(function(t,n){return i.data.cache&&i.data.store?t(null):new Promise(function(e,t){return"function"==typeof i.data.src?i.data.src().then(e,t):e(i.data.src)}).then(function(e){try{return i.data.store=e,d(i.inputField,i.data.store,"fetch"),t()}catch(e){return n(e)}},n)})}},{key:"compose",value:function(){var a=this;return new Promise(function(e,t){var n,i,r,o;return o=a.inputField,n=(o instanceof HTMLInputElement||o instanceof HTMLTextAreaElement?o.value:o.innerHTML).toLowerCase(),r=n,o=a.query,i=o&&o.manipulate?o.manipulate(r):r.normalize("NFD").replace(/[\u0300-\u036f]/g,""),o=i,((r=a).trigger.condition?r.trigger.condition(o):o.length>=r.threshold&&o.replace(/ /g,"").length)?a.dataStore().then(function(e){try{return u(a),a.start(n,i),s.call(a)}catch(e){return t(e)}},t):(u(a),s.call(a));function s(){return e()}})}},{key:"init",value:function(){var e,n,i,r,t=this;this.inputField=document.querySelector(this.selector),(e=this).inputField.setAttribute("type","text"),e.inputField.setAttribute("role","combobox"),e.inputField.setAttribute("aria-haspopup",!0),e.inputField.setAttribute("aria-expanded",!1),e.inputField.setAttribute("aria-controls",e.resultsList.idName),e.inputField.setAttribute("aria-autocomplete","both"),this.placeHolder&&this.inputField.setAttribute("placeholder",this.placeHolder),this.hook=(n=function(){t.compose()},i=this.debounce,function(){var e=this,t=arguments;clearTimeout(r),r=setTimeout(function(){return n.apply(e,t)},i)}),this.trigger.event.forEach(function(e){t.inputField.removeEventListener(e,t.hook),t.inputField.addEventListener(e,t.hook)}),d(this.inputField,null,"init")}},{key:"preInit",value:function(){var o=this,s=document;new MutationObserver(function(e,t){var n,i=s.querySelector(o.selector),r=l(e);try{for(r.s();!(n=r.n()).done;){n.value;i&&(t.disconnect(),d(i,null,"connect"),o.init())}}catch(e){r.e(e)}finally{r.f()}}).observe(s,{childList:!0,subtree:!0})}},{key:"unInit",value:function(){this.inputField.removeEventListener("input",this.hook),d(this.inputField,null,"unInit")}}])&&e(n.prototype,i),h&&e(n,h),P}, true?module.exports=b():0;
+var a,b;a=this,b=function(){"use strict";function e(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}function t(t,e){var n,i=Object.keys(t);return Object.getOwnPropertySymbols&&(n=Object.getOwnPropertySymbols(t),e&&(n=n.filter(function(e){return Object.getOwnPropertyDescriptor(t,e).enumerable})),i.push.apply(i,n)),i}function c(i){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?arguments[e]:{};e%2?t(Object(r),!0).forEach(function(e){var t,n;t=i,e=r[n=e],n in t?Object.defineProperty(t,n,{value:e,enumerable:!0,configurable:!0,writable:!0}):t[n]=e}):Object.getOwnPropertyDescriptors?Object.defineProperties(i,Object.getOwnPropertyDescriptors(r)):t(Object(r)).forEach(function(e){Object.defineProperty(i,e,Object.getOwnPropertyDescriptor(r,e))})}return i}function a(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,i=new Array(t);n<t;n++)i[n]=e[n];return i}function l(e,t){var n;if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(n=function(e,t){if(e){if("string"==typeof e)return a(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?a(e,t):void 0}}(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var i=0,t=function(){};return{s:t,n:function(){return i>=e.length?{done:!0}:{done:!1,value:e[i++]}},e:function(e){throw e},f:t}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var r,o=!0,s=!1;return{s:function(){n=e[Symbol.iterator]()},n:function(){var e=n.next();return o=e.done,e},e:function(e){s=!0,r=e},f:function(){try{o||null==n.return||n.return()}finally{if(s)throw r}}}}function u(e,t){for(var n=document.getElementsByClassName(e.resultsList.className),i=0;i<n.length;i++)t!==n[i]&&t!==e.inputField&&n[i].parentNode.removeChild(n[i]);e.inputField.removeAttribute("aria-activedescendant"),e.inputField.setAttribute("aria-expanded",!1)}function r(s,a,l){var e,t,u=(e=s,(t=document.createElement(e.resultsList.element)).setAttribute("id",e.resultsList.idName),t.setAttribute("aria-label",e.name),t.setAttribute("class",e.resultsList.className),t.setAttribute("role","listbox"),t.setAttribute("tabindex","-1"),e.resultsList.container&&e.resultsList.container(t),("string"==typeof e.resultsList.destination?document.querySelector(e.resultsList.destination):e.resultsList.destination()).insertAdjacentElement(e.resultsList.position,t),t);s.inputField.setAttribute("aria-expanded",!0);for(var n=function(t){var e,n,i,r,o=a.results[t],r=(e=o,n=t,i=s,(r=document.createElement(i.resultItem.element)).setAttribute("id","".concat(i.resultItem.className,"_").concat(n)),r.setAttribute("class",i.resultItem.className),r.setAttribute("role","option"),r.innerHTML=e.match,i.resultItem.content&&i.resultItem.content(e,r),r);r.addEventListener("click",function(){var e={matches:l,input:a.input,query:a.query,results:a.results,selection:c(c({},o),{},{index:t})};s.onSelection&&s.onSelection(e)}),u.appendChild(r)},i=0;i<a.results.length;i++)n(i);return u}function d(e,t,n){e.dispatchEvent(new CustomEvent(n,{bubbles:!0,detail:t,cancelable:!0}))}function o(n,r){function i(e,t,n,i){e.preventDefault(),n?o++:o--,s(t),i.inputField.setAttribute("aria-activedescendant",t[o].id),d(e.srcElement,c(c({event:e},r),{},{selection:r.results[o]}),"navigation")}var o=-1,s=function(e){if(!e)return!1;!function(e){for(var t=0;t<e.length;t++)e[t].removeAttribute("aria-selected"),e[t].classList.remove("autoComplete_selected")}(e),o>=e.length&&(o=0),o<0&&(o=e.length-1),e[o].setAttribute("aria-selected","true"),e[o].classList.add("autoComplete_selected")},a=n.resultsList.navigation||function(e){var t=document.getElementById(n.resultsList.idName);if(!t)return n.inputField.removeEventListener("keydown",a);t=t.getElementsByTagName(n.resultItem.element),27===e.keyCode?(n.inputField.value="",u(n)):40===e.keyCode||9===e.keyCode?i(e,t,!0,n):38===e.keyCode||9===e.keyCode?i(e,t,!1,n):13===e.keyCode&&(e.preventDefault(),-1<o&&t&&t[o].click())};n.inputField.addEventListener("keydown",a)}function s(o,s){for(var a=[],e=function(n){function e(e){var t=(e?i[e]:i).toString();t&&((t="function"==typeof o.searchEngine?o.searchEngine(s,t):function(e,t,n){var i=n.diacritics?t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""):t.toLowerCase();if("loose"===n.searchEngine){e=e.replace(/ /g,"");for(var r=[],o=0,s=0;s<i.length;s++){var a=t[s];o<e.length&&i[s]===e[o]&&(a=n.highlight?'<span class="autoComplete_highlighted">'.concat(a,"</span>"):a,o++),r.push(a)}if(o===e.length)return r.join("")}else if(i.includes(e))return e=new RegExp("".concat(e),"i").exec(t),n.highlight?t.replace(e,'<span class="autoComplete_highlighted">'.concat(e,"</span>")):t}(s,t,o))&&e?a.push({key:e,index:n,match:t,value:i}):t&&!e&&a.push({index:n,match:t,value:i}))}var i=o.data.store[n];if(o.data.key){var t,r=l(o.data.key);try{for(r.s();!(t=r.n()).done;)e(t.value)}catch(e){r.e(e)}finally{r.f()}}else e()},t=0;t<o.data.store.length;t++)e(t);return o.sort?a.sort(o.sort):a}var n,i,h;function T(e){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,T);var t=e.name,n=void 0===t?"Search":t,i=e.selector,r=void 0===i?"#autoComplete":i,o=e.observer,s=void 0!==o&&o,a=e.data,l=a.src,u=a.key,c=a.cache,d=void 0!==c&&c,h=a.store,f=a.results,p=e.query,v=e.trigger,m=(v=void 0===v?{}:v).event,b=void 0===m?["input"]:m,y=v.condition,g=void 0!==y&&y,L=e.searchEngine,k=void 0===L?"strict":L,A=e.diacritics,E=void 0!==A&&A,F=e.threshold,w=void 0===F?1:F,C=e.debounce,O=void 0===C?0:C,N=e.resultsList,j=(N=void 0===N?{}:N).render,x=void 0===j||j,S=N.container,I=void 0!==S&&S,P=N.destination,t=N.position,i=void 0===t?"afterend":t,o=N.element,c=void 0===o?"ul":o,a=N.idName,m=void 0===a?"autoComplete_list":a,v=N.className,y=void 0===v?"autoComplete_list":v,L=N.navigation,A=void 0!==L&&L,F=e.sort,C=void 0!==F&&F,j=e.placeHolder,S=e.maxResults,t=void 0===S?5:S,o=e.resultItem,a=(o=void 0===o?{}:o).content,v=void 0!==a&&a,N=o.element,L=void 0===N?"li":N,F=o.idName,S=void 0===F?"autoComplete_result":F,a=o.className,N=void 0===a?"autoComplete_result":a,F=e.noResults,o=e.highlight,a=void 0!==o&&o,o=e.feedback,e=e.onSelection;this.name=n,this.selector=r,this.observer=s,this.data={src:l,key:u,cache:d,store:h,results:f},this.query=p,this.trigger={event:b,condition:g},this.searchEngine=k,this.diacritics=E,this.threshold=w,this.debounce=O,this.resultsList={render:x,container:I,destination:P||this.selector,position:i,element:c,idName:m,className:y,navigation:A},this.sort=C,this.placeHolder=j,this.maxResults=t,this.resultItem={content:v,element:L,idName:S,className:N},this.noResults=F,this.highlight=a,this.feedback=o,this.onSelection=e,this.observer?this.preInit():this.init()}return n=T,(i=[{key:"start",value:function(e,t){var n=this,i=this.data.results?this.data.results(s(this,t)):s(this,t),t={input:e,query:t,matches:i,results:i.slice(0,this.maxResults)};if(d(this.inputField,t,"results"),!i.length)return this.noResults?this.noResults(t,r):null;if(!this.resultsList.render)return this.feedback(t);i.length&&r(this,t,i);d(this.inputField,t,"rendered"),o(this,t),document.addEventListener("click",function(e){return u(n,e.target)})}},{key:"dataStore",value:function(){var i=this;return new Promise(function(t,n){return i.data.cache&&i.data.store?t(null):new Promise(function(e,t){return"function"==typeof i.data.src?i.data.src().then(e,t):e(i.data.src)}).then(function(e){try{return i.data.store=e,d(i.inputField,i.data.store,"fetch"),t()}catch(e){return n(e)}},n)})}},{key:"compose",value:function(){var a=this;return new Promise(function(e,t){var n,i,r,o;return o=a.inputField,n=(o instanceof HTMLInputElement||o instanceof HTMLTextAreaElement?o.value:o.innerHTML).toLowerCase(),r=n,o=a.query,i=o&&o.manipulate?o.manipulate(r):r.normalize("NFD").replace(/[\u0300-\u036f]/g,""),o=i,((r=a).trigger.condition?r.trigger.condition(o):o.length>=r.threshold&&o.replace(/ /g,"").length)?a.dataStore().then(function(e){try{return u(a),a.start(n,i),s.call(a)}catch(e){return t(e)}},t):(u(a),s.call(a));function s(){return e()}})}},{key:"init",value:function(){var e,n,i,r,t=this;this.inputField="string"==typeof this.selector?document.querySelector(this.selector):this.selector(),(e=this).inputField.setAttribute("type","text"),e.inputField.setAttribute("role","combobox"),e.inputField.setAttribute("aria-haspopup",!0),e.inputField.setAttribute("aria-expanded",!1),e.inputField.setAttribute("aria-controls",e.resultsList.idName),e.inputField.setAttribute("aria-autocomplete","both"),this.placeHolder&&this.inputField.setAttribute("placeholder",this.placeHolder),this.hook=(n=function(){t.compose()},i=this.debounce,function(){var e=this,t=arguments;clearTimeout(r),r=setTimeout(function(){return n.apply(e,t)},i)}),this.trigger.event.forEach(function(e){t.inputField.removeEventListener(e,t.hook),t.inputField.addEventListener(e,t.hook)}),d(this.inputField,null,"init")}},{key:"preInit",value:function(){var o=this,s=document;new MutationObserver(function(e,t){var n,i=s.querySelector(o.selector),r=l(e);try{for(r.s();!(n=r.n()).done;){n.value;i&&(t.disconnect(),d(i,null,"connect"),o.init())}}catch(e){r.e(e)}finally{r.f()}}).observe(s,{childList:!0,subtree:!0})}},{key:"unInit",value:function(){this.inputField.removeEventListener("input",this.hook),d(this.inputField,null,"unInit")}}])&&e(n.prototype,i),h&&e(n,h),T}, true?module.exports=b():0;
 
 
 /***/ }),
@@ -4100,6 +4100,28 @@ var dependencies = {"d3-array":"2","d3-axis":"2","d3-brush":"2","d3-chord":"2","
   return [min, max];
 }
 
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/max.js
+function max(values, valueof) {
+  let max;
+  if (valueof === undefined) {
+    for (const value of values) {
+      if (value != null
+          && (max < value || (max === undefined && value >= value))) {
+        max = value;
+      }
+    }
+  } else {
+    let index = -1;
+    for (let value of values) {
+      if ((value = valueof(value, ++index, values)) != null
+          && (max < value || (max === undefined && value >= value))) {
+        max = value;
+      }
+    }
+  }
+  return max;
+}
+
 ;// CONCATENATED MODULE: ./node_modules/d3-array/src/index.js
 
 
@@ -7123,7 +7145,7 @@ var MODE_DRAG = {name: "drag"},
     MODE_HANDLE = {name: "handle"},
     MODE_CENTER = {name: "center"};
 
-const {abs, max, min} = Math;
+const {abs, max: brush_max, min} = Math;
 
 function number1(e) {
   return [+e[0], +e[1]];
@@ -7479,8 +7501,8 @@ function brush_brush(dim) {
           w0 = dim === Y ? W : min(pts[0][0], pts[1][0]),
           n0 = dim === X ? N : min(pts[0][1], pts[1][1])
         ], [
-          e0 = dim === Y ? E : max(pts[0][0], pts[1][0]),
-          s0 = dim === X ? S : max(pts[0][1], pts[1][1])
+          e0 = dim === Y ? E : brush_max(pts[0][0], pts[1][0]),
+          s0 = dim === X ? S : brush_max(pts[0][1], pts[1][1])
         ]];
       if (points.length > 1) move();
     } else {
@@ -7550,25 +7572,25 @@ function brush_brush(dim) {
       switch (mode) {
         case MODE_SPACE:
         case MODE_DRAG: {
-          if (signX) dx = max(W - w0, min(E - e0, dx)), w1 = w0 + dx, e1 = e0 + dx;
-          if (signY) dy = max(N - n0, min(S - s0, dy)), n1 = n0 + dy, s1 = s0 + dy;
+          if (signX) dx = brush_max(W - w0, min(E - e0, dx)), w1 = w0 + dx, e1 = e0 + dx;
+          if (signY) dy = brush_max(N - n0, min(S - s0, dy)), n1 = n0 + dy, s1 = s0 + dy;
           break;
         }
         case MODE_HANDLE: {
           if (points[1]) {
-            if (signX) w1 = max(W, min(E, points[0][0])), e1 = max(W, min(E, points[1][0])), signX = 1;
-            if (signY) n1 = max(N, min(S, points[0][1])), s1 = max(N, min(S, points[1][1])), signY = 1;
+            if (signX) w1 = brush_max(W, min(E, points[0][0])), e1 = brush_max(W, min(E, points[1][0])), signX = 1;
+            if (signY) n1 = brush_max(N, min(S, points[0][1])), s1 = brush_max(N, min(S, points[1][1])), signY = 1;
           } else {
-            if (signX < 0) dx = max(W - w0, min(E - w0, dx)), w1 = w0 + dx, e1 = e0;
-            else if (signX > 0) dx = max(W - e0, min(E - e0, dx)), w1 = w0, e1 = e0 + dx;
-            if (signY < 0) dy = max(N - n0, min(S - n0, dy)), n1 = n0 + dy, s1 = s0;
-            else if (signY > 0) dy = max(N - s0, min(S - s0, dy)), n1 = n0, s1 = s0 + dy;
+            if (signX < 0) dx = brush_max(W - w0, min(E - w0, dx)), w1 = w0 + dx, e1 = e0;
+            else if (signX > 0) dx = brush_max(W - e0, min(E - e0, dx)), w1 = w0, e1 = e0 + dx;
+            if (signY < 0) dy = brush_max(N - n0, min(S - n0, dy)), n1 = n0 + dy, s1 = s0;
+            else if (signY > 0) dy = brush_max(N - s0, min(S - s0, dy)), n1 = n0, s1 = s0 + dy;
           }
           break;
         }
         case MODE_CENTER: {
-          if (signX) w1 = max(W, min(E, w0 - dx * signX)), e1 = max(W, min(E, e0 + dx * signX));
-          if (signY) n1 = max(N, min(S, n0 - dy * signY)), s1 = max(N, min(S, s0 + dy * signY));
+          if (signX) w1 = brush_max(W, min(E, w0 - dx * signX)), e1 = brush_max(W, min(E, e0 + dx * signX));
+          if (signY) n1 = brush_max(N, min(S, n0 - dy * signY)), s1 = brush_max(N, min(S, s0 + dy * signY));
           break;
         }
       }
@@ -7733,28 +7755,6 @@ function brush_brush(dim) {
 
 ;// CONCATENATED MODULE: ./node_modules/d3-brush/src/index.js
 
-
-;// CONCATENATED MODULE: ./node_modules/d3-array/src/max.js
-function max_max(values, valueof) {
-  let max;
-  if (valueof === undefined) {
-    for (const value of values) {
-      if (value != null
-          && (max < value || (max === undefined && value >= value))) {
-        max = value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null
-          && (max < value || (max === undefined && value >= value))) {
-        max = value;
-      }
-    }
-  }
-  return max;
-}
 
 ;// CONCATENATED MODULE: ./node_modules/d3-array/src/ticks.js
 var e10 = Math.sqrt(50),
@@ -8211,7 +8211,7 @@ function defaultWeight() {
 
     // Convert number of thresholds into uniform thresholds.
     if (!Array.isArray(tz)) {
-      var stop = max_max(values0);
+      var stop = max(values0);
       tz = tickStep(0, stop, tz);
       tz = range(0, Math.floor(stop / tz) * tz, tz);
       tz.shift();
@@ -9764,8 +9764,8 @@ var object_assign = __webpack_require__(418);
 var object_assign_default = /*#__PURE__*/__webpack_require__.n(object_assign);
 ;// CONCATENATED MODULE: ./node_modules/@pixi/polyfill/lib/polyfill.es.js
 /*!
- * @pixi/polyfill - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/polyfill - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/polyfill is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -10005,8 +10005,8 @@ function isMobile(param) {
 //# sourceMappingURL=isMobile.js.map
 ;// CONCATENATED MODULE: ./node_modules/@pixi/settings/lib/settings.es.js
 /*!
- * @pixi/settings - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/settings - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/settings is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -10296,8 +10296,8 @@ var earcut_default = /*#__PURE__*/__webpack_require__.n(earcut);
 var url_url = __webpack_require__(575);
 ;// CONCATENATED MODULE: ./node_modules/@pixi/constants/lib/constants.es.js
 /*!
- * @pixi/constants - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/constants - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/constants is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -10740,8 +10740,8 @@ var MSAA_QUALITY;
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/utils/lib/utils.es.js
 /*!
- * @pixi/utils - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/utils - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/utils is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -10779,7 +10779,7 @@ settings.RETINA_PREFIX = /@([0-9\.]+)x/;
 settings.FAIL_IF_MAJOR_PERFORMANCE_CAVEAT = true;
 
 var saidHello = false;
-var VERSION = '5.3.4';
+var VERSION = '5.3.7';
 /**
  * Skips the hello message of renderers that are created after this is run.
  *
@@ -11631,8 +11631,8 @@ function getResolutionOfUrl(url, defaultValue) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/math/lib/math.es.js
 /*!
- * @pixi/math - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/math - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/math is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -13550,8 +13550,8 @@ var math_es_Transform = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/display/lib/display.es.js
 /*!
- * @pixi/display - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/display - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/display is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -15224,8 +15224,8 @@ Container.prototype.containerUpdateTransform = Container.prototype.updateTransfo
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/accessibility/lib/accessibility.es.js
 /*!
- * @pixi/accessibility - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/accessibility - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/accessibility is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -15814,8 +15814,8 @@ var AccessibilityManager = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/ticker/lib/ticker.es.js
 /*!
- * @pixi/ticker - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/ticker - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/ticker is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -16662,8 +16662,8 @@ var TickerPlugin = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/interaction/lib/interaction.es.js
 /*!
- * @pixi/interaction - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/interaction - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/interaction is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -18866,8 +18866,8 @@ var InteractionManager = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/runner/lib/runner.es.js
 /*!
- * @pixi/runner - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/runner - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/runner is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -19066,8 +19066,8 @@ Object.defineProperties(Runner.prototype, {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/core/lib/core.es.js
 /*!
- * @pixi/core - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/core - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/core is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -20992,7 +20992,7 @@ var SVGResource = /** @class */ (function (_super) {
         // url file extension is SVG
         return extension === 'svg'
             // source is SVG data-uri
-            || (typeof source === 'string' && source.indexOf('data:image/svg+xml;base64') === 0)
+            || (typeof source === 'string' && (/^data:image\/svg\+xml(;(charset=utf8|utf8))?;base64/).test(source))
             // source is SVG inline
             || (typeof source === 'string' && source.indexOf('<svg') === 0);
     };
@@ -23550,7 +23550,7 @@ var FilterSystem = /** @class */ (function (_super) {
                 // new behavior: sum the padding
                 : padding + filter.padding;
             // only auto fit if all filters are autofit
-            autoFit = autoFit || filter.autoFit;
+            autoFit = autoFit && filter.autoFit;
             legacy = legacy || filter.legacy;
         }
         if (filterStack.length === 1) {
@@ -24157,14 +24157,17 @@ var ContextSystem = /** @class */ (function (_super) {
      */
     ContextSystem.prototype.validateContext = function (gl) {
         var attributes = gl.getContextAttributes();
+        var isWebGl2 = 'WebGL2RenderingContext' in window && gl instanceof window.WebGL2RenderingContext;
+        if (isWebGl2) {
+            this.webGLVersion = 2;
+        }
         // this is going to be fairly simple for now.. but at least we have room to grow!
         if (!attributes.stencil) {
             /* eslint-disable max-len, no-console */
             console.warn('Provided WebGL context does not have a stencil buffer, masks may not render correctly');
             /* eslint-enable max-len, no-console */
         }
-        var hasuint32 = ('WebGL2RenderingContext' in window && gl instanceof window.WebGL2RenderingContext)
-            || !!gl.getExtension('OES_element_index_uint');
+        var hasuint32 = isWebGl2 || !!gl.getExtension('OES_element_index_uint');
         this.supports.uint32Indices = hasuint32;
         if (!hasuint32) {
             /* eslint-disable max-len, no-console */
@@ -24712,7 +24715,7 @@ var GeometrySystem = /** @class */ (function (_super) {
         var context = this.renderer.context;
         this.CONTEXT_UID = this.renderer.CONTEXT_UID;
         // webgl2
-        if (!gl.createVertexArray) {
+        if (context.webGLVersion !== 2) {
             // webgl 1!
             var nativeVaoExtension_1 = this.renderer.context.extensions.vertexArrayObject;
             if (settings.PREFER_ENV === ENV.WEBGL_LEGACY) {
@@ -24742,7 +24745,7 @@ var GeometrySystem = /** @class */ (function (_super) {
                 };
             }
         }
-        if (!gl.vertexAttribDivisor) {
+        if (context.webGLVersion !== 2) {
             var instanceExt_1 = gl.getExtension('ANGLE_instanced_arrays');
             if (instanceExt_1) {
                 gl.vertexAttribDivisor = function (a, b) {
@@ -24775,12 +24778,14 @@ var GeometrySystem = /** @class */ (function (_super) {
         // Still mulling over the best way to solve this one..
         // will likely need to modify the shader attribute locations at run time!
         var vaos = geometry.glVertexArrayObjects[this.CONTEXT_UID];
+        var incRefCount = false;
         if (!vaos) {
             this.managedGeometries[geometry.id] = geometry;
             geometry.disposeRunner.add(this);
             geometry.glVertexArrayObjects[this.CONTEXT_UID] = vaos = {};
+            incRefCount = true;
         }
-        var vao = vaos[shader.program.id] || this.initGeometryVao(geometry, shader.program);
+        var vao = vaos[shader.program.id] || this.initGeometryVao(geometry, shader.program, incRefCount);
         this._activeGeometry = geometry;
         if (this._activeVao !== vao) {
             this._activeVao = vao;
@@ -24878,8 +24883,10 @@ var GeometrySystem = /** @class */ (function (_super) {
      * @protected
      * @param {PIXI.Geometry} geometry - Instance of geometry to to generate Vao for
      * @param {PIXI.Program} program - Instance of program
+     * @param {boolean} [incRefCount=false] - Increment refCount of all geometry buffers
      */
-    GeometrySystem.prototype.initGeometryVao = function (geometry, program) {
+    GeometrySystem.prototype.initGeometryVao = function (geometry, program, incRefCount) {
+        if (incRefCount === void 0) { incRefCount = true; }
         this.checkCompatibility(geometry, program);
         var gl = this.gl;
         var CONTEXT_UID = this.CONTEXT_UID;
@@ -24935,7 +24942,9 @@ var GeometrySystem = /** @class */ (function (_super) {
                 this.managedBuffers[buffer.id] = buffer;
                 buffer.disposeRunner.add(this);
             }
-            buffer._glBuffers[CONTEXT_UID].refCount++;
+            if (incRefCount) {
+                buffer._glBuffers[CONTEXT_UID].refCount++;
+            }
         }
         // TODO - maybe make this a data object?
         // lets wait to see if we need to first!
@@ -28168,7 +28177,7 @@ var TextureSystem = /** @class */ (function (_super) {
                     gl.activeTexture(gl.TEXTURE0 + i);
                     this.currentLocation = i;
                 }
-                gl.bindTexture(gl.TEXTURE_2D, this.emptyTextures[texture.target].texture);
+                gl.bindTexture(texture.target, this.emptyTextures[texture.target].texture);
                 boundTextures[i] = null;
             }
         }
@@ -30031,8 +30040,8 @@ var BatchRenderer = BatchPluginFactory.create();
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/app/lib/app.es.js
 /*!
- * @pixi/app - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/app - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/app is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -30308,8 +30317,8 @@ Application.registerPlugin(ResizePlugin);
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/extract/lib/extract.es.js
 /*!
- * @pixi/extract - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/extract - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/extract is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -32879,8 +32888,8 @@ Loader.use = function LoaderUseStatic(fn) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/loaders/lib/loaders.es.js
 /*!
- * @pixi/loaders - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/loaders - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/loaders is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -33202,8 +33211,8 @@ var AppLoaderPlugin = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/particles/lib/particles.es.js
 /*!
- * @pixi/particles - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/particles - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/particles is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -34014,8 +34023,8 @@ var ParticleRenderer = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/graphics/lib/graphics.es.js
 /*!
- * @pixi/graphics - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/graphics - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/graphics is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -34713,40 +34722,75 @@ function buildNonNativeLine(graphicsData, graphicsGeometry) {
         /* Outer miter point */
         var omx = x1 - ((px - x1) * outerWeight);
         var omy = y1 - ((py - y1) * outerWeight);
-        if (style.join === LINE_JOIN.BEVEL || pdist / widthSquared > miterLimitSquared) {
-            if (clockwise) /* rotating at inner angle */ {
-                verts.push(imx, imy); // inner miter point
-                verts.push(x1 + (perpx * outerWeight), y1 + (perpy * outerWeight)); // first segment's outer vertex
-                verts.push(imx, imy); // inner miter point
-                verts.push(x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight)); // second segment's outer vertex
+        /* Is the inside miter point too far away, creating a spike? */
+        var smallerInsideSegmentSq = Math.min((dx0 * dx0) + (dy0 * dy0), (dx1 * dx1) + (dy1 * dy1));
+        var insideWeight = clockwise ? innerWeight : outerWeight;
+        var smallerInsideDiagonalSq = smallerInsideSegmentSq + (insideWeight * insideWeight * widthSquared);
+        var insideMiterOk = pdist <= smallerInsideDiagonalSq;
+        if (insideMiterOk) {
+            if (style.join === LINE_JOIN.BEVEL || pdist / widthSquared > miterLimitSquared) {
+                if (clockwise) /* rotating at inner angle */ {
+                    verts.push(imx, imy); // inner miter point
+                    verts.push(x1 + (perpx * outerWeight), y1 + (perpy * outerWeight)); // first segment's outer vertex
+                    verts.push(imx, imy); // inner miter point
+                    verts.push(x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight)); // second segment's outer vertex
+                }
+                else /* rotating at outer angle */ {
+                    verts.push(x1 - (perpx * innerWeight), y1 - (perpy * innerWeight)); // first segment's inner vertex
+                    verts.push(omx, omy); // outer miter point
+                    verts.push(x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight)); // second segment's outer vertex
+                    verts.push(omx, omy); // outer miter point
+                }
+                indexCount += 2;
             }
-            else /* rotating at outer angle */ {
-                verts.push(x1 - (perpx * innerWeight), y1 - (perpy * innerWeight)); // first segment's inner vertex
-                verts.push(omx, omy); // outer miter point
-                verts.push(x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight)); // second segment's outer vertex
-                verts.push(omx, omy); // outer miter point
+            else if (style.join === LINE_JOIN.ROUND) {
+                if (clockwise) /* arc is outside */ {
+                    verts.push(imx, imy);
+                    verts.push(x1 + (perpx * outerWeight), y1 + (perpy * outerWeight));
+                    indexCount += graphics_es_round(x1, y1, x1 + (perpx * outerWeight), y1 + (perpy * outerWeight), x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight), verts, true) + 4;
+                    verts.push(imx, imy);
+                    verts.push(x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight));
+                }
+                else /* arc is inside */ {
+                    verts.push(x1 - (perpx * innerWeight), y1 - (perpy * innerWeight));
+                    verts.push(omx, omy);
+                    indexCount += graphics_es_round(x1, y1, x1 - (perpx * innerWeight), y1 - (perpy * innerWeight), x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight), verts, false) + 4;
+                    verts.push(x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight));
+                    verts.push(omx, omy);
+                }
             }
+            else {
+                verts.push(imx, imy);
+                verts.push(omx, omy);
+            }
+        }
+        else // inside miter is NOT ok
+         {
+            verts.push(x1 - (perpx * innerWeight), y1 - (perpy * innerWeight)); // first segment's inner vertex
+            verts.push(x1 + (perpx * outerWeight), y1 + (perpy * outerWeight)); // first segment's outer vertex
+            if (style.join === LINE_JOIN.BEVEL || pdist / widthSquared > miterLimitSquared) ;
+            else if (style.join === LINE_JOIN.ROUND) {
+                if (clockwise) /* arc is outside */ {
+                    indexCount += graphics_es_round(x1, y1, x1 + (perpx * outerWeight), y1 + (perpy * outerWeight), x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight), verts, true) + 2;
+                }
+                else /* arc is inside */ {
+                    indexCount += graphics_es_round(x1, y1, x1 - (perpx * innerWeight), y1 - (perpy * innerWeight), x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight), verts, false) + 2;
+                }
+            }
+            else {
+                if (clockwise) {
+                    verts.push(omx, omy); // inner miter point
+                    verts.push(omx, omy); // inner miter point
+                }
+                else {
+                    verts.push(imx, imy); // outer miter point
+                    verts.push(imx, imy); // outer miter point
+                }
+                indexCount += 2;
+            }
+            verts.push(x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight)); // second segment's inner vertex
+            verts.push(x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight)); // second segment's outer vertex
             indexCount += 2;
-        }
-        else if (style.join === LINE_JOIN.ROUND) {
-            if (clockwise) /* arc is outside */ {
-                verts.push(imx, imy);
-                verts.push(x1 + (perpx * outerWeight), y1 + (perpy * outerWeight));
-                indexCount += graphics_es_round(x1, y1, x1 + (perpx * outerWeight), y1 + (perpy * outerWeight), x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight), verts, true) + 4;
-                verts.push(imx, imy);
-                verts.push(x1 + (perp1x * outerWeight), y1 + (perp1y * outerWeight));
-            }
-            else /* arc is inside */ {
-                verts.push(x1 - (perpx * innerWeight), y1 - (perpy * innerWeight));
-                verts.push(omx, omy);
-                indexCount += graphics_es_round(x1, y1, x1 - (perpx * innerWeight), y1 - (perpy * innerWeight), x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight), verts, false) + 4;
-                verts.push(x1 - (perp1x * innerWeight), y1 - (perp1y * innerWeight));
-                verts.push(omx, omy);
-            }
-        }
-        else {
-            verts.push(imx, imy);
-            verts.push(omx, omy);
         }
     }
     x0 = points[(length - 2) * 2];
@@ -36929,10 +36973,10 @@ var graphics_es_Graphics = /** @class */ (function (_super) {
     Graphics.prototype._render = function (renderer) {
         this.finishPoly();
         var geometry = this._geometry;
-        var hasuit32 = renderer.context.supports.uint32Indices;
+        var hasuint32 = renderer.context.supports.uint32Indices;
         // batch part..
         // batch it!
-        geometry.updateBatches(hasuit32);
+        geometry.updateBatches(hasuint32);
         if (geometry.batchable) {
             if (this.batchDirty !== geometry.batchDirty) {
                 this._populateBatches();
@@ -37059,8 +37103,9 @@ var graphics_es_Graphics = /** @class */ (function (_super) {
             // and that only gets created if we actually need it..
             // but may be more than one plugins for graphics
             if (!DEFAULT_SHADERS[pluginName]) {
-                var sampleValues = new Int32Array(16);
-                for (var i = 0; i < 16; i++) {
+                var MAX_TEXTURES = renderer.plugins.batch.MAX_TEXTURES;
+                var sampleValues = new Int32Array(MAX_TEXTURES);
+                for (var i = 0; i < MAX_TEXTURES; i++) {
                     sampleValues[i] = i;
                 }
                 var uniforms = {
@@ -37208,7 +37253,6 @@ var graphics_es_Graphics = /** @class */ (function (_super) {
      *  Should it destroy the base texture of the child sprite
      */
     Graphics.prototype.destroy = function (options) {
-        _super.prototype.destroy.call(this, options);
         this._geometry.refCount--;
         if (this._geometry.refCount === 0) {
             this._geometry.dispose();
@@ -37242,8 +37286,8 @@ var graphics_es_Graphics = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/sprite/lib/sprite.es.js
 /*!
- * @pixi/sprite - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/sprite - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/sprite is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37833,8 +37877,8 @@ var Sprite = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/text/lib/text.es.js
 /*!
- * @pixi/text - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/text - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/text is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -38797,7 +38841,7 @@ var TextMetrics = /** @class */ (function () {
         var width = 0;
         var line = '';
         var lines = '';
-        var cache = {};
+        var cache = Object.create(null);
         var letterSpacing = style.letterSpacing, whiteSpace = style.whiteSpace;
         // How to handle whitespaces
         var collapseSpaces = TextMetrics.collapseSpaces(whiteSpace);
@@ -38953,7 +38997,7 @@ var TextMetrics = /** @class */ (function () {
      */
     TextMetrics.getFromCache = function (key, letterSpacing, cache, context) {
         var width = cache[key];
-        if (width === undefined) {
+        if (typeof width !== 'number') {
             var spacing = ((key.length) * letterSpacing);
             width = context.measureText(key).width + spacing;
             cache[key] = width;
@@ -39487,8 +39531,9 @@ var Text = /** @class */ (function (_super) {
         // beneath the text, whilst also having the proper text shadow styling.
         for (var i = 0; i < passesCount; ++i) {
             var isShadowPass = style.dropShadow && i === 0;
-            var dsOffsetText = isShadowPass ? height * 2 : 0; // we only want the drop shadow, so put text way off-screen
-            var dsOffsetShadow = dsOffsetText * this.resolution;
+            // we only want the drop shadow, so put text way off-screen
+            var dsOffsetText = isShadowPass ? Math.ceil(Math.max(1, height) + (style.padding * 2)) : 0;
+            var dsOffsetShadow = dsOffsetText * this._resolution;
             if (isShadowPass) {
                 // On Safari, text with gradient and drop shadows together do not position correctly
                 // if the scale of the canvas is not 1: https://bugs.webkit.org/show_bug.cgi?id=197689
@@ -39509,7 +39554,7 @@ var Text = /** @class */ (function (_super) {
                 //       the setter converts to string. See this thread for more details:
                 //       https://github.com/microsoft/TypeScript/issues/2521
                 context.strokeStyle = style.stroke;
-                context.shadowColor = '0';
+                context.shadowColor = 'black';
                 context.shadowBlur = 0;
                 context.shadowOffsetX = 0;
                 context.shadowOffsetY = 0;
@@ -39888,8 +39933,8 @@ var Text = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/prepare/lib/prepare.es.js
 /*!
- * @pixi/prepare - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/prepare - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/prepare is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -40524,8 +40569,8 @@ var TimeLimiter = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/spritesheet/lib/spritesheet.es.js
 /*!
- * @pixi/spritesheet - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/spritesheet - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/spritesheet is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -40863,8 +40908,8 @@ var SpritesheetLoader = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js
 /*!
- * @pixi/sprite-tiling - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/sprite-tiling - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/sprite-tiling is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -40948,7 +40993,7 @@ var TilingSprite = /** @class */ (function (_super) {
          *
          * @member {PIXI.TextureMatrix}
          */
-        _this.uvMatrix = texture.uvMatrix || new TextureMatrix(texture);
+        _this.uvMatrix = _this.texture.uvMatrix || new TextureMatrix(texture);
         /**
          * Plugin that is responsible for rendering this element.
          * Allows to customize the rendering process without overriding '_render' method.
@@ -41164,7 +41209,7 @@ var TilingSprite = /** @class */ (function (_super) {
 
 var sprite_tiling_es_vertex = "attribute vec2 aVertexPosition;\nattribute vec2 aTextureCoord;\n\nuniform mat3 projectionMatrix;\nuniform mat3 translationMatrix;\nuniform mat3 uTransform;\n\nvarying vec2 vTextureCoord;\n\nvoid main(void)\n{\n    gl_Position = vec4((projectionMatrix * translationMatrix * vec3(aVertexPosition, 1.0)).xy, 0.0, 1.0);\n\n    vTextureCoord = (uTransform * vec3(aTextureCoord, 1.0)).xy;\n}\n";
 
-var sprite_tiling_es_fragment = "varying vec2 vTextureCoord;\n\nuniform sampler2D uSampler;\nuniform vec4 uColor;\nuniform mat3 uMapCoord;\nuniform vec4 uClampFrame;\nuniform vec2 uClampOffset;\n\nvoid main(void)\n{\n    vec2 coord = vTextureCoord - floor(vTextureCoord - uClampOffset);\n    coord = (uMapCoord * vec3(coord, 1.0)).xy;\n    coord = clamp(coord, uClampFrame.xy, uClampFrame.zw);\n\n    vec4 texSample = texture2D(uSampler, coord);\n    gl_FragColor = texSample * uColor;\n}\n";
+var sprite_tiling_es_fragment = "varying vec2 vTextureCoord;\n\nuniform sampler2D uSampler;\nuniform vec4 uColor;\nuniform mat3 uMapCoord;\nuniform vec4 uClampFrame;\nuniform vec2 uClampOffset;\n\nvoid main(void)\n{\n    vec2 coord = vTextureCoord + ceil(uClampOffset - vTextureCoord);\n    coord = (uMapCoord * vec3(coord, 1.0)).xy;\n    coord = clamp(coord, uClampFrame.xy, uClampFrame.zw);\n\n    vec4 texSample = texture2D(uSampler, coord);\n    gl_FragColor = texSample * uColor;\n}\n";
 
 var fragmentSimple = "varying vec2 vTextureCoord;\n\nuniform sampler2D uSampler;\nuniform vec4 uColor;\n\nvoid main(void)\n{\n    vec4 sample = texture2D(uSampler, vTextureCoord);\n    gl_FragColor = sample * uColor;\n}\n";
 
@@ -41273,8 +41318,8 @@ var TilingSpriteRenderer = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/mesh/lib/mesh.es.js
 /*!
- * @pixi/mesh - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/mesh - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/mesh is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -41468,9 +41513,6 @@ var Mesh = /** @class */ (function (_super) {
          */
         _this.vertexDirty = 0;
         _this._transformID = -1;
-        // Inherited from DisplayMode, set defaults
-        _this.tint = 0xFFFFFF;
-        _this.blendMode = BLEND_MODES.NORMAL;
         /**
          * Internal roundPixels field
          *
@@ -41991,8 +42033,8 @@ var MeshGeometry = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js
 /*!
- * @pixi/text-bitmap - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/text-bitmap - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/text-bitmap is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -42148,6 +42190,7 @@ var TextFormat = /** @class */ (function () {
             char: [],
             chars: [],
             kerning: [],
+            kernings: [],
         };
         for (var i in items) {
             // Extract item name
@@ -42284,10 +42327,50 @@ var XMLFormat = /** @class */ (function () {
     return XMLFormat;
 }());
 
+/**
+ * BitmapFont format that's XML-based.
+ *
+ * @class
+ * @private
+ */
+var XMLStringFormat = /** @class */ (function () {
+    function XMLStringFormat() {
+    }
+    /**
+     * Check if resource refers to text xml font data.
+     *
+     * @static
+     * @private
+     * @param {any} data
+     * @return {boolean} True if resource could be treated as font data, false otherwise.
+     */
+    XMLStringFormat.test = function (data) {
+        if (typeof data === 'string' && data.indexOf('<font>') > -1) {
+            var xml = new self.DOMParser().parseFromString(data, 'text/xml');
+            return XMLFormat.test(xml);
+        }
+        return false;
+    };
+    /**
+     * Convert the text XML into BitmapFontData that we can use.
+     *
+     * @static
+     * @private
+     * @param {string} xmlTxt
+     * @return {BitmapFontData} Data to use for BitmapFont
+     */
+    XMLStringFormat.parse = function (xmlTxt) {
+        var xml = new window.DOMParser().parseFromString(xmlTxt, 'text/xml');
+        return XMLFormat.parse(xml);
+    };
+    return XMLStringFormat;
+}());
+
 // Registered formats, maybe make this extensible in the future?
 var formats = [
     TextFormat,
-    XMLFormat ];
+    XMLFormat,
+    XMLStringFormat ];
 /**
  * Auto-detect BitmapFont parsing format based on data.
  * @private
@@ -42452,7 +42535,7 @@ function drawGlyph(canvas, context, metrics, x, y, resolution, style) {
         context.shadowOffsetY = Math.sin(style.dropShadowAngle) * style.dropShadowDistance;
     }
     else {
-        context.shadowColor = '0';
+        context.shadowColor = 'black';
         context.shadowBlur = 0;
         context.shadowOffsetX = 0;
         context.shadowOffsetY = 0;
@@ -42463,7 +42546,7 @@ function drawGlyph(canvas, context, metrics, x, y, resolution, style) {
     if (style.fill) {
         context.fillText(char, tx, ty + metrics.lineHeight - fontProperties.descent);
     }
-    context.setTransform();
+    context.setTransform(1, 0, 0, 1, 0, 0); // defaults needed for older browsers (e.g. Opera 29)
     context.fillStyle = 'rgba(0, 0, 0, 0)';
 }
 
@@ -43018,21 +43101,24 @@ var BitmapText = /** @class */ (function (_super) {
          */
         _this._anchor = new ObservablePoint(function () { _this.dirty = true; }, _this, 0, 0);
         /**
-         * If true PixiJS will Math.floor() x/y values when rendering, stopping pixel interpolation.
-         * Advantages can include sharper image quality (like text) and faster rendering on canvas.
-         * The main disadvantage is movement of objects may appear less smooth.
-         * To set the global default, change {@link PIXI.settings.ROUND_PIXELS}
+         * If true PixiJS will Math.floor() x/y values when rendering
          *
          * @member {boolean}
          * @default PIXI.settings.ROUND_PIXELS
          */
-        _this.roundPixels = settings.ROUND_PIXELS;
+        _this._roundPixels = settings.ROUND_PIXELS;
         /**
          * Set to `true` if the BitmapText needs to be redrawn.
          *
          * @member {boolean}
          */
         _this.dirty = true;
+        /**
+         * Cached char texture is destroyed when BitmapText is destroyed
+         * @member {Record<number, Texture>}
+         * @private
+         */
+        _this._textureCache = {};
         return _this;
     }
     /**
@@ -43164,7 +43250,9 @@ var BitmapText = /** @class */ (function (_super) {
                 pageMeshData.uvsCount = 0;
                 pageMeshData.total = 0;
                 // TODO need to get page texture here somehow..
-                pageMeshData.mesh.texture = new Texture(texture.baseTexture);
+                var _textureCache = this._textureCache;
+                _textureCache[baseTextureUid] = _textureCache[baseTextureUid] || new Texture(texture.baseTexture);
+                pageMeshData.mesh.texture = _textureCache[baseTextureUid];
                 pageMeshData.mesh.tint = this._tint;
                 newPagesMeshData.push(pageMeshData);
                 pagesMeshData[baseTextureUid] = pageMeshData;
@@ -43197,13 +43285,25 @@ var BitmapText = /** @class */ (function (_super) {
                 pageMeshData.uvs = new Float32Array(4 * 2 * total);
                 pageMeshData.indices = new Uint16Array(6 * total);
             }
+            else {
+                var total_1 = pageMeshData.total;
+                var vertices = pageMeshData.vertices;
+                // Clear the garbage at the end of the vertices buffer. This will prevent the bounds miscalculation.
+                for (var i_1 = total_1 * 4 * 2; i_1 < vertices.length; i_1++) {
+                    vertices[i_1] = 0;
+                }
+            }
             // as a buffer maybe bigger than the current word, we set the size of the meshMaterial
             // to match the number of letters needed
             pageMeshData.mesh.size = 6 * total;
         }
         for (var i = 0; i < lenChars; i++) {
             var char = chars[i];
-            var xPos = (char.position.x + lineAlignOffsets[char.line]) * scale;
+            var offset = char.position.x + lineAlignOffsets[char.line];
+            if (this._roundPixels) {
+                offset = Math.round(offset);
+            }
+            var xPos = offset * scale;
             var yPos = char.position.y * scale;
             var texture = char.texture;
             var pageMesh = pagesMeshData[texture.baseTexture.uid];
@@ -43242,7 +43342,7 @@ var BitmapText = /** @class */ (function (_super) {
                 var vertexCount = 0;
                 var anchorOffsetX = this._textWidth * this.anchor.x;
                 var anchorOffsetY = this._textHeight * this.anchor.y;
-                for (var i_1 = 0; i_1 < pageMeshData.total; i_1++) {
+                for (var i_2 = 0; i_2 < pageMeshData.total; i_2++) {
                     pageMeshData.vertices[vertexCount++] -= anchorOffsetX;
                     pageMeshData.vertices[vertexCount++] -= anchorOffsetY;
                     pageMeshData.vertices[vertexCount++] -= anchorOffsetX;
@@ -43491,6 +43591,28 @@ var BitmapText = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(BitmapText.prototype, "roundPixels", {
+        /**
+         * If true PixiJS will Math.floor() x/y values when rendering, stopping pixel interpolation.
+         * Advantages can include sharper image quality (like text) and faster rendering on canvas.
+         * The main disadvantage is movement of objects may appear less smooth.
+         * To set the global default, change {@link PIXI.settings.ROUND_PIXELS}
+         *
+         * @member {boolean}
+         * @default PIXI.settings.ROUND_PIXELS
+         */
+        get: function () {
+            return this._roundPixels;
+        },
+        set: function (value) {
+            if (value !== this._roundPixels) {
+                this._roundPixels = value;
+                this.dirty = true;
+            }
+        },
+        enumerable: false,
+        configurable: true
+    });
     Object.defineProperty(BitmapText.prototype, "textHeight", {
         /**
          * The height of the overall text, different from fontSize,
@@ -43528,6 +43650,16 @@ var BitmapText = /** @class */ (function (_super) {
                 ? style.font.size
                 : parseInt(style.font.size, 10);
         }
+    };
+    BitmapText.prototype.destroy = function (options) {
+        var _textureCache = this._textureCache;
+        for (var id in _textureCache) {
+            var texture = _textureCache[id];
+            texture.destroy();
+            delete _textureCache[id];
+        }
+        this._textureCache = null;
+        _super.prototype.destroy.call(this, options);
     };
     /**
      * Register a bitmap font with data and a texture.
@@ -43582,7 +43714,7 @@ var BitmapFontLoader = /** @class */ (function () {
      * @see PIXI.Loader.registerPlugin
      */
     BitmapFontLoader.add = function () {
-        LoaderResource.setExtensionXhrType('fnt', LoaderResource.XHR_RESPONSE_TYPE.DOCUMENT);
+        LoaderResource.setExtensionXhrType('fnt', LoaderResource.XHR_RESPONSE_TYPE.TEXT);
     };
     /**
      * Called after a resource is loaded.
@@ -43699,8 +43831,8 @@ var BitmapFontLoader = /** @class */ (function () {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js
 /*!
- * @pixi/filter-alpha - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-alpha - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-alpha is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -43790,8 +43922,8 @@ var AlphaFilter = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-blur/lib/filter-blur.es.js
 /*!
- * @pixi/filter-blur - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-blur - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-blur is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -44335,13 +44467,13 @@ var BlurFilterPass = /** @class */ (function (_super) {
      * @param {boolean} horizontal - Do pass along the x-axis (`true`) or y-axis (`false`).
      * @param {number} [strength=8] - The strength of the blur filter.
      * @param {number} [quality=4] - The quality of the blur filter.
-     * @param {number} [resolution=1] - The resolution of the blur filter.
+     * @param {number} [resolution=PIXI.settings.FILTER_RESOLUTION] - The resolution of the blur filter.
      * @param {number} [kernelSize=5] - The kernelSize of the blur filter.Options: 5, 7, 9, 11, 13, 15.
      */
     function BlurFilterPass(horizontal, strength, quality, resolution, kernelSize) {
         if (strength === void 0) { strength = 8; }
         if (quality === void 0) { quality = 4; }
-        if (resolution === void 0) { resolution = settings.RESOLUTION; }
+        if (resolution === void 0) { resolution = settings.FILTER_RESOLUTION; }
         if (kernelSize === void 0) { kernelSize = 5; }
         var _this = this;
         var vertSrc = generateBlurVertSource(kernelSize, horizontal);
@@ -44463,13 +44595,13 @@ var BlurFilter = /** @class */ (function (_super) {
     /**
      * @param {number} [strength=8] - The strength of the blur filter.
      * @param {number} [quality=4] - The quality of the blur filter.
-     * @param {number} [resolution=1] - The resolution of the blur filter.
+     * @param {number} [resolution=PIXI.settings.FILTER_RESOLUTION] - The resolution of the blur filter.
      * @param {number} [kernelSize=5] - The kernelSize of the blur filter.Options: 5, 7, 9, 11, 13, 15.
      */
     function BlurFilter(strength, quality, resolution, kernelSize) {
         if (strength === void 0) { strength = 8; }
         if (quality === void 0) { quality = 4; }
-        if (resolution === void 0) { resolution = settings.RESOLUTION; }
+        if (resolution === void 0) { resolution = settings.FILTER_RESOLUTION; }
         if (kernelSize === void 0) { kernelSize = 5; }
         var _this = _super.call(this) || this;
         _this.blurXFilter = new BlurFilterPass(true, strength, quality, resolution, kernelSize);
@@ -44620,8 +44752,8 @@ var BlurFilter = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js
 /*!
- * @pixi/filter-color-matrix - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-color-matrix - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-color-matrix is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45154,8 +45286,8 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js
 /*!
- * @pixi/filter-displacement - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-displacement - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-displacement is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45291,8 +45423,8 @@ var DisplacementFilter = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js
 /*!
- * @pixi/filter-fxaa - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-fxaa - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-fxaa is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45357,8 +45489,8 @@ var FXAAFilter = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/filter-noise/lib/filter-noise.es.js
 /*!
- * @pixi/filter-noise - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/filter-noise - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/filter-noise is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45463,8 +45595,8 @@ var NoiseFilter = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js
 /*!
- * @pixi/mixin-cache-as-bitmap - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/mixin-cache-as-bitmap - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/mixin-cache-as-bitmap is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45789,8 +45921,8 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js
 /*!
- * @pixi/mixin-get-child-by-name - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/mixin-get-child-by-name - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/mixin-get-child-by-name is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45839,8 +45971,8 @@ Container.prototype.getChildByName = function getChildByName(name, deep) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js
 /*!
- * @pixi/mixin-get-global-position - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/mixin-get-global-position - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/mixin-get-global-position is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -45875,8 +46007,8 @@ DisplayObject.prototype.getGlobalPosition = function getGlobalPosition(point, sk
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js
 /*!
- * @pixi/mesh-extras - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/mesh-extras - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/mesh-extras is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -46273,6 +46405,10 @@ var SimplePlane = /** @class */ (function (_super) {
         }
         _super.prototype._render.call(this, renderer);
     };
+    SimplePlane.prototype.destroy = function (options) {
+        this.shader.texture.off('update', this.textureUpdated, this);
+        _super.prototype.destroy.call(this, options);
+    };
     return SimplePlane;
 }(Mesh));
 
@@ -46602,8 +46738,8 @@ var NineSlicePlane = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js
 /*!
- * @pixi/sprite-animated - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * @pixi/sprite-animated - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * @pixi/sprite-animated is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -47072,8 +47208,8 @@ var AnimatedSprite = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./node_modules/pixi.js/lib/pixi.es.js
 /*!
- * pixi.js - v5.3.4
- * Compiled Mon, 14 Dec 2020 19:48:09 UTC
+ * pixi.js - v5.3.7
+ * Compiled Tue, 29 Dec 2020 19:30:11 UTC
  *
  * pixi.js is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -48415,7 +48551,7 @@ Application.registerPlugin(AppLoaderPlugin);
  * @name VERSION
  * @type {string}
  */
-var pixi_es_VERSION = '5.3.4';
+var pixi_es_VERSION = '5.3.7';
 /**
  * @namespace PIXI
  */
@@ -48490,7 +48626,8 @@ var autoComplete_min_default = /*#__PURE__*/__webpack_require__.n(autoComplete_m
           return array;
         }, []);
       },
-      key: ['token', 'name'],
+      key: ['name'],
+      // key: ['token', 'name'],
       cache: true
     },
     sort: (a, b) => {
@@ -48692,13 +48829,15 @@ const thresholds = 15;
 });
 ;// CONCATENATED MODULE: ./src/draw/keywords_distant.js
 
+
 let keywords_distant_index = [];
 /* harmony default export */ const keywords_distant = (() => {
   const stage = new graphics_es_Graphics();
   stage.name = 'keywords_distant';
   stage.interactiveChildren = false;
   s.viewport.addChild(stage);
-  s.triplets.forEach(triplet => {
+  const maxValue = max(s.triplets.map(t => t.tokens[0][1]));
+  s.triplets.filter(t => t.tokens[0][1] < maxValue * .8).forEach(triplet => {
     const token = triplet.tokens.slice(0, 1);
     const x = triplet.position[0];
     const y = triplet.position[1];

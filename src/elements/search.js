@@ -25,7 +25,8 @@ export default () => {
                     return array
                 }, [])
             },
-            key: ['token', 'name'],
+            key: ['name'],
+            // key: ['token', 'name'],
             cache: true
         },
         sort: (a, b) => {

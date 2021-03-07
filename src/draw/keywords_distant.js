@@ -13,7 +13,7 @@ export default () => {
     const maxValue = max(s.triplets.map(t => t.tokens[0][1]))
 
     s.triplets
-        .filter(t => t.tokens[0][1] < maxValue * .4)
+        .filter(t => t.tokens[0][1] < maxValue * .7)
         .forEach(triplet => {
 
             const token = triplet.tokens.slice(0, 1)

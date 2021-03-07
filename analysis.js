@@ -188,7 +188,7 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-20)
+            .strength(10)
             .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()

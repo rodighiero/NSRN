@@ -28,7 +28,7 @@ export default () => {
 
         // Circle
 
-        const size = node.docs * .1
+        const size = node.docs * .5
 
         node.circle = new Graphics()
         node.circle.beginFill(color.off, 1)

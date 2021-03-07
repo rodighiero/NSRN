@@ -48753,7 +48753,7 @@ const contours_color = 0x999999;
 const contourWidth = 1;
 const cellSize = 5;
 const bandwidth = 30;
-const thresholds = 15;
+const thresholds = 20;
 /* harmony default export */ const draw_contours = (() => {
   const stage = new graphics_es_Graphics();
   stage.interactiveChildren = false;
@@ -48839,7 +48839,7 @@ let keywords_distant_index = [];
   stage.interactiveChildren = false;
   s.viewport.addChild(stage);
   const maxValue = max(s.triplets.map(t => t.tokens[0][1]));
-  s.triplets.filter(t => t.tokens[0][1] < maxValue * .8).forEach(triplet => {
+  s.triplets.filter(t => t.tokens[0][1] < maxValue * .4).forEach(triplet => {
     const token = triplet.tokens.slice(0, 1);
     const x = triplet.position[0];
     const y = triplet.position[1];
@@ -48947,7 +48947,7 @@ const nodes_color = {
   s.viewport.addChild(stage);
   s.nodes.forEach(node => {
     // Circle
-    const size = node.docs * .1;
+    const size = node.docs * .5;
     node.circle = new graphics_es_Graphics();
     node.circle.beginFill(nodes_color.off, 1);
     node.circle.drawCircle(0, 0, size);

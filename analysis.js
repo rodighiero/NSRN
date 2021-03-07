@@ -57,7 +57,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    let stopWords = ['volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will', 'among', 'paper']
+    let stopWords = ['none', 'volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will', 'among', 'paper']
     // stopWords = stopWords.concat(['religion', 'religious', 'atheist', 'atheism'])
 
     nodes.forEach((node, i) => {
@@ -78,7 +78,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 60
+    const max = 80
 
     nodes.forEach((node, i) => {
 
@@ -97,7 +97,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 3
+    const minCommonTokens = 1
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -188,12 +188,12 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-10)
+            .strength(-20)
             .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()
             .radius(radius)
-            .strength(.1)
+            .strength(1)
             .iterations(10)
         )
         .force('center', d3.forceCenter(0, 0))
@@ -202,7 +202,7 @@ const analysis = authors => {
         .nodes(nodes)
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * 2)
+            .strength(d => d.value * 3)
         )
         .force('link').links(links)
 

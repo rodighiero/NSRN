@@ -21,53 +21,18 @@ fs.readFile(__dirname + '/data/authors.json', (err, json) => {
 
 // Text analysis
 
-const analysis = authors => {
+const analysis = nodes => {
 
-    // Reduce authors
+    // Tokens
 
-    const nodes = authors
-        // .filter(a => a.text.length > 10)
-
-    // Tokenizer
-
-    // const tokenizer = new natural.WordTokenizer()
-    // const tokenizer = new natural.RegexpTokenizer({ pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i })
-
-    // nodes.forEach((node, i) => {
-    //     console.log('Tokenizing author #', i)
-    //     const text = node.text.toLowerCase()
-    //     node.tokens = tokenizer.tokenize(text)
-    //     delete node.text
-    // })
-
-    // Singularize
-
-    // const inflector = new natural.NounInflector()
-    // const safeList = []
-
-    // nodes.forEach((node, i) => {
-    //     console.log('Singularizing author #', i)
-    //     node.tokens = node.tokens.map(t => {
-    //         if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t))
-    //             return t
-    //         else
-    //             return inflector.singularize(t)
-    //     })
-    // })
-
-    // Cleaning
-
-    let stopWords = ['none', 'prayer']
-    
-    // stopWords = stopWords.concat(['religion', 'religious', 'atheist', 'atheism'])
+    let stopWords = ['none', 'paper', 'study', 'interview', 'issue', 'unbelief', 'group', 'question', 'type', 'area', 'u.s', 'i.e.']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
         node.text = node.text.replaceAll('datum', 'data')
         node.tokens = node.text.split(',')
         node.tokens = sw.removeStopwords(node.tokens, stopWords)
-        //     .filter(token => token.length > 3)
-        //     .filter(token => !parseInt(token))
+            .filter(token => !parseInt(token))
     })
 
     // TF-IDF
@@ -81,7 +46,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 50
+    const max = 80
 
     nodes.forEach((node, i) => {
 
@@ -191,7 +156,7 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(20)
+            .strength(500)
             // .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()
@@ -207,7 +172,7 @@ const analysis = authors => {
             .id(d => d.id)
             // .strength(d => Math.log(d.value) + 2)
             .strength(d => d.value)
-            .distance(d => 1 / d.value * radius * .7) 
+            .distance(d => 1 / d.value * radius * .7)
         )
         .force('link').links(links)
 

@@ -16,10 +16,11 @@ export default () => {
         .forEach(triplet => {
 
             let token
-            for (let x = triplet.tokens.length - 1; x >= 0; x--) {
-                if (triplet.tokens[x][1] <= maxValue * 1)
-                    token = triplet.tokens[x]
-            }
+            triplet.tokens.forEach((t, i) => {
+                if (t[1] <= maxValue * 1)
+                    token = t
+                
+            })
 
             const x = triplet.position[0]
             const y = triplet.position[1]
@@ -35,7 +36,7 @@ export default () => {
 
             const value = token[1]
             const base = 20
-            const magnitude = .008
+            const magnitude = .012
             text.scale.set((value + base) * magnitude)
 
             text.position.set(x - text.width / 2, y - text.height / 2)

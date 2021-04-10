@@ -13,15 +13,19 @@ export default () => {
     const maxValue = max(s.triplets.map(t => t.tokens[0][1]))
 
     s.triplets
-        .filter(t => t.tokens[0][1] < maxValue * .7)
         .forEach(triplet => {
 
-            const token = triplet.tokens.slice(0, 1)
+            let token
+            for (let x = triplet.tokens.length - 1; x >= 0; x--) {
+                if (triplet.tokens[x][1] <= maxValue * 1)
+                    token = triplet.tokens[x]
+            }
+
             const x = triplet.position[0]
             const y = triplet.position[1]
 
             const text = new BitmapText(
-                token[0][0],
+                token[0],
                 {
                     fontName: 'Lato',
                     fontSize: '64',
@@ -29,9 +33,9 @@ export default () => {
                     align: 'center',
                 })
 
-            const value = token[0][1]
+            const value = token[1]
             const base = 20
-            const magnitude = .007
+            const magnitude = .008
             text.scale.set((value + base) * magnitude)
 
             text.position.set(x - text.width / 2, y - text.height / 2)

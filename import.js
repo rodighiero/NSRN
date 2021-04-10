@@ -28,7 +28,7 @@ const parse = (records) => {
         delete record['Conference/workshop/... title']
         delete record['Special issue']
 
-        for (let a = 1; a <= 5; a++) {
+        for (let a = 1; a <= 7; a++) {
 
             if (!record['Author ' + a]) continue
             if (record['Author ' + a] == '.') continue
@@ -43,7 +43,7 @@ const parse = (records) => {
             // Remove names from text
             if (record['Author ' + a])
                 record['Author ' + a].split(' ').forEach(segment => {
-                    record['Abstract'] = record['Abstract'].replaceAll(segment, ' ')
+                    record['Abstract'] = record['Abstract'].replaceAll(segment, '')
                 })
 
             // Remove unuseful fields
@@ -66,12 +66,13 @@ const parse = (records) => {
     const authors = records.reverse().reduce((authors, record, i) => {
 
         const year = record['Year']
-        let text = `${record['Title']} ${record['Abstract']} `
+        // let text = `${record['Title']} ${record['Abstract']} `
+        let text = record['lemmas']
 
         const update = author => {
             // if (author.name == 'Lois Lee') console.log(author.affiliation)
             author.docs++
-            author.text += text
+            author.text += ',' + text
             author.affiliation = author.affiliation
             if (author.years[year])
                 (author.years[year])++

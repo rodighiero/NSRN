@@ -2,7 +2,7 @@ import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
 const color = 0x999999
-const contourWidth = 1
+const contourWidth = 2
 const cellSize = 5
 const bandwidth = 30
 const thresholds = 20

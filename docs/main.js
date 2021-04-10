@@ -3406,8 +3406,9 @@ module.exports = {
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -3742,7 +3743,7 @@ __webpack_require__.d(pixi_namespaceObject, {
 
 ;// CONCATENATED MODULE: ./node_modules/d3/dist/package.js
 var package_name = "d3";
-var version = "6.5.0";
+var version = "6.6.2";
 var description = "Data-Driven Documents";
 var keywords = (/* unused pure expression or super */ null && (["dom","visualization","svg","animation","canvas"]));
 var homepage = "https://d3js.org";
@@ -49638,7 +49639,7 @@ var fps_default = /*#__PURE__*/__webpack_require__.n(fps);
 
 
 const contours_color = 0x999999;
-const contourWidth = 1;
+const contourWidth = 2;
 const cellSize = 5;
 const bandwidth = 30;
 const thresholds = 20;
@@ -49727,19 +49728,24 @@ let keywords_distant_index = [];
   stage.interactiveChildren = false;
   s.viewport.addChild(stage);
   const maxValue = max(s.triplets.map(t => t.tokens[0][1]));
-  s.triplets.filter(t => t.tokens[0][1] < maxValue * .7).forEach(triplet => {
-    const token = triplet.tokens.slice(0, 1);
+  s.triplets.forEach(triplet => {
+    let token;
+
+    for (let x = triplet.tokens.length - 1; x >= 0; x--) {
+      if (triplet.tokens[x][1] <= maxValue * 1) token = triplet.tokens[x];
+    }
+
     const x = triplet.position[0];
     const y = triplet.position[1];
-    const text = new BitmapText(token[0][0], {
+    const text = new BitmapText(token[0], {
       fontName: 'Lato',
       fontSize: '64',
       fill: 0xFEDD00,
       align: 'center'
     });
-    const value = token[0][1];
+    const value = token[1];
     const base = 20;
-    const magnitude = .007;
+    const magnitude = .008;
     text.scale.set((value + base) * magnitude);
     text.position.set(x - text.width / 2, y - text.height / 2); // Check overlapping
 

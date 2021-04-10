@@ -26,45 +26,48 @@ const analysis = authors => {
     // Reduce authors
 
     const nodes = authors
-        .filter(a => a.text.length > 10)
+        // .filter(a => a.text.length > 10)
 
     // Tokenizer
 
     // const tokenizer = new natural.WordTokenizer()
-    const tokenizer = new natural.RegexpTokenizer({ pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i })
+    // const tokenizer = new natural.RegexpTokenizer({ pattern: /([A-zÀ-ÿ-]+|[0-9._]+|.|!|\?|'|"|:|;|,)/i })
 
-    nodes.forEach((node, i) => {
-        console.log('Tokenizing author #', i)
-        const text = node.text.toLowerCase()
-        node.tokens = tokenizer.tokenize(text)
-        delete node.text
-    })
+    // nodes.forEach((node, i) => {
+    //     console.log('Tokenizing author #', i)
+    //     const text = node.text.toLowerCase()
+    //     node.tokens = tokenizer.tokenize(text)
+    //     delete node.text
+    // })
 
     // Singularize
 
-    const inflector = new natural.NounInflector()
-    const safeList = []
+    // const inflector = new natural.NounInflector()
+    // const safeList = []
 
-    nodes.forEach((node, i) => {
-        console.log('Singularizing author #', i)
-        node.tokens = node.tokens.map(t => {
-            if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t))
-                return t
-            else
-                return inflector.singularize(t)
-        })
-    })
+    // nodes.forEach((node, i) => {
+    //     console.log('Singularizing author #', i)
+    //     node.tokens = node.tokens.map(t => {
+    //         if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t))
+    //             return t
+    //         else
+    //             return inflector.singularize(t)
+    //     })
+    // })
 
     // Cleaning
 
-    let stopWords = ['none', 'volume', 'book', 'within', 'used', 'when', 'highly', 'using', 'quite', 'argue', 'however', 'will', 'among', 'paper']
+    let stopWords = ['none', 'prayer']
+    
     // stopWords = stopWords.concat(['religion', 'religious', 'atheist', 'atheism'])
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
-        node.tokens = sw.removeStopwords(node.tokens, sw.en.concat(stopWords))
-            .filter(token => token.length > 3)
-            .filter(token => !parseInt(token))
+        node.text = node.text.replaceAll('datum', 'data')
+        node.tokens = node.text.split(',')
+        node.tokens = sw.removeStopwords(node.tokens, stopWords)
+        //     .filter(token => token.length > 3)
+        //     .filter(token => !parseInt(token))
     })
 
     // TF-IDF
@@ -78,7 +81,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 80
+    const max = 50
 
     nodes.forEach((node, i) => {
 
@@ -97,7 +100,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 1
+    const minCommonTokens = 3
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -188,8 +191,8 @@ const analysis = authors => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(10)
-            .distanceMax(radius)
+            .strength(20)
+            // .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()
             .radius(radius)
@@ -202,7 +205,9 @@ const analysis = authors => {
         .nodes(nodes)
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * 3)
+            // .strength(d => Math.log(d.value) + 2)
+            .strength(d => d.value)
+            .distance(d => 1 / d.value * radius * .7) 
         )
         .force('link').links(links)
 

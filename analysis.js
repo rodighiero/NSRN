@@ -22,18 +22,22 @@ fs.readFile(__dirname + '/data/authors.json', (err, json) => {
 // Text analysis
 
 const analysis = nodes => {
-
+    
     // Tokens
 
-    let stopWords = ['none', 'paper', 'study', 'interview', 'issue', 'unbelief', 'group', 'question', 'type', 'area', 'u.s', 'i.e.']
+    let stopWords = ['none', 'paper', 'study', 'interview', 'issue', 'group', 'question', 'type', 'area', 'u.s', 'i.e.', 'result', 'prayer']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
         node.text = node.text.replaceAll('datum', 'data')
         node.tokens = node.text.split(',')
+        // console.log(node.name.toLowerCase().split(' '))
+        node.tokens = node.tokens.filter(i => !node.name.toLowerCase().split(' ').includes(i))
         node.tokens = sw.removeStopwords(node.tokens, stopWords)
             .filter(token => !parseInt(token))
     })
+
+    // return
 
     // TF-IDF
 
@@ -156,7 +160,7 @@ const analysis = nodes => {
 
     simulation
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(500)
+            .strength(600)
             // .distanceMax(radius)
         )
         .force('collide', d3.forceCollide()

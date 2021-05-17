@@ -25,7 +25,7 @@ const analysis = nodes => {
     
     // Tokens
 
-    let stopWords = ['none', 'paper', 'study', 'interview', 'issue', 'group', 'question', 'type', 'area', 'u.s', 'i.e.', 'result', 'prayer']
+    let stopWords = ['none', 'paper', 'study', 'interview', 'issue', 'group', 'question', 'type', 'area', 'u.s', 'i.e.', 'result', 'prayer', 'year', 'way', 'non', 'kind', 'research', 'e.g.', 'approach', 'work', 'project', 'scholar', 'example', 'religion']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)

@@ -1,66 +1,15 @@
+const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const path = require('path');
 
 module.exports = {
+  mode: 'development',
   output: {
-    // filename: 'bundle.js',
-    // filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'docs')
-    // chunkFilename: '[name].bundle.js'
-  },
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-      minSize: 0,
-    }
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader"
-        }
-      },
-      {
-        test: /\.html$/,
-        use: [
-          {
-            loader: "html-loader",
-            options: { minimize: true }
-          }
-        ]
-      },
-      {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"]
-      },
-      {
-        type: 'javascript/auto',
-        test: /\.(json|png|fnt|xml)$/,
-        // test: /\.json$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: "[name].[ext]"
-          }
-        }
-        ]
-      }
-    ]
-  },
-  optimization: {
-    minimize: true,
-    minimizer: [
-      new CssMinimizerPlugin(),
-    ],
+    path: path.resolve(__dirname, 'docs'),
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/constant/index.html",
+      template: "./src/assets/index.html",
       filename: "./index.html"
     }),
     new MiniCssExtractPlugin({
@@ -68,4 +17,32 @@ module.exports = {
       chunkFilename: "[id].css"
     })
   ],
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader"]
+      },
+      {
+        type: 'javascript/auto',
+        test: /\.(json|png|fnt)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: "[name].[ext]"
+          }
+        }]
+      }
+    ]
+  },
 };

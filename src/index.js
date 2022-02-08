@@ -1,149 +1,155 @@
 // CSS
 
-import '../node_modules/normalize.css/normalize.css'
-import './constant/index.css'
+import '../node_modules/css-reset-and-normalize/css/reset-and-normalize.min.css'
+import './assets/main.css'
 
 // Libraries
 
-import { json, xml, image, blob } from 'd3'
+import { json, xml, image, extent, scaleLinear } from 'd3'
+import { Application, BitmapFont, Texture, Sprite, Point } from 'pixi.js'
+import { Viewport } from 'pixi-viewport'
 
-
-// Data
-
-import nodesJSON from './data/nodes.json'
-import linksJSON from './data/links.json'
-import tripletsJSON from './data/triplets.json'
-
-import search from './elements/search'
-import stats from './elements/stats'
-
-// Init
-
-import fps from './elements/fps.js'
+// Assets
 
 import background from './draw/background'
-import clusters from './draw/clusters.js'
+import drawClusters from './draw/clusters.js'
 import contours from './draw/contours.js'
-import links from './draw/links.js'
 import keywords_close from './draw/keywords_close.js'
 import keywords_distant from './draw/keywords_distant.js'
 import nodes from './draw/nodes.js'
 
-import { Application, BitmapFont, Texture } from 'pixi.js'
-import { Viewport } from 'pixi-viewport'
-import { extent, scaleLinear } from 'd3'
+import fps from './interface/fps.js'
+import search from './interface/search'
+import stats from './interface/stats'
 
-import arialXML from './constant/Lato.fnt'
-import arialPNG from './constant/Lato.png'
+import fontXML from './assets/Lato.fnt'
+import fontPNG from './assets/Lato.png'
+
+import backgroundImage from './assets/background.png'
+
+import authors from './data/authors.json'
+import clusters from './data/clusters.json'
+import embedding from './data/embedding.json'
+import lemmas from './data/lemmas.json'
+import pairs from './data/pairs.json'
 
 // Global variables
 
 window.s = {
-    distance: 30,
-    links,
-    nodes,
-    tokens: []
+    // distance: 30,
+    // nodes,
+    // tokens: []
 }
 
 // Start
 
 Promise.all([
-    json(linksJSON),
-    json(nodesJSON),
-    json(tripletsJSON),
-    xml(arialXML),
-    image(arialPNG),
+    json(embedding),
+    json(authors),
+    json(lemmas),
+    json(pairs),
+    json(clusters),
+    xml(fontXML),
+    image(fontPNG),
+    image(backgroundImage),
 
-]).then(([linksData, nodesData, tripletsData, xml, png]) => {
 
-    s.links = linksData; console.log('links', s.links.length)
-    s.nodes = nodesData; console.log('nodes', s.nodes.length)
-    s.triplets = tripletsData; console.log('triplets', s.triplets.length)
+]).then(([embedding, authors, lemmas, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
 
-    
-    // Set App
-    
+
+    // Set data
+
+    let data = embedding.reduce((array, value, i) => {
+        array[i] = [...embedding[i], lemmas[i].length, authors[i]]
+        return array
+    }, [])
+
+
+    // Set app
+
     s.app = new Application({
-        width: window.innerWidth, height: window.innerHeight,
         antialias: true,
-        transparent: true,
         resolution: 2,
         autoDensity: true,
         autoResize: true,
         resizeTo: window
     })
+
     document.body.prepend(s.app.view)
-    
-    // Create and append viewport
-    
+
+
+    // Set viewport
+
     s.viewport = new Viewport({
-        screenWidth: window.innerWidth, screenHeight: window.innerHeight,
+        screenWidth: window.innerWidth,
+        screenHeight: window.innerHeight,
         interaction: s.app.renderer.plugins.interaction
-    })
+    }).drag().pinch().wheel().decelerate()
+        .clampZoom({
+            minWidth: 50, minHeight: 50,
+            maxWidth: window.innerWidth,
+            maxHeight: window.innerHeight
+        })
+        .clamp({ direction: 'all' })
+
     s.app.stage.addChild(s.viewport)
-    
-    // Set scales
-    
-    const extX = extent(s.nodes, d => d.x)
-    const extY = extent(s.nodes, d => d.y)
-    const width = extX[1] - extX[0]
-    const height = extY[1] - extY[0]
-    const scaleX = window.innerWidth / width
-    const scaleY = window.innerHeight / height
-    
-    // Scale for saving PNG
-    
-    const printing = false
-    let scale = scaleX < scaleY ? scaleX : scaleY
-    scale = printing ? scale * 10 : scale
-    
-    // Zoom Min and Max
-    
-    s.zoomMin = scale * .9 // reduction is to create a margin
-    s.zoomMax = 4
-    
-    // Vieport
-    
-    s.viewport.drag().pinch().wheel().decelerate()
-    .clampZoom({ minScale: s.zoomMin, maxScale: s.zoomMax })
-    .setTransform(window.innerWidth / 2, window.innerHeight / 2, s.zoomMin, s.zoomMin)
-    
+
+
+    // Set dimensions
+
+    const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
+
+    const shorterDimension = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth
+
+    const margin = 100
+
+    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, shorterDimension - margin])
+    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, shorterDimension - margin])
+
+    const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
+    const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
+
+    data.forEach(d => { d[0] = marginLeft + scaleX(d[0]); d[1] = marginTop + scaleY(d[1]) })
+    pairs.forEach(p => { p[0] = marginLeft + scaleX(p[0]); p[1] = marginTop + scaleY(p[1]) })
+
+
+
     // Transparency on zoom
-    
-    const zoomOut = scaleLinear().domain([s.zoomMin, 2]).range([1, 0]) // Visible when zooming out
-    const zoomIn = scaleLinear().domain([s.zoomMin, 2]).range([0, 1]) // Visible when zooming in
-    
+
+    const zoomOut = scaleLinear().domain([6, 1]).range([0, 1]) // Visible when zooming out
+    const zoomIn = scaleLinear().domain([6, 1]).range([1, 0]) // Visible when zooming in
+
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
-        e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
-    
-    // Font loader
-    
-    BitmapFont.install(xml, Texture.from(png))
-    
-    /**
-     * Rendering
-     */
-    
-    background()
-    links()
-    contours()
-    nodes()
-    keywords_close()
-    keywords_distant()
-    // clusters()
-    fps()
-    search()
 
-    return
-    
+
+    // Font loader
+
+    BitmapFont.install(fontXML, Texture.from(fontPNG))
+
+
+    // Rendering
+
+    background(backgroundImage)
+    contours(data)
+    nodes(data)
+    keywords_close(pairs)
+    // keywords_distant()
+    drawClusters(data, clusters)
+    fps()
+    search(data)
+
+    s.viewport.fit()
+    s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)
+
     // Prevent pinch gesture in Chrome
 
-    window.onresize = function () {
+    window.onresize = () => {
         s.viewport.resize()
     }
 
@@ -152,16 +158,5 @@ Promise.all([
     window.addEventListener('wheel', e => {
         e.preventDefault()
     }, { passive: false })
-
-    // Code to save PNG
-
-    // s.app.renderer.extract.canvas(s.app.stage).toBlob((b) => {
-    //     const a = document.createElement('a')
-    //     document.body.append(a)
-    //     a.download = 'screenshot'
-    //     a.href = URL.createObjectURL(b)
-    //     a.click()
-    //     a.remove()
-    // }, 'image/png')
 
 })

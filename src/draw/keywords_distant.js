@@ -5,28 +5,31 @@ let index = []
 
 export default () => {
 
+    console.log()
+
+
     const stage = new Graphics()
     stage.name = 'keywords_distant'
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
-    const maxValue = max(s.triplets.map(t => t.tokens[0][1]))
+    const maxValue = max(s.triplets.map(t => t.tfidf[0][1]))
+
+    // Make visible the first one
+    let visibleTokens = []
 
     s.triplets
+        // .filter(t => t.tfidf[0][1] < maxValue * .3)
         .forEach(triplet => {
 
-            let token
-            triplet.tokens.forEach((t, i) => {
-                if (t[1] <= maxValue * 1)
-                    token = t
-                
-            })
+            // console.log(triplet)
 
+            const token = triplet.tfidf.slice(0, 1)
             const x = triplet.position[0]
             const y = triplet.position[1]
 
             const text = new BitmapText(
-                token[0],
+                token[0][0],
                 {
                     fontName: 'Lato',
                     fontSize: '64',
@@ -34,9 +37,9 @@ export default () => {
                     align: 'center',
                 })
 
-            const value = token[1]
-            const base = 20
-            const magnitude = .012
+            const value = token[0][1]
+            const base = 100
+            const magnitude = .003
             text.scale.set((value + base) * magnitude)
 
             text.position.set(x - text.width / 2, y - text.height / 2)
@@ -49,7 +52,7 @@ export default () => {
 
                 const l1 = index[i]
                 const l2 = text
-                const margin = 10 // Important to correct shorter height
+                const margin = 5 // Important to correct shorter height
 
                 if (!(l2.x > l1.x + l1.width + margin
                     || l2.x + l2.width + margin < l1.x
@@ -62,6 +65,12 @@ export default () => {
             }
 
             if (!overlapping) {
+
+                // if (visibleTokens.includes(token[0][0]))
+                //     return
+                // else
+                //     visibleTokens.push(token[0][0])
+
                 stage.addChild(text)
                 index.push(text)
 

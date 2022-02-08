@@ -1,39 +1,29 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-const color = 0x999999
-const contourWidth = 2
-const cellSize = 5
-const bandwidth = 30
-const thresholds = 20
+const color = 0xFFFFFF
+const contourWidth = .8
+const cellSize = 1
+const bandwidth = 20
+const thresholds = 15
 
-export default () => {
-
+export default (data, width, height) => {
+    
     const stage = new Graphics()
     stage.interactiveChildren = false
     stage.name = 'contours'
+    stage.alpha = 1
     s.viewport.addChild(stage)
 
-    const extX = extent(s.nodes, d => d.x)
-    const extY = extent(s.nodes, d => d.y)
-    const width = extX[1] - extX[0]
-    const height = extY[1] - extY[0]
-    const x = extX[0]
-    const y = extY[0]
-
     const density = contourDensity()
-        .x(d => d.x - x)
-        .y(d => d.y - y)
-        .weight(d => d.relevancy)
-        .size([width, height])
+        .x(d => d[0])
+        .y(d => d[1])
+        .weight(d => d[2])
+        .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)
         .thresholds(thresholds)
-        (s.nodes)
-
-    density.forEach(d => d.coordinates = d.coordinates
-        .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
-
+        (data)
 
     const step = contourWidth / density.length
     let count = 1

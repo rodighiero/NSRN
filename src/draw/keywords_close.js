@@ -1,6 +1,6 @@
 import { BitmapText, Graphics } from 'pixi.js'
 
-export default () => {
+export default (pairs) => {
 
     const stage = new Graphics()
     stage.alpha = 0
@@ -8,30 +8,29 @@ export default () => {
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
-    const lineHeight = 5
+    const lineHeight = .8
     const items = 3
 
-    s.triplets.forEach(triplet => {
+    pairs.forEach(p => {
 
-        const tokens = triplet.tokens.slice(0, items)
-        const offsetY = lineHeight * (tokens.length - 1) / 2
-        const x = triplet.position[0]
-        const y = triplet.position[1]
+        const lemmas = p[2]
+        const offsetY = lineHeight * (lemmas.length - 1) / 2
 
-        tokens.forEach(([key, value], i) => {
+        const x = p[0]
+        const y = p[1]
 
+        lemmas.forEach((lemma, i) => {
             const text = new BitmapText(
-                key,
+                lemma,
                 {
                     fontName: 'Lato',
-                    fontSize: '4',
-                    tint: 0x666666,
+                    fontSize: '.7',
+                    tint: 0xFFFFFF,
                     align: 'center',
                 })
 
             text.position.set(x - text.width / 2, y - offsetY + lineHeight * i)
             stage.addChild(text)
-
         })
 
     })

@@ -1,30 +1,11 @@
 import { Point, Sprite, Texture } from 'pixi.js'
 
-export default () => {
+export default (backgroundImage, width, height) => {
 
-    const size = 5000
-
-    const canvas = document.createElement('canvas')
-    const context = canvas.getContext('2d')
-    canvas.width = size
-    canvas.height = size
-
-    const gradient = context.createRadialGradient(
-        size / 2, size / 2, 0,
-        size / 2, size / 2, size / 2
-    )
-
-    gradient.addColorStop(1, '#000000')
-    gradient.addColorStop(0, '#333333')
-
-    context.fillStyle = gradient
-    context.fillRect(0, 0, canvas.width, canvas.height)
-
-    let texture = Texture.from(canvas)
+    let texture = Texture.from(backgroundImage)
     let sprite = new Sprite(texture)
-    sprite.width = size
-    sprite.height = size
-    sprite.position = new Point(-size / 2, -size / 2)
+    sprite.width = window.innerWidth
+    sprite.height = window.innerHeight
     sprite.interactiveChildren = false
 
     s.viewport.addChild(sprite)

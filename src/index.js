@@ -141,7 +141,7 @@ Promise.all([
     keywords_close(pairs)
     // keywords_distant()
     drawClusters(data, clusters)
-    fps()
+    // fps()
     search(data)
 
     s.viewport.fit()

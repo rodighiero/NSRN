@@ -54,6 +54,7 @@ export default (data) => {
                 align: 'center',
             })
 
+        node.text.interactive = true
         node.text.scale.set(scale)
         node.text.position.set(node[0] - node.text.width / 2, node[1] - 2.5)
 
@@ -61,30 +62,34 @@ export default (data) => {
 
         // Interactions
 
-        // node.circle.buttonMode = true
+        node.text.buttonMode = true
 
-        // node.circle.click = mouseData => {
+        node.text.click = () => {
 
-        //     // On click
+            // On click
 
-        //     click(node)
+            click(node, index)
 
-        //     // Switch off nodes
+            // console.log(index)
+            // console.log(node)
 
-        //     s.nodes.forEach(node => {
-        //         node.circle.tint = 0xFFFFFF
-        //         node.text.tint = 0xFFFFFF
-        //         node.text.fill = 0xcFFFFFF
-        //     })
+            // Switch off nodes
 
-        //     // Switch on nodes
+            // s.nodes.forEach(node => {
+            //     node.circle.tint = 0xFFFFFF
+            //     node.text.tint = 0xFFFFFF
+            //     node.text.fill = 0xcFFFFFF
+            // })
 
-        //     s.nodes.filter(peer => node.peers.includes(peer.id))
-        //         .forEach(node => {
-        //             node.circle.tint = color.on
-        //             node.text.tint = color.on
-        //         })
-        // }
+            // Switch on nodes
+
+            // s.nodes.filter(peer => node.peers.includes(peer.id))
+            //     .forEach(node => {
+            //         node.circle.tint = color.on
+            //         node.text.tint = color.on
+            //     })
+
+        }
 
 
     })

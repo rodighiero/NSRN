@@ -8,6 +8,8 @@ const bandwidth = 30
 const thresholds = 13
 
 export default (data, width, height) => {
+
+    // console.log('contours')
     
     const stage = new Graphics()
     stage.interactiveChildren = false
@@ -18,7 +20,7 @@ export default (data, width, height) => {
     const density = contourDensity()
         .x(d => d[0])
         .y(d => d[1])
-        .weight(d => d[2])
+        .weight(d => d[2].length)
         .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)

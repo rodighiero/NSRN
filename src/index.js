@@ -60,9 +60,11 @@ Promise.all([
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array[i] = [...embedding[i], lemmas[i].length, authors[i]]
+        array[i] = [...embedding[i], lemmas[i], authors[i]]
         return array
     }, [])
+
+    console.log(data)
 
 
     // Set app

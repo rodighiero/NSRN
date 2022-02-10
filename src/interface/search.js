@@ -10,70 +10,87 @@ export default (data) => {
             name: record[3], x: record[0], y: record[1],
         })
         return array
-    }, [])
-
-    console.log(dataSearch)
+    }, []).sort((a, b) => {
+        if (a.name < b.name) return -1
+        else return 1
+    })
 
     // The autoComplete.js Engine instance creator
 
     const autoCompletejs = new autoComplete({
 
+        placeHolder: 'Search by name',
+        threshold: 2,
+
         data: {
             src: dataSearch,
-            key: ['name'],
-            cache: true
+            keys: ['name'],
         },
-        sort: (a, b) => {
-            if (a.match < b.match) return -1
-            if (a.match > b.match) return 1
-            return 0
+
+        resultsList: {
+            element: (list, data) => {
+                if (!data.results.length) {
+                    const message = document.createElement("div");
+                    message.setAttribute("class", "no_result");
+                    message.innerHTML = `<span>Found No Results for "${data.query}"</span>`;
+                    list.prepend(message);
+                }
+            },
+            // maxResults: 10,
+            noResults: true,
         },
-        placeHolder: 'Search',
-        maxResults: 20,
-        onSelection: feedback => {
 
-            console.log(feedback)
+        resultItem: {
+            highlight: {
+                render: true
+            },
+        },
 
-            const key = feedback.selection.key
-            const node = feedback.selection.value
-            const { x, y, name } = node
-            const center = { x: s.viewport.center.x, y: s.viewport.center.y }
+        events: {
+            input: {
+                selection: (event) => {
 
-            document.querySelector("#autoComplete").value = name
+                    const { x, y, name } = event.detail.selection.value
+                    const center = { x: s.viewport.center.x, y: s.viewport.center.y }
 
-            // Zooming from distant to close
+                    document.querySelector("#autoComplete").value = name
 
-            const zoomIn = () => s.viewport.animate({
-                scale: 10,
-                position: new Point(x, y),
-                time: 1000,
-                ease: 'easeInOutSine',
-            })
+                    // Zooming from distant to close
 
-            // Zooming from close to close
-
-            const zoomOutIn = () => s.viewport.animate({
-                scale: 1,
-                position: new Point((x + center.x) / 2, (y + center.y) / 2),
-                time: 1000,
-                ease: 'easeInOutSine',
-                callbackOnComplete: () => {
-                    s.viewport.animate({
+                    const zoomIn = () => s.viewport.animate({
                         scale: 10,
                         position: new Point(x, y),
                         time: 1000,
                         ease: 'easeInOutSine',
                     })
+
+                    // Zooming from close to close
+
+                    const zoomOutIn = () => s.viewport.animate({
+                        scale: 1,
+                        position: new Point((x + center.x) / 2, (y + center.y) / 2),
+                        time: 1000,
+                        ease: 'easeInOutSine',
+                        callbackOnComplete: () => {
+                            s.viewport.animate({
+                                scale: 10,
+                                position: new Point(x, y),
+                                time: 1000,
+                                ease: 'easeInOutSine',
+                            })
+                        }
+                    })
+
+                    if (s.viewport.scale.x < 10)
+                        zoomIn()
+                    else
+                        zoomOutIn()
                 }
-            })
-
-            if (s.viewport.scale.x < 10)
-                zoomIn()
-            else
-                zoomOutIn()
+            }
+        } // Event's end
 
 
-        }
+
     })
 
 }
